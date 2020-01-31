@@ -1,4 +1,7 @@
 # Software Engineering for AI/ML -- An Annotated Bibliography
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 Author: Christian Kästner, CMU
 
 ## Context
@@ -18,6 +21,9 @@ I'm sharing here a list of papers that I found interesting and useful
 with some sparse notes.
 
 All notes are my personal opinions.
+
+If you have suggestions for other readings (with or without annotations)
+consider sending a pull request :)
 
 ## Key Resources
 
@@ -261,7 +267,7 @@ Kleppmann, Martin. Designing data-intensive applications: The big ideas behind r
 > Excellent book about distributed and big data systems. Not directly related to machine learning, but covers fundamentals of data storage and data processing (batch, stream, ...) at scale. Excellent discussion of principles and tradeoffs.
 
 
-## Reading List
+## Papers I still need to read
 
 Abdul, Ashraf, Jo Vermeulen, Danding Wang, Brian Y. Lim, and Mohan Kankanhalli. n.d. “Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda.” https://doi.org/10.1145/3173574.3174156.
 
