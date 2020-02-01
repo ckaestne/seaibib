@@ -306,3 +306,9 @@ Washizaki, Hironori. n.d. “Machine Learning Architecture and Design Patterns.�
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gael Gueheneuc. 2019. “Studying Software Engineering Patterns for Designing Machine Learning Systems.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1910.04736.
 
 Zhang, Xufan, Yilin Yang, Yang Feng, and Zhenyu Chen. 2019. “Software Engineering Practice in the Development of Deep Learning Applications.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1910.03156.
+
+## Other Lists
+
+Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
+
+Pooyan Jamschidi is teaching "Machine Learning Systems" a UofSC and recommended several readings to me when preparing for my course: https://pooyanjamshidi.github.io/mls/
