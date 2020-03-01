@@ -166,6 +166,12 @@ Hynes, Nick, D. Sculley, and Michael Terry. "[The data linter: Lightweight, auto
 
 > Neat idea to develop a linter that looks for common "code smells" in dataset and internal data structures (e.g., when integers are stored as strings). This is an early but great example of how some classic SE ideas (static analysis tools, dynamic invariant detection, code smells) can be translated to solve new problems in an ML context. It is not quite obvious how far one can take this idea, but it is a great starting point for discussions and a nice illustration of potential SE4ML work.
 
+## Software Architecture and Design
+
+Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." IEEE Software, 2020
+
+> A useful collection of design patterns, architectural patterns, and anti-patterns derived from a literature survey of 19 papers and 19 grey literature articles. Not a detailed discussion and no detailed pattern description, but pointers to the sources, a list of patterns, and an overview of their relations, that are likely useful for further exploration and discussions. Many of them seem to relate more to big-data processing than ML. 
+
 
 ## Reproducibility, Provenance
 
