@@ -300,10 +300,6 @@ Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. 2015. “Pri
 
 Salay, Rick, Rodrigo Queiroz, and Krzysztof Czarnecki. 2017. “An Analysis of ISO 26262: Using Machine Learning Safely in Automotive Software.” arXiv [cs.AI]. arXiv. http://arxiv.org/abs/1709.02435.
 
-Menzies, T. 2020. “The Five Laws of SE for AI.” IEEE Software 37 (1): 81–85.
-
-Psallidas, Fotis, Yiwen Zhu, Bojan Karlas, Matteo Interlandi, Avrilia Floratou, Konstantinos Karanasos, Wentao Wu, et al. 2019. “Data Science through the Looking Glass and What We Found There.” arXiv [cs.LG]. arXiv. http://arxiv.org/abs/1912.09536.
-
 Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. 2019. “What Do Developers Ask About ML Libraries? A Large-Scale Study Using Stack Overflow.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1906.11940.
 
 Lwakatare, Lucy Ellen, Aiswarya Raj, Jan Bosch, Helena Holmström Olsson, and Ivica Crnkovic. 2019. “A Taxonomy of Software Engineering Challenges for Machine Learning Systems: An Empirical Investigation.” In Agile Processes in Software Engineering and Extreme Programming, 227–43. Springer International Publishing.
@@ -317,8 +313,6 @@ Souza Nascimento, Elizamary de, Iftekhar Ahmed, and Edson Oliveira. n.d. “Unde
 Sun, Youcheng, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, and Daniel Kroening. 2018. “Concolic Testing for Deep Neural Networks.” arXiv [cs.LG]. arXiv. http://arxiv.org/abs/1805.00089.
 
 Tao, Guanhong, Shiqing Ma, Yingqi Liu, and Xiangyu Zhang. n.d. “Attacks Meet Interpretability: Attribute-Steered Detection of Adversarial Samples.”
-
-Washizaki, Hironori. n.d. “Machine Learning Architecture and Design Patterns.”
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gael Gueheneuc. 2019. “Studying Software Engineering Patterns for Designing Machine Learning Systems.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1910.04736.
 
