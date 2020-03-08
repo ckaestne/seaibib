@@ -73,6 +73,9 @@ Breck, Eric, Shanqing Cai, Eric Nielsen, Michael Salib, and D. Sculley. 2017. â€
 
 > Nice position paper that discusses the many different aspects of quality assurance in an ML project, beyond just model and data quality. Includes some examples and a checklist of QA steps to consider. Good introduction to the problem and based on practical experience at Google. (Note this is a slightly extended version from a similarly titled paper)
 
+Kaestner, Christian. "[Machine Learning is Requirements Engineering â€” On the Role of Bugs, Verification, and Validation in Machine Learning](https://medium.com/@ckaestne/machine-learning-is-requirements-engineering-8957aee55ef4)." Medium Blog Post. 2020.
+
+> My own discussion of the role of specifications in machine learning. Many testing papers below that focus on model quality (rather than infrastructure quality, as Breck above) are rather vague and confusing to me with regard to specifications. I argue that machine learning corresponds to the requirements engineering phase of a project rather than the implementation phase and, as such, terminology that relates to validation (i.e., do we build the right system, given stakeholder needs) is more suitable than terminology that relates to verification (i.e., do we build the system right, given a specification). That is, machine learning suggests a specification (like specification mining and invariant detection) rather than provides an implementation for a known specification (like synthesis).
 
 Tang, Diane, Ashish Agarwal, Deirdre O'Brien, and Mike Meyer. "[Overlapping experiment infrastructure: More, better, faster experimentation](https://dl.acm.org/doi/pdf/10.1145/1835804.1835810)." In Proceedings of the 16th ACM SIGKDD international conference on Knowledge discovery and data mining, pp. 17-26. 2010.
 
