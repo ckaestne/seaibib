@@ -61,7 +61,7 @@ scale survey. Motivating well how pervasive ML is in modern systems and describi
 best practices and some challenges.
 
 
-## Testing
+## Quality Assurance
 
 *There is a lot of work that covers testing ML systems in some form, most
 of it seems focused on fairly narrow properties of a model. Testing an ML-enabled
@@ -128,7 +128,7 @@ Srisakaokul, Siwakorn, Zhengkai Wu, Angello Astorga, Oreoluwa Alebiosu, and Tao 
 > Good example of a paper that tests the implementation of the ML algorithm (not the model or resulting system). Here differential testing is used to compare multiple student implementations. Nice demonstration of the idea, though it is not clear how far this would be practical beyond fairly simple learning algorithms implemented in student projects.
 
 
-### (Other Testing Work)
+### (Other Quality Assurance Work)
 
 
 Pei, Kexin, Yinzhi Cao, Junfeng Yang, and Suman Jana. "[DeepXplore: Automated whitebox testing of deep learning systems](https://doi.org/10.1145/3132747.3132785.)." In proceedings of the 26th Symposium on Operating Systems Principles, pp. 1-18. 2017. 
@@ -141,6 +141,10 @@ Zhang, Yuhao, Yifan Chen, Shing-Chi Cheung, Yingfei Xiong, and Lu Zhang. "[An em
 Zhang, Tianyi, Cuiyun Gao, Lei Ma, Michael R. Lyu, and Miryung Kim. "[An empirical study of common challenges in developing deep learning applications](http://web.cs.ucla.edu/~miryung/Publications/isese2019-deeplearningchallenge.pdf)." In The 30th IEEE International Symposium on Software Reliability Engineering (ISSRE). 2019.
 
 > These two papers are examples of papers that analyzes public bug reports from issue trackers or question-answer sites (stackoverflow) for machine-learning frameworks. They characterize the kinds of problems developers and users tend to have, some some solutions. Many issues seem to be common framework issues, such as documentation issues and breaking APIs. Some challenges, such as probabilistic correctness and missing debuggers, seem more ML specific.
+
+Seshia, Sanjit A., Dorsa Sadigh, and S. Shankar Sastry. "[Towards verified artificial intelligence](https://arxiv.org/abs/1606.08514)." arXiv preprint arXiv:1606.08514 (2016).
+
+> Good framing why formal verification (or really any form of testing) is so difficult in machine learning systems in the first two sections: We neither have a specification, nor a good grasp of the environment, and in addition the system is often evolving itself. After explaining why it is so difficult, the paper points to several potentially interesting research areas, but none of them seem to overcome the fundamental problems, especially that of missing specifications.
 
 
 ## Debugging
