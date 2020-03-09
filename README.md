@@ -185,6 +185,9 @@ Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[
 
 > A useful collection of design patterns, architectural patterns, and anti-patterns derived from a literature survey of 19 papers and 19 grey literature articles. Not a detailed discussion and no detailed pattern description, but pointers to the sources, a list of patterns names, and an overview of their relations, that are likely useful for further exploration and discussions, see their [web site](http://www.washi.cs.waseda.ac.jp/ml-patterns/). Many of the patterns seem to relate more to big-data processing than ML, but are likely useful when building ML-enabled systems. 
 
+Daniel Smith. "[Exploring Development Patterns in Data Science](https://www.theorylane.com/2017/10/20/some-development-patterns-in-data-science/)." TheoryLane Blog Post. 2017.
+
+> Short blog post arguing to decompose ML pipeline from a single notebook into multiple services using cloud infrastructure. Bit polemic but well argued, short opinion piece.
 
 ## Reproducibility, Provenance
 
@@ -233,6 +236,11 @@ Head, Andrew, Fred Hohman, Titus Barik, Steven M. Drucker, and Robert DeLine. "[
 Liu, Jiali, Nadia Boukhelifa, and James R. Eagan. 2019. “[Understanding the Role of Alternatives in Data Analysis Practices](https://doi.org/10.1109/TVCG.2019.2934593).” IEEE Transactions on Visualization and Computer Graphics, August.
 
 > Interview study to understand how data scientists explore variations when developing models. Useful context to understand how data scientists operate.
+
+Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks at Netflix
+](https://netflixtechblog.com/scheduling-notebooks-348e6c14cfd6?gi=4c5ad1d3f7f)." Netflix Technology Blog. 2018
+
+> At least I find it rather surprising to use Notebooks for automation in production. Might be an interesting architectural and infrastructure decision worth discussing.
 
 
 ## Interdisciplinary teams
