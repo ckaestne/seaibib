@@ -221,6 +221,11 @@ Chattopadhyay, Souti, Ishita Prasad, Austin Z. Henley, Anita Sarma, and Titus Ba
 
 > An interesting and very useful study about pain points in using Notebooks, mostly through interviews and short-term field observations, followed up with a mid-sized survey. Lots of interesting insights about day-to-day problems, including large challenges due to poor tool support, scalability challenges, lack of refactoring, difficulty sharing and deploying work.
 
+
+Kandel, Sean, Andreas Paepcke, Joseph M. Hellerstein, and Jeffrey Heer. "[Enterprise data analysis and visualization: An interview study](http://vis.stanford.edu/files/2012-EnterpriseAnalysisInterviews-VAST.pdf)." IEEE Transactions on Visualization and Computer Graphics 18, no. 12 (2012): 2917-2926.
+
+> Earlier work on problems that data scientists have (here data scientists seem to work more on reporting, less on software teams). Not only covering notebooks, but similar results to the more recent studies: Tracking rationale in exploratory programming is a key challenge, no abstraction, little reuse, negative results get lost; data scientists have different profiles from developers but often work with them; data scientists rarely collaborate with other data scientists.
+
 Head, Andrew, Fred Hohman, Titus Barik, Steven M. Drucker, and Robert DeLine. "[Managing messes in computational notebooks](https://dl.acm.org/doi/pdf/10.1145/3290605.3300500)." In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, pp. 1-12. 2019.
 
 > Nice project to provide tool support for Jupyter notebooks, creating dependency graphs and using static slicing to clean notebooks.
