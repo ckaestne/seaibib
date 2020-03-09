@@ -179,6 +179,20 @@ Hynes, Nick, D. Sculley, and Michael Terry. "[The data linter: Lightweight, auto
 
 > Neat idea to develop a linter that looks for common "code smells" in dataset and internal data structures (e.g., when integers are stored as strings). This is an early but great example of how some classic SE ideas (static analysis tools, dynamic invariant detection, code smells) can be translated to solve new problems in an ML context. It is not quite obvious how far one can take this idea, but it is a great starting point for discussions and a nice illustration of potential SE4ML work.
 
+## Requirements Engineering
+
+*I have the impression that many practical problems in building AI-enabled systems are 
+really requirements engineering problems. For example: There are many different notions
+of fairness, but which one is the right one for the project? How does the model interact
+with the environment and what safeguards should be installed to detect feedback loops or
+assure safety in those interactions? Unfortunately, the literature on requirements engineering
+for AI-enabled systems seems rather sparse.*
+
+Vogelsang, Andreas, and Markus Borg. "[Requirements Engineering for Machine Learning: Perspectives from Data Scientists](https://arxiv.org/pdf/1908.04674.pdf)." In Proc. of the 6th International Workshop on Artificial Intelligence for Requirements Engineering (AIRE), 2019. 
+
+> Strong argument for the importance of requirements engineering when building ML-enabled systems. Covering many qualities and what kind of requirements should be solicited, including requirements about data quality and quanitity, provenance, monitoring, and protected classes and attributes. Also makes a good case for the role of a requirements engineer to identify a suitable measure of accuracy to mediate between users and data scientists. Based on 4 interviews only and sometimes reads more like a well argued opinion paper.
+
+
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft under review, 2019
