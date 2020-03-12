@@ -109,7 +109,7 @@ Singh, Gagandeep, Timon Gehr, Markus Püschel, and Martin Vechev. "[An abstract 
 
 Galhotra, Sainyam, Yuriy Brun, and Alexandra Meliou. "[Fairness testing: testing software for discrimination](https://dl.acm.org/doi/pdf/10.1145/3106237.3106277)." In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, pp. 498-510. 2017.
 
-> Another application of testing invariants (here, for fairness certain outputs should be independent of changes to sensitive attributes). Fairly straightforward and limited to group fairness if I recall correctly.
+> Another application of testing invariants: here, for fairness certain outputs should be independent of changes to sensitive attributes. To simple for practical use in my book; limited to "fairness through blindness" (or "unawareness" or "anti-classification") and group fairness (but seemingly without addressing correlations in the data, since samples are generated uniformly).
 
 
 Ding, J., D. Zhang, and X. Hu. 2016. “[A Framework for Ensuring the Quality of a Big Data Service](https://ieeexplore.ieee.org/iel7/7557343/7557418/07557439.pdf).” In 2016 IEEE International Conference on Services Computing (SCC), 82–89.
@@ -195,6 +195,10 @@ Vogelsang, Andreas, and Markus Borg. "[Requirements Engineering for Machine Lear
 Rahimi, Mona, Jin LC Guo, Sahar Kokaly, and Marsha Chechik. "[Toward Requirements Specification for Machine-Learned Components](https://ieeexplore.ieee.org/document/8933771)." In 2019 IEEE 27th International Requirements Engineering Conference Workshops (REW), pp. 241-244. IEEE, 2019.
 
 > Idea paper that outlines a path of how requirements engineering can be useful in better understanding domain and context of a problem and how this helps in better curating a high-quality dataset for training and also how to drive validation of the model. Uses a running vision example of pedestriant detection.
+
+Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: A critical review of fair machine learning](https://arxiv.org/abs/1808.00023)." arXiv preprint arXiv:1808.00023 (2018).
+
+> A comprehensive an critical discussion of different fairness measures often discussed in the ML community. It's kind of depressing how many different notions and problems there are and how few solutions. Even though they don't discuss requirements engineering in the paper, I put it here because it shows the complicated mess that fairness makes when trying to identify the right fairness requirements for an ML-enabled system. A requirements engineer must work with stakeholders to identify suitable requirements and make a lot of decisions, which won't be easy but will be necessary. This paper will probably give the requirements engineer the right vocabulary to talk to ML experts who need to assure the requirement and will provide enough pointers to identify what issues to probe for when talking to stakeholders.
 
 
 ## Software Architecture and Design
