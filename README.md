@@ -211,6 +211,25 @@ Daniel Smith. "[Exploring Development Patterns in Data Science](https://www.theo
 
 > Short blog post arguing to decompose ML pipeline from a single notebook into multiple services using cloud infrastructure. Bit polemic but well argued, short opinion piece.
 
+## Safety & Robustness
+
+*There is a significant amount of machine learning research on safety and security, especially on narrow properties of robustness, but also some system-level discussions on safeguard mechanisms. A software engineering professional should probably understand the tools and techniques.*
+
+Borg, Markus, Cristofer Englund, Krzysztof Wnuk, Boris Duran, Christoffer Levandowski, Shenjian Gao, Yanwen Tan, Henrik Kaijser, Henrik Lönn, and Jonas Törnqvist. "[Safely entering the deep: A review of verification and validation for machine learning and a challenge elicitation in the automotive industry](https://www.atlantis-press.com/journals/jase/125905766)." Journal of Automotive Software Engineering. Volume 1, Issue 1, Pages 1 - 19. 2019
+
+> Summary of the current thinking about safety of ML components in self-driving cars, based on literature review, a survey, and several industry workshops. Provides a decent overview from an engineering perspective, providing pointers to a long history of ML-related safety work in aerospace and automotive research that is likely a good starting point for further exploration. Mostly fairly high-level; among others, emphasizes the system nature of the problem and ideas with regard to design strategies for safety, such as safety cages and fail-safe systems.
+
+Singh, Gagandeep, Timon Gehr, Markus Püschel, and Martin Vechev. "[An abstract domain for certifying neural networks](https://dl.acm.org/doi/pdf/10.1145/3290354)." Proceedings of the ACM on Programming Languages 3, no. POPL (2019): 1-30.
+
+> (Discussed also above under model invariants) This is an example of a large group of paper that determines whether all pertubations of an input within a certain bound all produce the same prediction. The search space by these pertubations and their combinations is typically very large and formal methods are used to produce conservative results (i.e., when it reports robustness against these pertubations it actually guaranteed to always return the same prediction, but there can be false positives). This is one of the more readable papers in this area that I have seen, but I'm not aware of any paper that really discusses how to use these robustness guarantees in production (typical scenarios seem to be to test robustness for a training set, for a set of important test cases, or to test it at runtime to make sure that a specific result is not just caused by a pertubation) and whether the considered pertubations are relevant or interesing for practical cases.
+
+
+Cohen, Jeremy M., Elan Rosenfeld, and J. Zico Kolter. "[Certified adversarial robustness via randomized smoothing](https://arxiv.org/abs/1902.02918)." In Proc. International Conference on Machine Learning, p. 1310--1320, 2019.
+
+> Discusses *randomized smoothing*, an interesting approach to evaluating robustness: Sample predictions not only about a specific input but also about perturbed versions of that input around that input and report the most common prediction as the result. As a consequence, the prediction will be less sensitive to minor changes in the input. Black box technique that works for any kind of model. If sampled frequently enough, as discussed in the paper, also probabilistic bounds can be provided, although at significant computational costs (they use 100K model inferences per input).
+
+
+
 ## Reproducibility, Provenance
 
 Halevy, Alon, Flip Korn, Natalya F. Noy, Christopher Olston, Neoklis Polyzotis, Sudip Roy, and Steven Euijong Whang. "[Goods: Organizing Google's datasets](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730)." In Proceedings of the 2016 International Conference on Management of Data, pp. 795-806. 2016.
@@ -350,8 +369,6 @@ Salay, Rick, Rodrigo Queiroz, and Krzysztof Czarnecki. 2017. “An Analysis of I
 
 Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. 2019. “What Do Developers Ask About ML Libraries? A Large-Scale Study Using Stack Overflow.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1906.11940.
 
-Lwakatare, Lucy Ellen, Aiswarya Raj, Jan Bosch, Helena Holmström Olsson, and Ivica Crnkovic. 2019. “A Taxonomy of Software Engineering Challenges for Machine Learning Systems: An Empirical Investigation.” In Agile Processes in Software Engineering and Extreme Programming, 227–43. Springer International Publishing.
-
 Pons, Lena, and Ipek Ozkaya. 2019. “Priority Quality Attributes for Engineering AI-Enabled Systems.” arXiv [cs.OH]. arXiv. http://arxiv.org/abs/1911.02912.
 
 Santhanam, P., Eitan Farchi, and Victor Pankratius. n.d. “Engineering Reliable Deep Learning Systems.”
@@ -361,8 +378,6 @@ Souza Nascimento, Elizamary de, Iftekhar Ahmed, and Edson Oliveira. n.d. “Unde
 Sun, Youcheng, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, and Daniel Kroening. 2018. “Concolic Testing for Deep Neural Networks.” arXiv [cs.LG]. arXiv. http://arxiv.org/abs/1805.00089.
 
 Tao, Guanhong, Shiqing Ma, Yingqi Liu, and Xiangyu Zhang. n.d. “Attacks Meet Interpretability: Attribute-Steered Detection of Adversarial Samples.”
-
-Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gael Gueheneuc. 2019. “Studying Software Engineering Patterns for Designing Machine Learning Systems.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1910.04736.
 
 Zhang, Xufan, Yilin Yang, Yang Feng, and Zhenyu Chen. 2019. “Software Engineering Practice in the Development of Deep Learning Applications.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1910.03156.
 
