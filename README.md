@@ -326,6 +326,10 @@ Hermann, Jeremy, Mike Del Balso, Rene Schmidt, and Jakob Holdgaard Thomsen. 2017
 
 ## Others with notes
 
+Patel, Kayur, James Fogarty, James A. Landay, and Beverly Harrison. "[Investigating statistical machine learning as a tool for software development](http://www.kayur.org/papers/chi2008.pdf)." In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 667-676. 2008.
+
+> Early paper on how data science practices are different from software engineering practices (pre notebook days), finding how iterative and exploratory programming are pervasive. Emphasizes the difficulty of understanding features, evaluating quality, and a lack of tooling for iterative/exploratory programming. Fig 3 is pretty cool, showing how participants in their experiments incrementally improved accuracy of their models.
+
 Smith, Jeff. Machine Learning Systems: Designs that Scale. Manning Publications Co., 2018.
 
 > Book on building scalable machine learning systems. Focuses on elastic/reactive system design and suggests specific design decisions, such as working with immutable data. Many concrete implementation examples given in Scala. The book is very readable but opinionated and somewhat narrow and low level. It describes specific implementation patterns for design solutions it suggests, but it definitively reflects on tradeoffs and software engineering concerns.
