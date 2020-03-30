@@ -61,6 +61,7 @@ scale survey. Motivating well how pervasive ML is in modern systems and describi
 best practices and some challenges.
 
 
+
 ## Quality Assurance
 
 *There is a lot of work that covers testing ML systems in some form, most
@@ -210,6 +211,13 @@ Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[
 Daniel Smith. "[Exploring Development Patterns in Data Science](https://www.theorylane.com/2017/10/20/some-development-patterns-in-data-science/)." TheoryLane Blog Post. 2017.
 
 > Short blog post arguing to decompose ML pipeline from a single notebook into multiple services using cloud infrastructure. Bit polemic but well argued, short opinion piece.
+
+
+## Process
+
+Studer, Stefan, Thanh Binh Bui, Christian Drescher, Alexander Hanuschkin, Ludwig Winkler, Steven Peters, and Klaus-Robert Mueller. "[Towards CRISP-ML (Q): A Machine Learning Process Model with Quality Assurance Methodology](https://arxiv.org/abs/2003.05155)." arXiv preprint arXiv:2003.05155 (2020).
+
+> Fairly detailed overview of an ML-development process, starting early with business needs and covering all steps to deployment. Not necessarily new or grounded in new data, but a very nice and well-written overview. Good early reading to understand the full scope of SE4ML, beyond just building models.
 
 ## Safety & Robustness
 
