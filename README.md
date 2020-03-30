@@ -322,13 +322,17 @@ Hermann, Jeremy, Mike Del Balso, Rene Schmidt, and Jakob Holdgaard Thomsen. 2017
 > Interesting blog post about the ML infrastructure at Uber and the challenges of building production systems.
 
 
-
-
-## Others with notes
-
 Patel, Kayur, James Fogarty, James A. Landay, and Beverly Harrison. "[Investigating statistical machine learning as a tool for software development](http://www.kayur.org/papers/chi2008.pdf)." In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 667-676. 2008.
 
 > Early paper on how data science practices are different from software engineering practices (pre notebook days), finding how iterative and exploratory programming are pervasive. Emphasizes the difficulty of understanding features, evaluating quality, and a lack of tooling for iterative/exploratory programming. Fig 3 is pretty cool, showing how participants in their experiments incrementally improved accuracy of their models.
+
+
+O'Leary, Katie, and Makoto Uchida. "[Common problems with Creating Machine Learning Pipelines from Existing Code](https://research.google/pubs/pub48984.pdf)." Proc. Third Conference on Machine Learning and Systems (MLSys) (2020).
+
+> Short paper describing experience from Google's customer workshops with where developers struggle building ML systems. Key results: Need a mindset that focuses on pipelines not models and need to develop best practices and reusable patterns/fragments/abstractions that can be composed in pipelines.
+
+
+## Others with notes
 
 Smith, Jeff. Machine Learning Systems: Designs that Scale. Manning Publications Co., 2018.
 
