@@ -375,35 +375,6 @@ Kleppmann, Martin. Designing data-intensive applications: The big ideas behind r
 
 > Excellent book about distributed and big data systems. Not directly related to machine learning, but covers fundamentals of data storage and data processing (batch, stream, ...) at scale. Excellent discussion of principles and tradeoffs.
 
-
-## Papers I still need to read
-
-Abdul, Ashraf, Jo Vermeulen, Danding Wang, Brian Y. Lim, and Mohan Kankanhalli. n.d. “Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda.” https://doi.org/10.1145/3173574.3174156.
-
-Amershi, Saleema, Max Chickering, Steven M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. n.d. “ModelTracker: Redesigning Performance Analysis Tools for Machine Learning.” https://doi.org/10.1145/2702123.2702509.
-
-Andrist, Sean, Dan Bohus, Ece Kamar, and Eric Horvitz. 2017. “What Went Wrong and Why? Diagnosing Situated Interaction Failures in the Wild.” Social Robotics. https://doi.org/10.1007/978-3-319-70022-9_29.
-
-Batini, Carlo. 2009. “Methodologies for Data Quality Assessment and Improvement.” ACM 0360: 0300.
-
-Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. 2015. “Principles of Explanatory Debugging to Personalize Interactive Machine Learning.” In Proceedings of the 20th International Conference on Intelligent User Interfaces, 126–37. ACM.
-
-Salay, Rick, Rodrigo Queiroz, and Krzysztof Czarnecki. 2017. “An Analysis of ISO 26262: Using Machine Learning Safely in Automotive Software.” arXiv [cs.AI]. arXiv. http://arxiv.org/abs/1709.02435.
-
-Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. 2019. “What Do Developers Ask About ML Libraries? A Large-Scale Study Using Stack Overflow.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1906.11940.
-
-Pons, Lena, and Ipek Ozkaya. 2019. “Priority Quality Attributes for Engineering AI-Enabled Systems.” arXiv [cs.OH]. arXiv. http://arxiv.org/abs/1911.02912.
-
-Santhanam, P., Eitan Farchi, and Victor Pankratius. n.d. “Engineering Reliable Deep Learning Systems.”
-
-Souza Nascimento, Elizamary de, Iftekhar Ahmed, and Edson Oliveira. n.d. “Understanding Development Process of Machine Learning Systems: Challenges and Solutions.” https://doi.org/10.1145/3239235.3268927.
-
-Sun, Youcheng, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, and Daniel Kroening. 2018. “Concolic Testing for Deep Neural Networks.” arXiv [cs.LG]. arXiv. http://arxiv.org/abs/1805.00089.
-
-Tao, Guanhong, Shiqing Ma, Yingqi Liu, and Xiangyu Zhang. n.d. “Attacks Meet Interpretability: Attribute-Steered Detection of Adversarial Samples.”
-
-Zhang, Xufan, Yilin Yang, Yang Feng, and Zhenyu Chen. 2019. “Software Engineering Practice in the Development of Deep Learning Applications.” arXiv [cs.SE]. arXiv. http://arxiv.org/abs/1910.03156.
-
 ## Other Lists
 
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
