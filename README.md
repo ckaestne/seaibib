@@ -53,7 +53,7 @@ operating it is a serious undertaking.
 > Pro tip: A google scholar alert for
 citations to this paper is a good way to notice new SE4ML publications.
 
-Amershi, Saleema, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. "[Software engineering for machine learning: A case study](https://andrewbegel.com/papers/Software_Engineering_for_ML.pdf)." In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 291-300. IEEE, 2019. https://doi.org/10.1109/icse-seip.2019.00042.
+Amershi, Saleema, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. "[Software engineering for machine learning: A case study](https://andrewbegel.com/papers/Software_Engineering_for_ML.pdf)." In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 291-300. IEEE, 2019. 
 
 > A good description of the SE4ML challenges at Microsoft, characterizing
 the challenges of different roles and grounded in interviews and a large
@@ -70,7 +70,7 @@ system should be much broader, including system testing and testing of
 the infrastructure (e.g., learning pipeline and update mechanisms) and
 testing in production.*
 
-Breck, Eric, Shanqing Cai, Eric Nielsen, Michael Salib, and D. Sculley. 2017. “[The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction](https://research.google/pubs/pub46555.pdf).” 2017 IEEE International Conference on Big Data (Big Data). https://doi.org/10.1109/bigdata.2017.8258038.
+Breck, Eric, Shanqing Cai, Eric Nielsen, Michael Salib, and D. Sculley. 2017. “[The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction](https://research.google/pubs/pub46555.pdf).” IEEE International Conference on Big Data (Big Data). 2017.
 
 > Nice position paper that discusses the many different aspects of quality assurance in an ML project, beyond just model and data quality. Includes some examples and a checklist of QA steps to consider. Good introduction to the problem and based on practical experience at Google. (Note this is a slightly extended version from a similarly titled paper)
 
@@ -86,7 +86,7 @@ Bakshy, Eytan, Dean Eckles, and Michael S. Bernstein. "[Designing and deploying 
 
 Ashmore, Rob, Radu Calinescu, and Colin Paterson. "[Assuring the machine learning lifecycle: Desiderata, methods, and challenges](https://arxiv.org/abs/1905.04223)." arXiv preprint arXiv:1905.04223. 2019.
 
-> Survey on testing in machine learning, going through the stages of an ML pipeline. Many pointers and reasonable organization. Seems more from an ML perspective than an SE perspective, but broadly covers many aspects including data aquisition, data quality, robustness, safety, monitoring, and so forth. A little vague on specifications as usual and little focus on the overall system quality. No information research process.
+> Survey on testing in machine learning, going through the stages of an ML pipeline. Many pointers and reasonable organization. Seems more from an ML perspective than an SE perspective, but broadly covers many aspects including data aquisition, data quality, robustness, safety, monitoring, and so forth. A little vague on specifications as usual and little focus on the overall system quality. No information on the used research process.
 
 Zhang, Jie M., Mark Harman, Lei Ma, and Yang Liu. “[Machine Learning Testing: Survey, Landscapes and Horizons](http://arxiv.org/abs/1906.10742).” arXiv preprint 1906.10742. 2019 (to appear in TSE)
 
@@ -363,7 +363,7 @@ Zhang, Mengshi, Yuqun Zhang, Lingming Zhang, Cong Liu, and Sarfraz Khurshid. "De
 
 > Practical application of metamorphic testing for generating test cases
 
-Zhou, Hucheng, Jian-Guang Lou, Hongyu Zhang, Haibo Lin, Haoxiang Lin, and Tingting Qin. 2015. “An Empirical Study on Quality Issues of Production Big Data Platform.” 2015 IEEE/ACM 37th IEEE International Conference on Software Engineering. https://doi.org/10.1109/icse.2015.130.
+Zhou, Hucheng, Jian-Guang Lou, Hongyu Zhang, Haibo Lin, Haoxiang Lin, and Tingting Qin.  "[An Empirical Study on Quality Issues of Production Big Data Platform](https://doi.org/10.1109/icse.2015.130)." IEEE/ACM 37th IEEE International Conference on Software Engineering. 2015
 
 > Study of operational issues of large map reduce cluster. Mostly hardware failures not captured by redundancy mechanisms. No direct ML aspect, but useful for discussing large distributed ML jobs at scale and some discussion of debugging from logging data.
 
@@ -385,8 +385,6 @@ Amershi, Saleema, Max Chickering, Steven M. Drucker, Bongshin Lee, Patrice Simar
 Andrist, Sean, Dan Bohus, Ece Kamar, and Eric Horvitz. 2017. “What Went Wrong and Why? Diagnosing Situated Interaction Failures in the Wild.” Social Robotics. https://doi.org/10.1007/978-3-319-70022-9_29.
 
 Batini, Carlo. 2009. “Methodologies for Data Quality Assessment and Improvement.” ACM 0360: 0300.
-
-Gorton, Ian, Ayse Basar Bener, and Audris Mockus. 2016. “Software Engineering for Big Data Systems.” IEEE Software. https://doi.org/10.1109/ms.2016.47.
 
 Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. 2015. “Principles of Explanatory Debugging to Personalize Interactive Machine Learning.” In Proceedings of the 20th International Conference on Intelligent User Interfaces, 126–37. ACM.
 
