@@ -150,6 +150,11 @@ Seshia, Sanjit A., Dorsa Sadigh, and S. Shankar Sastry. "[Towards verified artif
 
 ## Debugging
 
+Molnar, Christoph. "[Interpretable machine learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)", 2019. 
+
+> Though primarily about interpretability, this book provides a great overview of techniques to understand and debug models. 
+The book covers both inherently interpretable models and many techniques for ex-post explanations inferred from blackbox models. Explanations can be shown to the user (though the book is fairly shallow on the challenges of doing this and larger system design questions), but they also seem very useful in understanding model (mis-)behavior, understanding individual wrong predictions and outliers. The book covers both techniques for understanding the model and understanding characteristics of the training data. Written in a fairly accessible and pragmatic style, covering the important math but also providing good intutions.
+
 Ma, Shiqing, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. "[MODE: automated neural network model debugging via state differential analysis and input selection](https://dl.acm.org/doi/pdf/10.1145/3236024.3236082)." In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 175-186. 2018.
 
 > Uses a SE mindset (delta debugging, slicing) to approach the problem of debugging deep neural networks, especially to identify features that are critical for misbehavior with the goal of providing better learning data (framed as "root cause identification" of "training bugs"). Fairly pragmatic.
@@ -312,9 +317,13 @@ Sculley, D., Matthew Eric Otey, Michael Pohl, Bridget Spitznagel, John Hainswort
 
 > Nice case study paper from a team at Google that explicitly discusses the various challenges of building an ML-based system that go beyond just the modeling part, including issues like automatic calibration, composing many models, and teamwork in interdisciplinary teams. Include an architecture diagram. Despite some vagueness, we use it in class as a case study to show the importance of software engineering in ML projects.
 
+Géron, Aurélien. "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems". 2nd Edition, O'Reilly Media, 2019.
+
+> One of many books explaining how various machine-learning techniques (including a quite extensive treatment of deep learning), and also shows pragmatically how to use the corresponding techniques with various libraries. Spends about half a page talking very superficially about deployment and evaluation in production (Section "Launch, Monitor, and Maintain Your System"), but is otherwise squarely in the data science camp. Overall accessible and quite detailed introduction that invites to immediate play with some datasets and build some models.
+
 Polyzotis, Neoklis, Sudip Roy, Steven Euijong Whang, and Martin Zinkevich. "[Data lifecycle challenges in production machine learning: a survey](https://dl.acm.org/doi/pdf/10.1145/3299887.3299891)." ACM SIGMOD Record 47, no. 2 (2018): 17-28.
 
-> Essay/position paper with many pointers from the Tensorflow team. Key message is that ML can learn from data management community. Interesting, but not very deep and the survey part is adhoc.
+> Essay/position paper with many pointers from the Tensorflow team. Key message is that ML can learn from data management community. Interesting, but not very deep and the survey part seems ad-hoc.
 
 
 Arpteg, Anders, Björn Brinne, Luka Crnkovic-Friis, and Jan Bosch. "[Software engineering challenges of deep learning](https://ieeexplore.ieee.org/iel7/8496898/8498147/08498185.pdf)." In 2018 44th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), pp. 50-59. IEEE, 2018.
