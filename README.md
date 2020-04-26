@@ -185,6 +185,11 @@ Hynes, Nick, D. Sculley, and Michael Terry. "[The data linter: Lightweight, auto
 
 > Neat idea to develop a linter that looks for common "code smells" in dataset and internal data structures (e.g., when integers are stored as strings). This is an early but great example of how some classic SE ideas (static analysis tools, dynamic invariant detection, code smells) can be translated to solve new problems in an ML context. It is not quite obvious how far one can take this idea, but it is a great starting point for discussions and a nice illustration of potential SE4ML work.
 
+Ratner, Alexander, Stephen H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Christopher Ré. "[Snorkel: Rapid training data creation with weak supervision](https://arxiv.org/abs/1711.10160)." Proceedings of the VLDB Endowment, 11(3), 269-282, 2017.
+
+> Description of Snorkel, an approach to semi-automatically label training data, where humans provide partial training functions (e.g., labeling some instances based simply on some keywords). The system will learn automatically which of these partial labels to trust and will produce training labels at scale. This is an interesting strategy to gather training data that may work in a number of domains and has been used by a number of companies -- worth exploring. Many further discussions can be based on this, e.g., how to combine manual labels with different confidence, how to combine manual and automatic labels, which labels to trust, how much to involve crowdworkers in labeling and on which data points, etc.
+
+
 ## Requirements Engineering
 
 *I have the impression that many practical problems in building AI-enabled systems are 
