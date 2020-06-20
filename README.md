@@ -391,3 +391,5 @@ Kleppmann, Martin. Designing data-intensive applications: The big ideas behind r
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
 
 Pooyan Jamschidi is teaching "Machine Learning Systems" a UofSC and recommended several readings to me when preparing for my course: https://pooyanjamshidi.github.io/mls/
+
+Larysa Visengeriyeva has assembled an amazing list of resources on MLOps and related topics (books, talks, blog posts): https://github.com/visenger/mlops-references
