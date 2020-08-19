@@ -215,6 +215,9 @@ Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: 
 
 > A comprehensive an critical discussion of different fairness measures often discussed in the ML community. It's kind of depressing how many different notions and problems there are and how few solutions. Even though they don't discuss requirements engineering in the paper, I put it here because it shows the complicated mess that fairness makes when trying to identify the right fairness requirements for an ML-enabled system. A requirements engineer must work with stakeholders to identify suitable requirements and make a lot of decisions, which won't be easy but will be necessary. This paper will probably give the requirements engineer the right vocabulary to talk to ML experts who need to assure the requirement and will provide enough pointers to identify what issues to probe for when talking to stakeholders.
 
+Holstein, Kenneth, Jennifer Wortman Vaughan, Hal Daumé III, Miro Dudik, and Hanna Wallach. "[Improving fairness in machine learning systems: What do industry practitioners need?](http://users.umiacs.umd.edu/~hal/docs/daume19fairness.pdf)" In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, pp. 1-16. 2019.
+
+> An interview study with engineers that consider fairness in their ML-enabled products. This one looks at the system/software-engineering level, beyond narrow fairness properties at the model level and discusses problems and strategies broadly, including fairness considerations across all lifecycle stages, possible checklists, best practices, holistic auditing, possibly even resulting in changes in system design. It does not mention requirements, but many issues are deeply rooted in requirements engineering and system design work.
 
 ## Software Architecture and Design
 
