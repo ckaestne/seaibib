@@ -396,6 +396,11 @@ Kleppmann, Martin. Designing data-intensive applications: The big ideas behind r
 
 > Excellent book about distributed and big data systems. Not directly related to machine learning, but covers fundamentals of data storage and data processing (batch, stream, ...) at scale. Excellent discussion of principles and tradeoffs.
 
+Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu. "[Understanding Challenges in Deploying Deep Learning Based Software: An Empirical Study](https://arxiv.org/pdf/2005.00760)." Proc. FSE (2020).
+
+> Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
+
+
 ## Other Lists
 
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
