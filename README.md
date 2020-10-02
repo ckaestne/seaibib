@@ -226,6 +226,11 @@ Holstein, Kenneth, Jennifer Wortman Vaughan, Hal Daumé III, Miro Dudik, and Han
 
 > An interview study with engineers that consider fairness in their ML-enabled products. This one looks at the system/software-engineering level, beyond narrow fairness properties at the model level and discusses problems and strategies broadly, including fairness considerations across all lifecycle stages, possible checklists, best practices, holistic auditing, possibly even resulting in changes in system design. It does not mention requirements, but many issues are deeply rooted in requirements engineering and system design work.
 
+Madaio, Michael A., Luke Stark, Jennifer Wortman Vaughan, and Hanna Wallach. "[Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness in AI]()." In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, pp. 1-14. 2020.
+
+> Another great paper that looks at requirements engineering for fairness in production ML systems in practice. It looks at challenges and suggest a checklist. It argues that it's really all about the process integration and about taking a system level view (rather than focusing on model properties). Includes the actual checklist.
+
+
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft under review, 2019
@@ -398,7 +403,7 @@ Kleppmann, Martin. Designing data-intensive applications: The big ideas behind r
 
 Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu. "[Understanding Challenges in Deploying Deep Learning Based Software: An Empirical Study](https://arxiv.org/pdf/2005.00760)." Proc. FSE (2020).
 
-> Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
+> Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions and fairly shallow insights, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
 
 
 ## Other Lists
