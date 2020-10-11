@@ -343,6 +343,13 @@ Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks a
 
 > At least I find it rather surprising to use Notebooks for automation in production. Might be an interesting architectural and infrastructure decision worth discussing.
 
+## Human-AI Interaction
+
+*This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
+
+Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
+
+> Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
 
 ## Interdisciplinary teams
 
@@ -367,6 +374,10 @@ Zinkevich, Martin. 2017 “[Rules of Machine Learning: Best Practices for ML Eng
 Sculley, D., Matthew Eric Otey, Michael Pohl, Bridget Spitznagel, John Hainsworth, and Yunkai Zhou. 2011. “[Detecting Adversarial Advertisements in the Wild](https://doi.org/10.1145/2020408.2020455).” Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD ’11.
 
 > Nice case study paper from a team at Google that explicitly discusses the various challenges of building an ML-based system that go beyond just the modeling part, including issues like automatic calibration, composing many models, and teamwork in interdisciplinary teams. Include an architecture diagram. Despite some vagueness, we use it in class as a case study to show the importance of software engineering in ML projects.
+
+Sendak, Mark P., William Ratliff, Dina Sarro, Elizabeth Alderton, Joseph Futoma, Michael Gao, Marshall Nichols et al. "[Real-World Integration of a Sepsis Deep Learning Technology Into Routine Clinical Care: Implementation Study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7391165/)." *JMIR medical informatics* 8, no. 7 (2020): e15182.
+
+> Another case study I like and which use in class to discuss the system nature of machine-learning project. The paper mostly focuses on organizational and requirements aspects of building and deploying an ML-enabled system, with relatively little details on the actual model training.
 
 Géron, Aurélien. "[Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)". 2nd Edition, O'Reilly Media, 2019.
 
