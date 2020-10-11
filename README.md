@@ -339,8 +339,7 @@ Liu, Jiali, Nadia Boukhelifa, and James R. Eagan. 2019. “[Understanding the Ro
 
 > Interview study to understand how data scientists explore variations when developing models. Useful context to understand how data scientists operate.
 
-Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks at Netflix
-](https://netflixtechblog.com/scheduling-notebooks-348e6c14cfd6?gi=4c5ad1d3f7f)." Netflix Technology Blog. 2018
+Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks at Netflix](https://netflixtechblog.com/scheduling-notebooks-348e6c14cfd6?gi=4c5ad1d3f7f)." Netflix Technology Blog. 2018
 
 > At least I find it rather surprising to use Notebooks for automation in production. Might be an interesting architectural and infrastructure decision worth discussing.
 
@@ -359,6 +358,8 @@ Ryan Orban. "[Bridging the Gap Between Data Science & Engineer: Building High-Pe
 
 ## Misc
 
+*Various recommended and useful resources that do not fit well into the other categories.*
+
 Zinkevich, Martin. 2017 “[Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf).”
 
 > Blog post. List of advice about engineering ML-enabled systems based on experience at Google. Many good pointers.
@@ -367,7 +368,7 @@ Sculley, D., Matthew Eric Otey, Michael Pohl, Bridget Spitznagel, John Hainswort
 
 > Nice case study paper from a team at Google that explicitly discusses the various challenges of building an ML-based system that go beyond just the modeling part, including issues like automatic calibration, composing many models, and teamwork in interdisciplinary teams. Include an architecture diagram. Despite some vagueness, we use it in class as a case study to show the importance of software engineering in ML projects.
 
-Géron, Aurélien. "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems". 2nd Edition, O'Reilly Media, 2019.
+Géron, Aurélien. "[Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)". 2nd Edition, O'Reilly Media, 2019.
 
 > One of many books explaining how various machine-learning techniques (including a quite extensive treatment of deep learning), and also shows pragmatically how to use the corresponding techniques with various libraries. Spends about half a page talking very superficially about deployment and evaluation in production (Section "Launch, Monitor, and Maintain Your System"), but is otherwise squarely in the data science camp. Overall accessible and quite detailed introduction that invites to immediate play with some datasets and build some models.
 
@@ -380,11 +381,7 @@ Arpteg, Anders, Björn Brinne, Luka Crnkovic-Friis, and Jan Bosch. "[Software en
 
 > Discussion of SE challenges in deep learning projects. Useful list of challenges, apparently grounded in interviews with engineers in 7 projects. The discussion remains rather abstract with little explicit grounding in the interview data.
 
-Stoica, Ion, Dawn Song, Raluca Ada Popa, David Patterson, Michael W. Mahoney, Randy Katz, Anthony D. Joseph et al. "[A Berkeley view of systems challenges for AI](https://arxiv.org/pdf/1712.05855)." arXiv:1712.05855 (2017).
-
-> High-level position paper, often focused on robotics.
-
-Hermann, Jeremy, Mike Del Balso, Rene Schmidt, and Jakob Holdgaard Thomsen. 2017. “Meet Michelangelo: Uber’s Machine Learning Platform.” Uber Engineering Blog. September 5, 2017. https://eng.uber.com/michelangelo/.
+Hermann, Jeremy, Mike Del Balso, Rene Schmidt, and Jakob Holdgaard Thomsen. 2017. “[Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/).” Uber Engineering Blog. September 5, 2017. .
 
 > Interesting blog post about the ML infrastructure at Uber and the challenges of building production systems.
 
@@ -398,26 +395,7 @@ O'Leary, Katie, and Makoto Uchida. "[Common problems with Creating Machine Learn
 
 > Short paper describing experience from Google's customer workshops with where developers struggle building ML systems. Key results: Need a mindset that focuses on pipelines not models and need to develop best practices and reusable patterns/fragments/abstractions that can be composed in pipelines.
 
-
-## Others with notes
-
-Smith, Jeff. Machine Learning Systems: Designs that Scale. Manning Publications Co., 2018.
-
-> Book on building scalable machine learning systems. Focuses on elastic/reactive system design and suggests specific design decisions, such as working with immutable data. Many concrete implementation examples given in Scala. The book is very readable but opinionated and somewhat narrow and low level. It describes specific implementation patterns for design solutions it suggests, but it definitively reflects on tradeoffs and software engineering concerns.
-
-Kanewala, Upulee, and James M. Bieman. 2014. “Testing Scientific Software: A Systematic Literature Review.” Information and Software Technology 56 (10): 1219–32.
-
-> Survey on testing techniques, covering also approaches for testing systems without oracles, some of which apply to ML. 
-
-Zhang, Mengshi, Yuqun Zhang, Lingming Zhang, Cong Liu, and Sarfraz Khurshid. "DeepRoad: GAN-based metamorphic testing and input validation framework for autonomous driving systems." In Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering, pp. 132-142. 2018.
-
-> Practical application of metamorphic testing for generating test cases
-
-Zhou, Hucheng, Jian-Guang Lou, Hongyu Zhang, Haibo Lin, Haoxiang Lin, and Tingting Qin.  "[An Empirical Study on Quality Issues of Production Big Data Platform](https://doi.org/10.1109/icse.2015.130)." IEEE/ACM 37th IEEE International Conference on Software Engineering. 2015
-
-> Study of operational issues of large map reduce cluster. Mostly hardware failures not captured by redundancy mechanisms. No direct ML aspect, but useful for discussing large distributed ML jobs at scale and some discussion of debugging from logging data.
-
-Rudin, Cynthia. "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead." Nature Machine Intelligence 1, no. 5 (2019): 206-215.
+Rudin, Cynthia. "[Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead](https://arxiv.org/pdf/1811.10154)." Nature Machine Intelligence 1, no. 5 (2019): 206-215.
 
 > Interesting (potentially controversial) position paper emphasizing the difference between interpretability and explainability in machine learning. Argues that in many cases simple and interpretable models may perform similarly well to opaque models.
 
@@ -425,13 +403,41 @@ Kleppmann, Martin. “[Designing data-intensive applications: The big ideas behi
 
 > Excellent book about distributed and big data systems. Not directly related to machine learning, but covers fundamentals of data storage and data processing (batch, stream, ...) at scale. Excellent discussion of principles and tradeoffs.
 
+## Others with notes
+
+*Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
+
+Smith, Jeff. Machine Learning Systems: Designs that Scale. Manning Publications Co., 2018.
+
+> Book on building scalable machine learning systems. Focuses on elastic/reactive system design and suggests specific design decisions, such as working with immutable data. Many concrete implementation examples given in Scala. The book is very readable but opinionated and somewhat narrow and low level. It describes specific implementation patterns for design solutions it suggests, but it definitively reflects on tradeoffs and software engineering concerns.
+
+Stoica, Ion, Dawn Song, Raluca Ada Popa, David Patterson, Michael W. Mahoney, Randy Katz, Anthony D. Joseph et al. "[A Berkeley view of systems challenges for AI](https://arxiv.org/pdf/1712.05855)." arXiv:1712.05855 (2017).
+
+> High-level position paper, often focused on robotics.
+
+Kanewala, Upulee, and James M. Bieman. 2014. “[Testing Scientific Software: A Systematic Literature Review](https://arxiv.org/pdf/1804.01954).” Information and Software Technology 56 (10): 1219–32.
+
+> Survey on testing techniques, covering also approaches for testing systems without oracles, some of which apply to ML. 
+
+Zhang, Mengshi, Yuqun Zhang, Lingming Zhang, Cong Liu, and Sarfraz Khurshid. "[DeepRoad: GAN-based metamorphic testing and input validation framework for autonomous driving systems](https://www.researchgate.net/profile/Yuqun_Zhang2/publication/327122887_DeepRoad_GAN-based_metamorphic_testing_and_input_validation_framework_for_autonomous_driving_systems/links/5dea272e299bf10bc343e530/DeepRoad-GAN-based-metamorphic-testing-and-input-validation-framework-for-autonomous-driving-systems.pdf)." In Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering, pp. 132-142. 2018.
+
+> Practical application of metamorphic testing for generating test cases
+
+Zhou, Hucheng, Jian-Guang Lou, Hongyu Zhang, Haibo Lin, Haoxiang Lin, and Tingting Qin.  "[An Empirical Study on Quality Issues of Production Big Data Platform](https://doi.org/10.1109/icse.2015.130)." IEEE/ACM 37th IEEE International Conference on Software Engineering. 2015
+
+> Study of operational issues of large map reduce cluster. Mostly hardware failures not captured by redundancy mechanisms. No direct ML aspect, but useful for discussing large distributed ML jobs at scale and some discussion of debugging from logging data.
+
 Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu. "[Understanding Challenges in Deploying Deep Learning Based Software: An Empirical Study](https://arxiv.org/pdf/2005.00760)." Proc. FSE (2020).
 
 > Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions and fairly shallow insights, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
 
-Lwakatare, Lucy Ellen, Aiswarya Raj, Jan Bosch, Helena Holmström Olsson, and Ivica Crnkovic. "[A taxonomy of software engineering challenges for machine learning systems: An empirical investigation](https://research.chalmers.se/publication/512250/file/512250_Fulltext.pdf)." In *International Conference on Agile Software Development*, pp. 227-243. Springer, Cham, 2019.
+Lwakatare, Lucy Ellen, Aiswarya Raj, Jan Bosch, Helena Holmström Olsson, and Ivica Crnkovic. "[A taxonomy of software engineering challenges for machine learning systems: An empirical investigation](https://research.chalmers.se/publication/512250/file/512250_Fulltext.pdf)." In *International Conference on Agile Software Development*, pp. 227-243. Springer, 2019.
 
 > Brief discussion of 7 case studies, mostly finding MLOps-style problems. The paper concludes with a potentially interesting maturity model (Sec 5), that, while not visibly grounded in data, may be a good starting point for discussions for framing different kinds of ML projects.
+
+Wan, Zhiyuan, Xin Xia, David Lo, and Gail C. Murphy. "[How does machine learning change software development practices?](https://core.ac.uk/download/pdf/275589732.pdf)" *IEEE Transactions on Software Engineering* (2019).
+
+> Discussion of challenges in developing ML systems based on interviews and a survey. Unfortunately, the paper does not distinguish consistently between the ML model, the framework used to learn the model, and the the system with an ML component, nor does it clearly distinguish between roles of software engineers or data scientists, leading to rather murky and questionable claims.
 
 ## Other Lists
 
