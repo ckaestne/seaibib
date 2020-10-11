@@ -50,17 +50,17 @@ well grounded in the SE literature, the paper provides a great argument that a
 machine learning system is more than just the ML model and building and
 operating it is a serious undertaking. 
 > 
-> Pro tip: A google scholar alert for
-citations to this paper is a good way to notice new SE4ML publications.
+> Pro tip: A google scholar alert for citations to this paper is a good way to notice new SE4ML publications.
 
 Amershi, Saleema, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. "[Software engineering for machine learning: A case study](https://andrewbegel.com/papers/Software_Engineering_for_ML.pdf)." In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 291-300. IEEE, 2019. 
 
 > A good description of the SE4ML challenges at Microsoft, characterizing
 the challenges of different roles and grounded in interviews and a large
-scale survey. Motivating well how pervasive ML is in modern systems and describing 
-best practices and some challenges.
+scale survey. Motivating well how pervasive ML is in modern systems and describing best practices and some challenges.
 
+Ozkaya, Ipek. "[What Is Really Different in Engineering AI-Enabled Systems?](https://ieeexplore.ieee.org/abstract/document/9121629)" *IEEE Software* 37, no. 4 (2020): 3-6.
 
+> Concise opinion paper (editorial), discussing that building software system with AI components is harder but not necessarily that different from building traditional software systems. This very much mirrors my own opinion shared in my class and talks. Touches on many great points regarding specifications, requirements, and safety. Essentially a call to action that we need more software engineering.
 
 ## Quality Assurance
 
