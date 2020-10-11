@@ -261,7 +261,7 @@ Studer, Stefan, Thanh Binh Bui, Christian Drescher, Alexander Hanuschkin, Ludwig
 
 Serban, Alex, Koen van der Blom, Holger Hoos, and Joost Visser. "[Adoption and Effects of Software Engineering Best Practices in Machine Learning](https://arxiv.org/pdf/2007.14130)." In Proc. ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (2020).
 
-> Collection of best practices, mostly focused on the model pipeline not the larger system. In a larger survey, practitioners indicate which practices they follow, resulting in interesting ranks in Table 2. Results show that MLOps topics like versioning, monitoring and experiment management are fairly broadly adopted, whereas quality assurance practices and hyperparameter tuning are less adopted.
+> Collection of best practices, mostly focused on the model pipeline not the larger system. In a larger survey, practitioners indicate which practices they follow, resulting in interesting ranks in Table 2. Results show that MLOps topics like versioning, monitoring and experiment management are fairly broadly adopted, whereas quality assurance practices and hyperparameter tuning are less adopted. Comes with a nice list of the practices on their [web page](https://se-ml.github.io/practices/).
 
 ## Safety & Robustness
 
@@ -466,3 +466,5 @@ Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML 
 Pooyan Jamschidi is teaching "Machine Learning Systems" a UofSC and recommended several readings to me when preparing for my course: https://pooyanjamshidi.github.io/mls/
 
 Larysa Visengeriyeva has assembled an amazing list of resources on MLOps and related topics (books, talks, blog posts): https://github.com/visenger/mlops-references
+
+Awesome Software Engineering for Machine Learning: https://github.com/SE-ML/awesome-seml
