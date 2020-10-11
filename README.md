@@ -103,6 +103,10 @@ Barash, Guy, Eitan Farchi, Ilan Jayaraman, Orna Raz, Rachel Tzoref-Brill, and Ma
 
 > Discusses how to slice validation data into subsets to observe how the model is doing on different subpopulations. Simple yet useful idea. Nice analogy to blackbox testing (they frame it in terms of combinatorial testing, though equivalence classes may be a better fit). Approach is used to slice data rather than generate new test data, which aligns also with Hulten's recommendations and [my lecture](https://ckaestne.github.io/seai/S2020/slides/04_modelquality/modelquality.html)/[blog post](https://medium.com/@ckaestne/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on testing.
 
+Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Overton: A Data System for Monitoring and Improving Machine-Learned Products](https://arxiv.org/abs/1909.05372)." *arXiv preprint arXiv:1909.05372* (2019).
+
+> Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
+
 See also paper in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below.
 
 ### (Model Invariants)
