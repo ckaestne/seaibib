@@ -421,7 +421,7 @@ Rudin, Cynthia. "Stop explaining black box machine learning models for high stak
 
 > Interesting (potentially controversial) position paper emphasizing the difference between interpretability and explainability in machine learning. Argues that in many cases simple and interpretable models may perform similarly well to opaque models.
 
-Kleppmann, Martin. Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems."" O'Reilly Media, Inc.", 2017.
+Kleppmann, Martin. “[Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems](https://dataintensive.net/).” O'Reilly Media, Inc., 2017.
 
 > Excellent book about distributed and big data systems. Not directly related to machine learning, but covers fundamentals of data storage and data processing (batch, stream, ...) at scale. Excellent discussion of principles and tradeoffs.
 
@@ -429,6 +429,9 @@ Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu.
 
 > Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions and fairly shallow insights, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
 
+Lwakatare, Lucy Ellen, Aiswarya Raj, Jan Bosch, Helena Holmström Olsson, and Ivica Crnkovic. "[A taxonomy of software engineering challenges for machine learning systems: An empirical investigation](https://research.chalmers.se/publication/512250/file/512250_Fulltext.pdf)." In *International Conference on Agile Software Development*, pp. 227-243. Springer, Cham, 2019.
+
+> Brief discussion of 7 case studies, mostly finding MLOps-style problems. The paper concludes with a potentially interesting maturity model (Sec 5), that, while not visibly grounded in data, may be a good starting point for discussions for framing different kinds of ML projects.
 
 ## Other Lists
 
