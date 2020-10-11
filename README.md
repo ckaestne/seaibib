@@ -281,7 +281,15 @@ Cohen, Jeremy M., Elan Rosenfeld, and J. Zico Kolter. "[Certified adversarial ro
 
 > Discusses *randomized smoothing*, an interesting approach to evaluating robustness: Sample predictions not only about a specific input but also about perturbed versions of that input around that input and report the most common prediction as the result. As a consequence, the prediction will be less sensitive to minor changes in the input. Black box technique that works for any kind of model. If sampled frequently enough, as discussed in the paper, also probabilistic bounds can be provided, although at significant computational costs (they use 100K model inferences per input).
 
+## Security & Privacy
 
+Huang, Ling, Anthony D. Joseph, Blaine Nelson, Benjamin IP Rubinstein, and J. Doug Tygar. "[Adversarial machine learning](http://people.cs.vt.edu/~gangwang/class/cs6604/papers/Adversarial_AISEC.pdf)." In *Proceedings of the 4th ACM Workshop on Security and Artificial Intelligence*, pp. 43-58. 2011.
+
+> Broad overview of security and privacy concerns (with examples of SVNs, predates DNN). Illustrates concerns quite well with two running examples of spam detection and network traffic analysis. Focuses on the model only.
+
+Liu, Qiang, Pan Li, Wentao Zhao, Wei Cai, Shui Yu, and Victor CM Leung. "[A survey on security threats and defensive techniques of machine learning: A data driven view](https://www.researchgate.net/profile/Qiang_Liu14/publication/323154427_A_Survey_on_Security_Threats_and_Defensive_Techniques_of_Machine_Learning_A_Data_Driven_View/links/5a92b6e345851535bcd84848/A-Survey-on-Security-Threats-and-Defensive-Techniques-of-Machine-Learning-A-Data-Driven-View.pdf)." *IEEE access* 6 (2018): 12103-12117.
+
+> Fairly accessible survey on security threats and defense techniques, providing a decent overview. Focus on the model itself.
 
 ## Reproducibility, Provenance
 
