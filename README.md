@@ -216,8 +216,7 @@ Ratner, Alexander, Stephen H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Ch
 really requirements engineering problems. For example: There are many different notions
 of fairness, but which one is the right one for the project? How does the model interact
 with the environment and what safeguards should be installed to detect feedback loops or
-assure safety in those interactions? Unfortunately, the literature on requirements engineering
-for AI-enabled systems seems rather sparse.*
+assure safety in those interactions? Unfortunately, the literature on requirements engineering for AI-enabled systems seems rather sparse.*
 
 Vogelsang, Andreas, and Markus Borg. "[Requirements Engineering for Machine Learning: Perspectives from Data Scientists](https://arxiv.org/pdf/1908.04674.pdf)." In Proc. of the 6th International Workshop on Artificial Intelligence for Requirements Engineering (AIRE), 2019. 
 
@@ -243,8 +242,6 @@ Kulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. "[POTs: 
 
 > This is the only ML paper I have seen that explicitly discusses requirements engineering with Jackson's world vs machine framing. It nicely frames the fairness problem as a system problem and explicitly discusses the interface between the environment and the implementation's specification and how assuring fairness only at the model level is insufficient. The rest of the paper, then essentially suggests adversarial hacking through changes in the environment to drive the model to make fairer or globally better decisions -- that is, distributing the problem, affected people can increase the cost of certain outcomes thus making an ML system recommend other outcomes that are more benefitial to them. Interesting position paper, even if just for the framing in Sec 2.
 
-
-
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft under review, 2019
@@ -261,6 +258,10 @@ Daniel Smith. "[Exploring Development Patterns in Data Science](https://www.theo
 Studer, Stefan, Thanh Binh Bui, Christian Drescher, Alexander Hanuschkin, Ludwig Winkler, Steven Peters, and Klaus-Robert Mueller. "[Towards CRISP-ML (Q): A Machine Learning Process Model with Quality Assurance Methodology](https://arxiv.org/abs/2003.05155)." arXiv preprint arXiv:2003.05155 (2020).
 
 > Fairly detailed overview of an ML-development process, starting early with business needs and covering all steps to deployment. Not necessarily new or grounded in new data, but a very nice and well-written overview. Good early reading to understand the full scope of SE4ML, beyond just building models.
+
+Serban, Alex, Koen van der Blom, Holger Hoos, and Joost Visser. "[Adoption and Effects of Software Engineering Best Practices in Machine Learning](https://arxiv.org/pdf/2007.14130)." In Proc. ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (2020).
+
+> Collection of best practices, mostly focused on the model pipeline not the larger system. In a larger survey, practitioners indicate which practices they follow, resulting in interesting ranks in Table 2. Results show that MLOps topics like versioning, monitoring and experiment management are fairly broadly adopted, whereas quality assurance practices and hyperparameter tuning are less adopted.
 
 ## Safety & Robustness
 
@@ -417,6 +418,10 @@ Rudin, Cynthia. "[Stop explaining black box machine learning models for high sta
 Kleppmann, Martin. “[Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems](https://dataintensive.net/).” O'Reilly Media, Inc., 2017.
 
 > Excellent book about distributed and big data systems. Not directly related to machine learning, but covers fundamentals of data storage and data processing (batch, stream, ...) at scale. Excellent discussion of principles and tradeoffs.
+
+Strubell, Emma, Ananya Ganesh, and Andrew McCallum. "[Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf)." In *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*, pp. 3645-3650. 2019.
+
+> Short paper illustrating very clearly the computation cost and environmental impact of training deep neural networks (esp. with hyperparameter optimization). Makes a strong argument that these costs should be considered when designing models or systems.
 
 ## Others with notes
 
