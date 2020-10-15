@@ -352,7 +352,7 @@ Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks a
 
 *This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
 
-Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
+Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "[Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems](http://library.usc.edu.ph/ACM/CHI2019/1proc/paper411.pdf)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
 
 > Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
 
