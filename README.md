@@ -148,6 +148,10 @@ Xie, Xiaoyuan, Joshua WK Ho, Christian Murphy, Gail Kaiser, Baowen Xu, and Tsong
 
 > This paper applies metamorphic relations to the learning framework itself. That is, it defines invariants/assertions about how inputs (training data) and outputs (learned models) should relate.
 
+Cheng, Dawei, Chun Cao, Chang Xu, and Xiaoxing Ma. "[Manifesting bugs in machine learning code: An explorative study with mutation testing](https://ieeexplore.ieee.org/iel7/8424855/8424858/08424982.pdf)." In *2018 IEEE International Conference on Software Quality, Reliability and Security (QRS)*, pp. 313-324. IEEE, 2018.
+
+> Using mutation testing to mutate the machine learning code (e.g. SVM) to see how robust the ML implementations are to subtle faults. Shows that many mutations to the learning code lead to small degradation of accuracy of the produced models without a crash and that metamorphic testing (as in the paper above) was also not useful to find these kinds of faults.
+
 
 ### (Other Quality Assurance Work)
 
