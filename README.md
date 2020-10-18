@@ -390,7 +390,9 @@ Ryan Orban. "[Bridging the Gap Between Data Science & Engineer: Building High-Pe
 
 > Short presentation about the different roles of data scientists and software engineers and how to build interdisciplinary teams. Matches very closely my view of software engineering for AI-enabled systems, in that we still need data scientists and software engineers (and operators, and ...) as separate disciplines, but that we need a Devops-like integration around a common understanding and a joint mission.
 
+Yang, Qian, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. "[Grounding interactive machine learning tool design in how non-experts actually build models](http://www.audentia-gestion.fr/MICROSOFT/Machine_Teaching_DIS_18.pdf)." In *Proceedings of the 2018 Designing Interactive Systems Conference*, pp. 573-584. 2018.
 
+> Interesting view on how people without data science training (mostly software engineers) build machine learning models. In short, they often don’t check for generalization, don’t analyze their data or features much, and strongly prefer to write code. Points out communication and education gaps. Nice contrast between data scientists and software engineers, here focused on the data science tasks.
 
 ## Misc
 
