@@ -84,6 +84,12 @@ Bakshy, Eytan, Dean Eckles, and Michael S. Bernstein. "[Designing and deploying 
 
 > Two papers discussing infrastructure for A/B testing (which is a good foundation and frequently used for testing ML systems in production) at Google and Facebook. More focused on infrastructure around it, but useful for getting into a discussion on how to test in production.
 
+Nushi, Besmira, Ece Kamar, Eric Horvitz, and Donald Kossmann. "[On human intellect and machine failures: troubleshooting integrative machine learning systems](http://erichorvitz.com/human_repair_AI_pipeline.pdf)." In *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence*, pp. 1017-1025. 2017.
+
+> The paper is really about interfaces and blame assignment between multiple ML models that are composed in a system. It discusses the problem with a concrete example (nice!) with three ML models for creating text labels for images, illustrating non-local and non-monotonic effects. The concrete solution requires that individual models can be evaluated and improved with crowd workers, but may be less relevant than the overall framework and example.
+
+### (Surveys)
+
 Ashmore, Rob, Radu Calinescu, and Colin Paterson. "[Assuring the machine learning lifecycle: Desiderata, methods, and challenges](https://arxiv.org/abs/1905.04223)." arXiv preprint arXiv:1905.04223. 2019.
 
 > Survey on testing in machine learning, going through the stages of an ML pipeline. Many pointers and reasonable organization. Seems more from an ML perspective than an SE perspective, but broadly covers many aspects including data aquisition, data quality, robustness, safety, monitoring, and so forth. A little vague on specifications as usual and little focus on the overall system quality. No information on the used research process.
@@ -186,8 +192,6 @@ Ma, Shiqing, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. "[MODE:
 Ma, Shiqing, Yousra Aafer, Zhaogui Xu, Wen-Chuan Lee, Juan Zhai, Yingqi Liu, and Xiangyu Zhang. "[LAMP: data provenance for graph based machine learning algorithms through derivative computation](https://dl.acm.org/doi/pdf/10.1145/3106237.3106291)." In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, pp. 786-797. 2017.
 
 > Interesting idea to identify which inputs to a machine-learning algorithm have large effects on the produced model (i.e., some form of sensitivity analysis). Focused on specific classes of graph-based algorithms like Pagerank.
-
-
 
 
 ## Data Quality and Data Management
