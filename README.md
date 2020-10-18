@@ -242,6 +242,10 @@ Kulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. "[POTs: 
 
 > This is the only ML paper I have seen that explicitly discusses requirements engineering with Jackson's world vs machine framing. It nicely frames the fairness problem as a system problem and explicitly discusses the interface between the environment and the implementation's specification and how assuring fairness only at the model level is insufficient. The rest of the paper, then essentially suggests adversarial hacking through changes in the environment to drive the model to make fairer or globally better decisions -- that is, distributing the problem, affected people can increase the cost of certain outcomes thus making an ML system recommend other outcomes that are more benefitial to them. Interesting position paper, even if just for the framing in Sec 2.
 
+Subbaswamy, Adarsh, Peter Schulam, and Suchi Saria. "[Preventing failures due to dataset shift: Learning predictive models that transport](http://proceedings.mlr.press/v89/subbaswamy19a/subbaswamy19a.pdf)." In *The 22nd International Conference on Artificial Intelligence and Statistics*, pp. 3118-3127. PMLR, 2019.
+
+> Interesting idea that: If we know how data is generated or what dependencies underly the system and the input features, and more importantly know which of those processes/relationships/features are likely to change (coming from domain knowledge elicited with requirements engineering I assume), we can integrate this information in the modeling process and make the model more robust with regard to these kind of changes. That is we do not learn on certain relationships and thus  don’t need to update the model for data/concept drift as often. Unclear to me how practical and the evaluation seems fairly artificial, but I like the direction.
+
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft under review, 2019
