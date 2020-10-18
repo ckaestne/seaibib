@@ -216,7 +216,7 @@ Ratner, Alexander, Stephen H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Ch
 really requirements engineering problems. For example: There are many different notions
 of fairness, but which one is the right one for the project? How does the model interact
 with the environment and what safeguards should be installed to detect feedback loops or
-assure safety in those interactions? Unfortunately, the literature on requirements engineering for AI-enabled systems seems rather sparse.*
+assure safety in those interactions? Unfortunately, the literature explicitly on requirements engineering for AI-enabled systems seems rather sparse – but there are many papers that are implicitly mostly about requirements engineering.*
 
 Vogelsang, Andreas, and Markus Borg. "[Requirements Engineering for Machine Learning: Perspectives from Data Scientists](https://arxiv.org/pdf/1908.04674.pdf)." In Proc. of the 6th International Workshop on Artificial Intelligence for Requirements Engineering (AIRE), 2019. 
 
@@ -245,6 +245,10 @@ Kulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. "[POTs: 
 Subbaswamy, Adarsh, Peter Schulam, and Suchi Saria. "[Preventing failures due to dataset shift: Learning predictive models that transport](http://proceedings.mlr.press/v89/subbaswamy19a/subbaswamy19a.pdf)." In *The 22nd International Conference on Artificial Intelligence and Statistics*, pp. 3118-3127. PMLR, 2019.
 
 > Interesting idea that: If we know how data is generated or what dependencies underly the system and the input features, and more importantly know which of those processes/relationships/features are likely to change (coming from domain knowledge elicited with requirements engineering I assume), we can integrate this information in the modeling process and make the model more robust with regard to these kind of changes. That is we do not learn on certain relationships and thus  don’t need to update the model for data/concept drift as often. Unclear to me how practical and the evaluation seems fairly artificial, but I like the direction.
+
+Wiens, Jenna, Suchi Saria, Mark Sendak, Marzyeh Ghassemi, Vincent X. Liu, Finale Doshi-Velez, Kenneth Jung et al. "[Do no harm: a roadmap for responsible machine learning for health care](http://www.regenhealthsolutions.info/wp-content/uploads/2019/08/Do-no-harm-a-roadmap-for-responsible-machine.pdf)." *Nature medicine* 25, no. 9 (2019): 1337-1340.
+
+> Position paper with a fairly high-level overview of what it takes to build and deploy machine learning products in health care settings. Lot’s of emphasis on what are essentially all requirements engineering challenges of understanding the domain, involving stakeholders, integrating the product into practice, etc etc.
 
 ## Software Architecture and Design
 
