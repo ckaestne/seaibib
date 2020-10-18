@@ -356,6 +356,10 @@ Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "[Will you accept an imp
 
 > Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
 
+Stumpf, Simone, Adrian Bussone, and Dympna O’sullivan. "[Explanations considered harmful? user interactions with machine learning systems](http://www.doc.gold.ac.uk/~mas02mg/HCML2016/HCML2016_paper_2.pdf)." In *Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)*. 2016.
+
+> Interesting short paper with a small experiment, illustrating that explanations of a model’s predictions can foster trust for the prediction up to the point that the users (here physicians for a medical diagnosis) trust the system over their own judgment and accept more wrong predictions. The sentiment is that “the model seems to know more than me” even if the prediction and explanation are wrong.
+
 ## Interdisciplinary teams
 
 Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
