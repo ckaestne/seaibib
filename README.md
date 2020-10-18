@@ -275,6 +275,10 @@ Serban, Alex, Koen van der Blom, Holger Hoos, and Joost Visser. "[Adoption and E
 
 > Collection of best practices, mostly focused on the model pipeline not the larger system. In a larger survey, practitioners indicate which practices they follow, resulting in interesting ranks in Table 2. Results show that MLOps topics like versioning, monitoring and experiment management are fairly broadly adopted, whereas quality assurance practices and hyperparameter tuning are less adopted. Comes with a nice list of the practices on their [web page](https://se-ml.github.io/practices/).
 
+Haakman, Mark, Luís Cruz, Hennie Huijgens, and Arie van Deursen. "[AI Lifecycle Models Need To Be Revised. An Exploratory Study in Fintech](https://arxiv.org/pdf/2010.02716)." *arXiv preprint arXiv:2010.02716* (2020).
+
+> Nice interview study with 17 participants at ING bank about their process in building and deploying ML models. Shows many concerns about provenance, regulation, and security driving decisions and identifying extra steps in common data science process models. Mostly focused on the model and its deployment (data science view), not a larger system it may be integrated in.
+
 ## Safety & Robustness
 
 *There is a significant amount of machine learning research on safety and security, especially on narrow properties of robustness, but also some system-level discussions on safeguard mechanisms. A software engineering professional should probably understand the tools and techniques.*
