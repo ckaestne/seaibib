@@ -388,6 +388,10 @@ Zinkevich, Martin. 2017 “[Rules of Machine Learning: Best Practices for ML Eng
 
 > Blog post. List of advice about engineering ML-enabled systems based on experience at Google. Many good pointers.
 
+Horneman, Angela, Andrew Mellinger, and Ipek Ozkaya. *[AI Engineering: 11 Foundational Practices](https://apps.dtic.mil/sti/pdfs/AD1099280.pdf)*. Carnegie Mellon University Pittsburgh United States, 2020.
+
+> Very short technical report from the SEI, with a list of all-plausible recommendations (somewhat similar to the Zinkevich post above).
+
 Sculley, D., Matthew Eric Otey, Michael Pohl, Bridget Spitznagel, John Hainsworth, and Yunkai Zhou. 2011. “[Detecting Adversarial Advertisements in the Wild](https://doi.org/10.1145/2020408.2020455).” Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD ’11.
 
 > Nice case study paper from a team at Google that explicitly discusses the various challenges of building an ML-based system that go beyond just the modeling part, including issues like automatic calibration, composing many models, and teamwork in interdisciplinary teams. Include an architecture diagram. Despite some vagueness, we use it in class as a case study to show the importance of software engineering in ML projects.
