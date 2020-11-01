@@ -193,6 +193,10 @@ Ma, Shiqing, Yousra Aafer, Zhaogui Xu, Wen-Chuan Lee, Juan Zhai, Yingqi Liu, and
 
 > Interesting idea to identify which inputs to a machine-learning algorithm have large effects on the produced model (i.e., some form of sensitivity analysis). Focused on specific classes of graph-based algorithms like Pagerank.
 
+Bhatt, Umang, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia, Joydeep Ghosh, Ruchir Puri, José MF Moura, and Peter Eckersley. "Explainable machine learning in deployment." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 648-657. 2020.
+
+> An interview study asking practioners about how they use explainability techniques. Finding that they are mostly used internally, mostly for debugging, and mostly using SHAP values. Also somewhat useful includes abstract examples/scenarios of how explainability techniques are used in 6 companies.
+
 
 ## Data Quality and Data Management
 
