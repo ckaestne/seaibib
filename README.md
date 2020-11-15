@@ -506,6 +506,10 @@ Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machi
 
 > Experience report of building various models in a production system, examples of ML-driven products (seems to start with "what could we predict" rather than with "what does this product need"). Good illustration with concrete examples how model accuracy may not align with business success measures of the product (sales) and some speculation why. Strong focus on A/B testing with business metrics rather than model accuracy.
 
+Cambo, Scott Allen, and Darren Gergle. "User-centred evaluation for machine learning." In Human and Machine Learning, pp. 315-339. Springer, Cham, 2018.
+
+> Book chapter on how to think about the design and evaluation of an ML component in a fitness tracker. Good argument why model accuracy alone may not be a good metric and how one should probably start much earlier in requirements and design to consider how model accuracy interacts with other parts of the system and user experience.
+
 
 ## Other Lists
 
