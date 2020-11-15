@@ -113,7 +113,7 @@ Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Ove
 
 > Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
 
-See also paper in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below.
+See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging).
 
 ### (Model Invariants)
 
@@ -196,6 +196,11 @@ Ma, Shiqing, Yousra Aafer, Zhaogui Xu, Wen-Chuan Lee, Juan Zhai, Yingqi Liu, and
 Bhatt, Umang, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia, Joydeep Ghosh, Ruchir Puri, José MF Moura, and Peter Eckersley. "Explainable machine learning in deployment." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 648-657. 2020.
 
 > An interview study asking practioners about how they use explainability techniques. Finding that they are mostly used internally, mostly for debugging, and mostly using SHAP values. Also somewhat useful includes abstract examples/scenarios of how explainability techniques are used in 6 companies.
+
+Chung, Yeounoh, Neoklis Polyzotis, Kihyun Tae, and Steven Euijong Whang. "[Automated data slicing for model validation: A big data-AI integration approach](https://arxiv.org/abs/1807.06068)." IEEE Transactions on Knowledge and Data Engineering (2019).
+
+> Approach to automatically identify subsets of the data for which the model accuracy is lower than average/other subsets. This automatically slices the validation data based on different features (like decision tree learning). Not that different from approaches in the [Test Data Curation](https://github.com/ckaestne/seaibib#test-data-curation) section, but not guided by humans, hence this seems more useful for debugging than for (regression) testing. Also briefly mentions applications to different quality functions, including fairness and accuracy difference after model update. Paper is heavily focused on underlying technical approach.
+
 
 
 ## Data Quality and Data Management
