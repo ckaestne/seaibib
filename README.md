@@ -497,6 +497,11 @@ Wan, Zhiyuan, Xin Xia, David Lo, and Gail C. Murphy. "[How does machine learning
 
 > Discussion of challenges in developing ML systems based on interviews and a survey. Unfortunately, the paper does not distinguish consistently between the ML model, the framework used to learn the model, and the the system with an ML component, nor does it clearly distinguish between roles of software engineers or data scientists, leading to rather murky and questionable claims.
 
+Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machine learning models: 6 lessons learned at Booking.com." In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1743-1751. 2019.
+
+> Experience report of building various models in a production system, examples of ML-driven products (seems to start with "what could we predict" rather than with "what does this product need"). Good illustration with concrete examples how model accuracy may not align with business success measures of the product (sales) and some speculation why. Strong focus on A/B testing with business metrics rather than model accuracy.
+
+
 ## Other Lists
 
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
