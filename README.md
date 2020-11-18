@@ -520,3 +520,5 @@ Pooyan Jamschidi is teaching "Machine Learning Systems" a UofSC and recommended 
 Larysa Visengeriyeva has assembled an amazing list of resources on MLOps and related topics (books, talks, blog posts): https://github.com/visenger/mlops-references
 
 Awesome Software Engineering for Machine Learning: https://github.com/SE-ML/awesome-seml
+
+Annotated bibliography on ML security papers: https://berryvilleiml.com/references/
