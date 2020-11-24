@@ -400,6 +400,10 @@ Stumpf, Simone, Adrian Bussone, and Dympna O’sullivan. "[Explanations consider
 
 > Interesting short paper with a small experiment, illustrating that explanations of a model’s predictions can foster trust for the prediction up to the point that the users (here physicians for a medical diagnosis) trust the system over their own judgment and accept more wrong predictions. The sentiment is that “the model seems to know more than me” even if the prediction and explanation are wrong.
 
+Amershi, Saleema, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh et al. "[Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf)." In *Proceedings of the 2019 CHI conference on human factors in computing systems*, pp. 1-13. 2019.
+
+> Curated collection of a number of high-level design guidelines extracted from (grey) literature survey and heavily workshoped and evaluated. Table 1 contains the main guidelines.
+
 ## Interdisciplinary teams
 
 Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
