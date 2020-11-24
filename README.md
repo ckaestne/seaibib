@@ -161,6 +161,9 @@ Cheng, Dawei, Chun Cao, Chang Xu, and Xiaoxing Ma. "[Manifesting bugs in machine
 
 ### (Other Quality Assurance Work)
 
+Renggli, Cedric, Bojan Karlaš, Bolin Ding, Feng Liu, Kevin Schawinski, Wentao Wu, and Ce Zhang. "[Continuous integration of machine learning models with ease.ml/ci: Towards a rigorous yet practical treatment](https://arxiv.org/abs/1903.00278)." *arXiv preprint arXiv:1903.00278* (2019).
+
+> This paper emphasizes an interesting aspect with regard to learning-validation-testing data splits and overfitting that I didn’t previously appreciate but that’s obvious in hindsight: When using a dataset to make decisions about a model (here with a CI framing) results from that evaluation will eventually leak into the model and lead to overfitting, hence new test data is needed. The core of the paper is about deciding how much test data is needed and when it needs to be replaced. The CI framing seems rather incidental or even misleading though, as the key problem does not relate to regression testing but toward deciding whether a model outperforms another.
 
 Pei, Kexin, Yinzhi Cao, Junfeng Yang, and Suman Jana. "[DeepXplore: Automated whitebox testing of deep learning systems](https://doi.org/10.1145/3132747.3132785.)." In proceedings of the 26th Symposium on Operating Systems Principles, pp. 1-18. 2017. 
 
