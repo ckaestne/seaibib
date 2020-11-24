@@ -143,6 +143,10 @@ Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "[Anchors: High-precisi
 
 > Approach for explaining black-box models that is essentially invariant mining, not that far from Daikon. The paper identifies rules that, with high probability, are sufficient to explain a specific prediction for a subset of all inputs. These invariants can then explain part of the model and could potentially be used as partial specifications or test cases.
 
+Kang, Daniel, Deepti Raghavan, Peter Bailis, and Matei Zaharia. "[Model Assertions for Monitoring and Improving ML Model](https://arxiv.org/abs/2003.01668)." In Proceedings of MLSys 2020.
+
+> Discusses use cases of “soft” assertions or invariants that show inconsistencies, especially across time series data and across multiple classifiers, without having to have access to labels. Table 5 in the appendix has a very good overview of different invariants and the paper discusses several plausible examples. Note that these invariants are probabilistic in nature rather than hard tests. This can be used for testing and runtime monitoring (e.g., runtime adaptation and safety mechanisms) without the need for telemetry! Unfortunately, the paper is very vague about concrete interfaces and technical details and focuses primarily on ML details for additional active learning and weak supervision use cases.
+
 
 ### (Testing ML Frameworks)
 
