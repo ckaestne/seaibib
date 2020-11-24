@@ -284,6 +284,10 @@ Daniel Smith. "[Exploring Development Patterns in Data Science](https://www.theo
 
 > Short blog post arguing to decompose ML pipeline from a single notebook into multiple services using cloud infrastructure. Bit polemic but well argued, short opinion piece.
 
+Yokoyama, Haruki. "Machine learning system architectural pattern for improving operational stability." In *2019 IEEE International Conference on Software Architecture Companion (ICSA-C)*, pp. 267-274. IEEE, 2019.
+
+> One of the few papers actually discussing architectural design and tradeoffs of an ML-enabled system explicitly, discussing the integration of ML and non-ML parts. While I feel the design is maybe fairly standard, the paper has actually a nice concrete example and corresponding architectural models that seems very useful for teaching.
+
 
 ## Process
 
