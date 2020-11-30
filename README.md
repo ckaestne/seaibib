@@ -310,6 +310,11 @@ Haakman, Mark, Luís Cruz, Hennie Huijgens, and Arie van Deursen. "[AI Lifecycle
 
 > Nice interview study with 17 participants at ING bank about their process in building and deploying ML models. Shows many concerns about provenance, regulation, and security driving decisions and identifying extra steps in common data science process models. Mostly focused on the model and its deployment (data science view), not a larger system it may be integrated in.
 
+Martínez-Plumed, Fernando, Lidia Contreras-Ochando, Cesar Ferri, José Hernández Orallo, Meelis Kull, Nicolas Lachiche, Maréa José Ramírez Quintana, and Peter A. Flach. "[CRISP-DM Twenty Years Later: From Data Mining Processes to Data Science Trajectories](https://research-information.bris.ac.uk/files/220614618/TKDE_Data_Science_Trajectories_PF.pdf)." IEEE Transactions on Knowledge and Data Engineering (2019).
+
+> Discussion how today's data science differs from past data mining (less prescriptive, more exploratory) and how hence CRISP-DM is too rigid a model to cover the diverse processes. The paper essentially proposes a megamodel with different process steps, which projects might pass through in different orders (called trajectories). Gives examples of different trajectories that may be appropriate in different projects. Limited evaluation, but interesting discussion. Focused on data science side, not building entire system though.
+
+
 ## Safety & Robustness
 
 *There is a significant amount of machine learning research on safety and security, especially on narrow properties of robustness, but also some system-level discussions on safeguard mechanisms. A software engineering professional should probably understand the tools and techniques.*
