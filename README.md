@@ -545,6 +545,9 @@ Ishikawa, Fuyuki, and Yutaka Matsuno. "Evidence-driven Requirements Engineering 
 
 > Proposes a goal model extension for requirements engineering that explicitly considers alternative designs dependenting on how well a ML model performs (yet to be determined, deferring the decision during design). The paper has an interesting discussion about the challenge of prototyping in ML, where it may be very difficult to establish feasbility until very late in the project.
 
+Lwakatare, Lucy Ellen, Aiswarya Raj, Ivica Crnkovic, Jan Bosch, and Helena Holmström Olsson. "Large-scale machine learning systems in real-world industrial settings: A review of challenges and solutions." Information and Software Technology 127 (2020): 106368.
+
+> Literature survey of mostly published industrial experience reports about building ML-based systems, analyzing reported challenges and recommendations from those papers. Very useful for pointers to a number of experience reports and some summary of common concerns, see Table 4. Identify the common concers around availability, scalability, privacy, and safety, whereas security and usability are rarely mentioned in their papers. The solution part seems maybe somewhat shallow or obvious (Table 6). Grey literature not included and intermixing experience reports with academic studies and position papers; some papers and corresponding problems are also seem a bit dated now with recent advances.
 
 
 ## Other Lists
