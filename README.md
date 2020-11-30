@@ -529,6 +529,10 @@ Wan, Zhiyuan, Xin Xia, David Lo, and Gail C. Murphy. "[How does machine learning
 
 > Discussion of challenges in developing ML systems based on interviews and a survey. Unfortunately, the paper does not distinguish consistently between the ML model, the framework used to learn the model, and the the system with an ML component, nor does it clearly distinguish between roles of software engineers or data scientists, leading to rather murky and questionable claims.
 
+Ishikawa, Fuyuki, and Nobukazu Yoshioka. "How do engineers perceive difficulties in engineering of machine-learning systems? Questionnaire survey." In 2019 IEEE/ACM Joint 7th International Workshop on Conducting Empirical Studies in Industry (CESI) and 6th International Workshop on Software Engineering Research and Industrial Practice (SER&IP), pp. 2-9. IEEE, 2019.
+
+> Fairly large-scale survey about pain points in developing ML-based systems. Mostly results as expected, but nice plots summarizing the most common difficulties.
+
 Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machine learning models: 6 lessons learned at Booking.com." In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1743-1751. 2019.
 
 > Experience report of building various models in a production system, examples of ML-driven products (seems to start with "what could we predict" rather than with "what does this product need"). Good illustration with concrete examples how model accuracy may not align with business success measures of the product (sales) and some speculation why. Strong focus on A/B testing with business metrics rather than model accuracy.
@@ -540,6 +544,7 @@ Cambo, Scott Allen, and Darren Gergle. "User-centred evaluation for machine lear
 Ishikawa, Fuyuki, and Yutaka Matsuno. "Evidence-driven Requirements Engineering for Uncertainty of Machine Learning-based Systems." In 2020 IEEE 28th International Requirements Engineering Conference (RE), pp. 346-351. IEEE, 2020.
 
 > Proposes a goal model extension for requirements engineering that explicitly considers alternative designs dependenting on how well a ML model performs (yet to be determined, deferring the decision during design). The paper has an interesting discussion about the challenge of prototyping in ML, where it may be very difficult to establish feasbility until very late in the project.
+
 
 
 ## Other Lists
