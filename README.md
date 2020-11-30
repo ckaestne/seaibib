@@ -537,6 +537,10 @@ Cambo, Scott Allen, and Darren Gergle. "User-centred evaluation for machine lear
 
 > Book chapter on how to think about the design and evaluation of an ML component in a fitness tracker. Good argument why model accuracy alone may not be a good metric and how one should probably start much earlier in requirements and design to consider how model accuracy interacts with other parts of the system and user experience.
 
+Ishikawa, Fuyuki, and Yutaka Matsuno. "Evidence-driven Requirements Engineering for Uncertainty of Machine Learning-based Systems." In 2020 IEEE 28th International Requirements Engineering Conference (RE), pp. 346-351. IEEE, 2020.
+
+> Proposes a goal model extension for requirements engineering that explicitly considers alternative designs dependenting on how well a ML model performs (yet to be determined, deferring the decision during design). The paper has an interesting discussion about the challenge of prototyping in ML, where it may be very difficult to establish feasbility until very late in the project.
+
 
 ## Other Lists
 
