@@ -209,6 +209,9 @@ Chung, Yeounoh, Neoklis Polyzotis, Kihyun Tae, and Steven Euijong Whang. "[Autom
 > Approach to automatically identify subsets of the data for which the model accuracy is lower than average/other subsets. This automatically slices the validation data based on different features (like decision tree learning). Not that different from approaches in the [Test Data Curation](https://github.com/ckaestne/seaibib#test-data-curation) section, but not guided by humans, hence this seems more useful for debugging than for (regression) testing. Also briefly mentions applications to different quality functions, including fairness and accuracy difference after model update. Paper is heavily focused on underlying technical approach.
 
 
+Amershi, Saleema, Max Chickering, Steven M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. "[Modeltracker: Redesigning performance analysis tools for machine learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.697.1689&rep=rep1&type=pdf)." In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, pp. 337-346. 2015.
+
+> Description and evaluation of a visual debugging tool to explore wrong predictions and possible causes. Supports use cases for detecitng mislabled data, missing features, and outliers. Integrated into the larger ML pipeline for labeling and data management. Also nice overview of other viualiztion techniques in related work.
 
 ## Data Quality and Data Management
 
