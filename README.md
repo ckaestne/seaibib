@@ -484,6 +484,10 @@ Strubell, Emma, Ananya Ganesh, and Andrew McCallum. "[Energy and Policy Consider
 
 > Short paper illustrating very clearly the computation cost and environmental impact of training deep neural networks (esp. with hyperparameter optimization). Makes a strong argument that these costs should be considered when designing models or systems.
 
+Baylor, Denis, Eric Breck, Heng-Tze Cheng, Noah Fiedel, Chuan Yu Foo, Zakaria Haque, Salem Haykal et al. "[Tfx: A tensorflow-based production-scale machine learning platform](https://stevenwhang.com/tfx_paper.pdf)." In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 1387-1395. 2017.
+
+> High-level description of the machine learning infrastructure for building pipelines and model deployment by Google. Discusses engineering concerns and integrated tools across the entire pipeline, including among others automation and tracking in data transformation, training, and deployment. 
+
 ## Others with notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
