@@ -439,6 +439,11 @@ Yang, Qian, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. "[Grounding interactive 
 
 > Interesting view on how people without data science training (mostly software engineers) build machine learning models. In short, they often don’t check for generalization, don’t analyze their data or features much, and strongly prefer to write code. Points out communication and education gaps. Nice contrast between data scientists and software engineers, here focused on the data science tasks.
 
+Wang, Dakuo, Justin D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. "[Human-AI Collaboration in Data Science: Exploring Data Scientists' Perceptions of Automated AI](https://www.researchgate.net/profile/Michael_Muller/publication/335703274_Human-AI_Collaboration_in_Data_Science_Exploring_Data_Scientists'_Perceptions_of_Automated_AI/links/5d76a0294585151ee4ab0338/Human-AI-Collaboration-in-Data-Science-Exploring-Data-Scientists-Perceptions-of-Automated-AI.pdf)." Proceedings of the ACM on Human-Computer Interaction 3, no. CSCW (2019): 1-24.
+
+> IBM-internal interview study of how data scientists and software engineers think of AutoML and similar tools. Anticipating that AutoML is here to stay and that it will lead to augmentation rather than replacement of data scientists and will provide teaching opportunities.
+
+
 ## Misc
 
 *Various recommended and useful resources that do not fit well into the other categories.*
