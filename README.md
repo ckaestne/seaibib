@@ -510,6 +510,10 @@ Baylor, Denis, Eric Breck, Heng-Tze Cheng, Noah Fiedel, Chuan Yu Foo, Zakaria Ha
 
 > High-level description of the machine learning infrastructure for building pipelines and model deployment by Google. Discusses engineering concerns and integrated tools across the entire pipeline, including among others automation and tracking in data transformation, training, and deployment. 
 
+Wagstaff, Kiri. "Machine learning that matters." In Proceedings of the 29 th International Conference on Machine Learning, (2012).
+
+> Nice essay about how much of ML research focuses on improving ML algorithms and evaluating on benchmarks with simple metrics, rather than focusing on impact and deployments. The latter requires a much broader scope of thinking in terms of the end-users' goals and the larger system. Good motivation for studying SE4AI/production ML.
+
 ## Others with notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
