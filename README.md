@@ -188,6 +188,9 @@ Seshia, Sanjit A., Dorsa Sadigh, and S. Shankar Sastry. "[Towards verified artif
 
 > Good framing why formal verification (or really any form of testing) is so difficult in machine learning systems in the first two sections: We neither have a specification, nor a good grasp of the environment, and in addition the system is often evolving itself. After explaining why it is so difficult, the paper points to several potentially interesting research areas, but none of them seem to overcome the fundamental problems, especially that of missing specifications.
 
+Tramer, Florian, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Jean-Pierre Hubaux, Mathias Humbert, Ari Juels, and Huang Lin. "[FairTest: Discovering unwarranted associations in data-driven applications](https://core.ac.uk/download/pdf/249325231.pdf)." In 2017 IEEE European Symposium on Security and Privacy (EuroS&P), pp. 401-416. IEEE, 2017.
+
+> Approach to explore correlations between protected attributes and prediction outcomes in *subpopulations* of the dataset. The key idea is that there may not be such a correlation (generalizes to various fairness measures on the confusion matrix) for the entire population, but it may well exists for certain subpopulations, e.g., only among low-income residence do we observe gender-based discrimination. The key contribution is an efficient search among subpopulations inspired by decision tree learning algorithms. Explicitly adopts testing and debugging terminology and goes beyond the simple invariants (anti-classification) in many other fairness testing papers, i.e., it can account for unfairness through correlated attributes.
 
 ## Debugging
 
