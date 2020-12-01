@@ -352,6 +352,11 @@ Liu, Qiang, Pan Li, Wentao Zhao, Wei Cai, Shui Yu, and Victor CM Leung. "[A surv
 
 > Fairly accessible survey on security threats and defense techniques, providing a decent overview. Focus on the model itself.
 
+McGraw, Gary, Harold Figueroa, Victor Shepardson, and Richie Bonett. "[An architectural risk analysis of machine learning systems: Toward more secure machine learning](https://berryvilleiml.com/docs/ara.pdf)." Technical report, Berryville Institute of Machine Learning, v 1.0 (2020).
+
+> Fairly systematic and comprehensive list of possible security problems and corresponding controls and high-level strategies (not explicitly grounded or evaluated). Contains a useful architectural breakdown of the ML parts of a system, especially with regards to data. Could very well be used as a checklist during threat modeling. 
+
+
 ## Reproducibility, Provenance
 
 Halevy, Alon, Flip Korn, Natalya F. Noy, Christopher Olston, Neoklis Polyzotis, Sudip Roy, and Steven Euijong Whang. "[Goods: Organizing Google's datasets](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730)." In Proceedings of the 2016 International Conference on Management of Data, pp. 795-806. 2016.
