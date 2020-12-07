@@ -582,6 +582,10 @@ Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. "[What do de
 
 > Large scale of stackoverflow questions related to 10 machine learning frameworks. Largely quantitative reporting, for example, which stages are most covered in those questions.
 
+de Souza Nascimento, Elizamary, Iftekhar Ahmed, Edson Oliveira, Márcio Piedade Palheta, Igor Steinmacher, and Tayana Conte. "[Understanding Development Process of Machine Learning Systems: Challenges and Solutions](https://www.ics.uci.edu/~iftekha/pdf/W.6.pdf)." In *2019 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)*, pp. 1-6. IEEE, 2019.
+
+> Small-scale interview study in 3 small Brazilian companies eliciting the ML process and three problems: identifying business goals, data definition, and undefined process. Suggest a checklist for each.
+
 
 ## Other Lists
 
