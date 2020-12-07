@@ -296,6 +296,10 @@ Wiens, Jenna, Suchi Saria, Mark Sendak, Marzyeh Ghassemi, Vincent X. Liu, Finale
 
 > Position paper with a fairly high-level overview of what it takes to build and deploy machine learning products in health care settings. Lot’s of emphasis on what are essentially all requirements engineering challenges of understanding the domain, involving stakeholders, integrating the product into practice, etc etc.
 
+Binns, Reuben. "[Fairness in machine learning: Lessons from political philosophy](http://proceedings.mlr.press/v81/binns18a/binns18a.pdf)." In *Conference on Fairness, Accountability and Transparency*, pp. 149-159. PMLR, 2018.
+
+> Interesting overview of the philosophical arguments around discrimination and fairness. Useful introduction to the topic.
+
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft under review, 2019
