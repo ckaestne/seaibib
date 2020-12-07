@@ -106,6 +106,10 @@ Riccio, Vincenzo, Gunel Jahangirova, Andrea Stocco, Nargiz Humbatova, Michael We
 
 > Yet another survey paper on ML testing. It frames the problem as testing the entire system with an ML component, but rarely goes beyond quality assurance just for the model. Somewhat biased toward self-driving cars. Again, I have quite some quibbles with many claims and definitions, e.g. model vs system or what is a specification or what is a bug. As for the other surveys, I'd suggest to use it for an overview and skim for the pointers.
 
+Huang, Xiaowei, Daniel Kroening, Wenjie Ruan, James Sharp, Youcheng Sun, Emese Thamo, Min Wu, and Xinping Yi. "[A survey of safety and trustworthiness of deep neural networks: Verification, testing, adversarial attack and defence, and interpretability](https://arxiv.org/abs/1812.08342)." *Computer Science Review* 37 (2020): 100270.
+
+> Yet another survey, this one extremely broad and ambitious in scope, covering robustness verification, test case generation, test coverage, adversarial attack and defense strategies, and even explanation techniques. This one focuses exclusively on the model and on invariants (mostly robustness) at the model level; it does not relate the techniques or invariants to actual safety concerns at the system level. Nice overview, even though I again have many issues with specific definitions and claims.
+
 
 ### (Test Data Curation)
 
