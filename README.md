@@ -268,6 +268,22 @@ Rahimi, Mona, Jin LC Guo, Sahar Kokaly, and Marsha Chechik. "[Toward Requirement
 
 > Idea paper that outlines a path of how requirements engineering can be useful in better understanding domain and context of a problem and how this helps in better curating a high-quality dataset for training and also how to drive validation of the model. Uses a running vision example of pedestriant detection.
 
+Kulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. "[POTs: protective optimization technologies](https://arxiv.org/abs/1806.02711)." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 177-188. 2020.
+
+> This is the only ML paper I have seen that explicitly discusses requirements engineering with Jackson's world vs machine framing. It nicely frames the fairness problem as a system problem and explicitly discusses the interface between the environment and the implementation's specification and how assuring fairness only at the model level is insufficient. The rest of the paper, then essentially suggests adversarial hacking through changes in the environment to drive the model to make fairer or globally better decisions -- that is, distributing the problem, affected people can increase the cost of certain outcomes thus making an ML system recommend other outcomes that are more benefitial to them. Interesting position paper, even if just for the framing in Sec 2.
+
+Subbaswamy, Adarsh, Peter Schulam, and Suchi Saria. "[Preventing failures due to dataset shift: Learning predictive models that transport](http://proceedings.mlr.press/v89/subbaswamy19a/subbaswamy19a.pdf)." In *The 22nd International Conference on Artificial Intelligence and Statistics*, pp. 3118-3127. PMLR, 2019.
+
+> Interesting idea that: If we know how data is generated or what dependencies underly the system and the input features, and more importantly know which of those processes/relationships/features are likely to change (coming from domain knowledge elicited with requirements engineering I assume), we can integrate this information in the modeling process and make the model more robust with regard to these kind of changes. That is we do not learn on certain relationships and thus  don’t need to update the model for data/concept drift as often. Unclear to me how practical and the evaluation seems fairly artificial, but I like the direction.
+
+Wiens, Jenna, Suchi Saria, Mark Sendak, Marzyeh Ghassemi, Vincent X. Liu, Finale Doshi-Velez, Kenneth Jung et al. "[Do no harm: a roadmap for responsible machine learning for health care](http://www.regenhealthsolutions.info/wp-content/uploads/2019/08/Do-no-harm-a-roadmap-for-responsible-machine.pdf)." *Nature medicine* 25, no. 9 (2019): 1337-1340.
+
+> Position paper with a fairly high-level overview of what it takes to build and deploy machine learning products in health care settings. Lot’s of emphasis on what are essentially all requirements engineering challenges of understanding the domain, involving stakeholders, integrating the product into practice, etc etc.
+
+### (Fairness)
+
+*Much of the interesting fairness discussions are really about requirements engineering in my book. Here are a couple of papers that I liked.*
+
 Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: A critical review of fair machine learning](https://arxiv.org/abs/1808.00023)." arXiv preprint arXiv:1808.00023 (2018).
 
 > A comprehensive an critical discussion of different fairness measures often discussed in the ML community. It's kind of depressing how many different notions and problems there are and how few solutions. Even though they don't discuss requirements engineering in the paper, I put it here because it shows the complicated mess that fairness makes when trying to identify the right fairness requirements for an ML-enabled system. A requirements engineer must work with stakeholders to identify suitable requirements and make a lot of decisions, which won't be easy but will be necessary. This paper will probably give the requirements engineer the right vocabulary to talk to ML experts who need to assure the requirement and will provide enough pointers to identify what issues to probe for when talking to stakeholders.
@@ -283,18 +299,6 @@ Madaio, Michael A., Luke Stark, Jennifer Wortman Vaughan, and Hanna Wallach. "[C
 Bietti, Elettra. "[From ethics washing to ethics bashing: a view on tech ethics from within moral philosophy](https://dl.acm.org/doi/pdf/10.1145/3351095.3372860)." In *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency*, pp. 210-219. 2020.
 
 > Arguing that most ethics discussions around AI and tech are too narrow as a tool for a purpose without allowing broader investigation involving all stakeholders, thus leading to a frustration with corporate ethics initiatives (ethics washing, ethics bashing). The paper then outlines the real role that moral philosophy can plan, which to me reads a lot like requirements engineering at the societal level: Stepping back, viewing all perspectives, trying to balance all views. May not be immediately useful, but I found the discussion interesting.
-
-Kulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. "[POTs: protective optimization technologies](https://arxiv.org/abs/1806.02711)." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 177-188. 2020.
-
-> This is the only ML paper I have seen that explicitly discusses requirements engineering with Jackson's world vs machine framing. It nicely frames the fairness problem as a system problem and explicitly discusses the interface between the environment and the implementation's specification and how assuring fairness only at the model level is insufficient. The rest of the paper, then essentially suggests adversarial hacking through changes in the environment to drive the model to make fairer or globally better decisions -- that is, distributing the problem, affected people can increase the cost of certain outcomes thus making an ML system recommend other outcomes that are more benefitial to them. Interesting position paper, even if just for the framing in Sec 2.
-
-Subbaswamy, Adarsh, Peter Schulam, and Suchi Saria. "[Preventing failures due to dataset shift: Learning predictive models that transport](http://proceedings.mlr.press/v89/subbaswamy19a/subbaswamy19a.pdf)." In *The 22nd International Conference on Artificial Intelligence and Statistics*, pp. 3118-3127. PMLR, 2019.
-
-> Interesting idea that: If we know how data is generated or what dependencies underly the system and the input features, and more importantly know which of those processes/relationships/features are likely to change (coming from domain knowledge elicited with requirements engineering I assume), we can integrate this information in the modeling process and make the model more robust with regard to these kind of changes. That is we do not learn on certain relationships and thus  don’t need to update the model for data/concept drift as often. Unclear to me how practical and the evaluation seems fairly artificial, but I like the direction.
-
-Wiens, Jenna, Suchi Saria, Mark Sendak, Marzyeh Ghassemi, Vincent X. Liu, Finale Doshi-Velez, Kenneth Jung et al. "[Do no harm: a roadmap for responsible machine learning for health care](http://www.regenhealthsolutions.info/wp-content/uploads/2019/08/Do-no-harm-a-roadmap-for-responsible-machine.pdf)." *Nature medicine* 25, no. 9 (2019): 1337-1340.
-
-> Position paper with a fairly high-level overview of what it takes to build and deploy machine learning products in health care settings. Lot’s of emphasis on what are essentially all requirements engineering challenges of understanding the domain, involving stakeholders, integrating the product into practice, etc etc.
 
 Binns, Reuben. "[Fairness in machine learning: Lessons from political philosophy](http://proceedings.mlr.press/v81/binns18a/binns18a.pdf)." In *Conference on Fairness, Accountability and Transparency*, pp. 149-159. PMLR, 2018.
 
