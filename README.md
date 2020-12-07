@@ -98,7 +98,7 @@ Ashmore, Rob, Radu Calinescu, and Colin Paterson. "[Assuring the machine learnin
 
 > Survey on testing in machine learning, going through the stages of an ML pipeline. Many pointers and reasonable organization. Seems more from an ML perspective than an SE perspective, but broadly covers many aspects including data aquisition, data quality, robustness, safety, monitoring, and so forth. A little vague on specifications as usual and little focus on the overall system quality. No information on the used research process.
 
-Zhang, Jie M., Mark Harman, Lei Ma, and Yang Liu. “[Machine Learning Testing: Survey, Landscapes and Horizons](http://arxiv.org/abs/1906.10742).” arXiv preprint 1906.10742. 2019 (to appear in TSE)
+Zhang, Jie M., Mark Harman, Lei Ma, and Yang Liu. "[Machine learning testing: Survey, landscapes and horizons](http://arxiv.org/abs/1906.10742))." *IEEE Transactions on Software Engineering* (2020).
 
 > Another broad survey on testing in machine learning. Includes many pointers, including different test strategies and different kinds of testing. While the pointers are useful, I was frustrated with many descriptions, definitions, and classifications and find little synthesis in this paper; e.g., I was hoping for clearer definitions of "ML bug", "data bug" or a clear discussion of specifications. Grey literature is not discussed either.
 
