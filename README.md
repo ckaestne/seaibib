@@ -578,6 +578,10 @@ Bosch, Nathan, and Jan Bosch. "[Software Logging for Machine Learning](https://a
 
 > Good overview of problems with analyzing log files produced by software systems (including ML-enabled systems) and some collection of pointers to related work on log file parsing etc. The specific solution essentially requires some schema management and writing log files in a compact-machine readable format and more centralized planning.
 
+Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. "[What do developers ask about ML libraries? A large-scale study using stack overflow](https://arxiv.org/pdf/1906.11940)." *arXiv preprint arXiv:1906.11940* (2019).
+
+> Large scale of stackoverflow questions related to 10 machine learning frameworks. Largely quantitative reporting, for example, which stages are most covered in those questions.
+
 
 ## Other Lists
 
