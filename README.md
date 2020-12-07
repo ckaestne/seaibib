@@ -574,6 +574,10 @@ Lwakatare, Lucy Ellen, Aiswarya Raj, Ivica Crnkovic, Jan Bosch, and Helena Holms
 
 > Literature survey of mostly published industrial experience reports about building ML-based systems, analyzing reported challenges and recommendations from those papers. Very useful for pointers to a number of experience reports and some summary of common concerns, see Table 4. Identify the common concers around availability, scalability, privacy, and safety, whereas security and usability are rarely mentioned in their papers. The solution part seems maybe somewhat shallow or obvious (Table 6). Grey literature not included and intermixing experience reports with academic studies and position papers; some papers and corresponding problems are also seem a bit dated now with recent advances.
 
+Bosch, Nathan, and Jan Bosch. "[Software Logging for Machine Learning](https://arxiv.org/pdf/2001.10794)." *arXiv preprint arXiv:2001.10794* (2020).
+
+> Good overview of problems with analyzing log files produced by software systems (including ML-enabled systems) and some collection of pointers to related work on log file parsing etc. The specific solution essentially requires some schema management and writing log files in a compact-machine readable format and more centralized planning.
+
 
 ## Other Lists
 
