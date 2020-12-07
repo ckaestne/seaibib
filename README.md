@@ -224,6 +224,10 @@ Amershi, Saleema, Max Chickering, Steven M. Drucker, Bongshin Lee, Patrice Simar
 
 > Description and evaluation of a visual debugging tool to explore wrong predictions and possible causes. Supports use cases for detecitng mislabled data, missing features, and outliers. Integrated into the larger ML pipeline for labeling and data management. Also nice overview of other viualiztion techniques in related work.
 
+Zhang, Xuezhou, Xiaojin Zhu, and Stephen Wright. "[Training Set Debugging Using Trusted Items](https://arxiv.org/pdf/1801.08019.pdf)." In *Thirty-Second AAAI Conference on Artificial Intelligence*. 2018.
+
+> Neat idea on debugging training data: Use a trusted subset of the data to see whether other untrusted training data is responsible for wrong predictions in this subset, or what’s the smallest change to the training data to make the model work on the trusted data. 
+
 ## Data Quality and Data Management
 
 Schelter, Sebastian, Dustin Lange, Philipp Schmidt, Meltem Celikel, Felix Biessmann, and Andreas Grafberger. 2018. “[Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf).” Proceedings of the VLDB Endowment International Conference on Very Large Data Bases 11 (12): 1781–94.
@@ -581,6 +585,8 @@ Bosch, Nathan, and Jan Bosch. "[Software Logging for Machine Learning](https://a
 Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. "[What do developers ask about ML libraries? A large-scale study using stack overflow](https://arxiv.org/pdf/1906.11940)." *arXiv preprint arXiv:1906.11940* (2019).
 
 > Large scale of stackoverflow questions related to 10 machine learning frameworks. Largely quantitative reporting, for example, which stages are most covered in those questions.
+
+
 
 de Souza Nascimento, Elizamary, Iftekhar Ahmed, Edson Oliveira, Márcio Piedade Palheta, Igor Steinmacher, and Tayana Conte. "[Understanding Development Process of Machine Learning Systems: Challenges and Solutions](https://www.ics.uci.edu/~iftekha/pdf/W.6.pdf)." In *2019 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)*, pp. 1-6. IEEE, 2019.
 
