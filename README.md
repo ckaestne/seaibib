@@ -471,6 +471,10 @@ Wang, Dakuo, Justin D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
+Ameisen, Emmanuel. "Building Machine Learning Powered Applications: Going From Idea to Product." O'Reilly Media, 2020.
+
+> Nice book that takes a wider view of building ML applications than most, starting with discussing product goals (not just ML model goals) and going up to deployment and monitoring. It mostly stays fairly close to the model with more detailed content on the ML pipeline (including guidance for quality assurance and debugging), whereas the coverage of requirements engineering and deployment is more high-level and shallow. Overall a nice book with a healthy engineering attitude and a view that exceeds beyond the ML model.
+
 Zinkevich, Martin. 2017 “[Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf).”
 
 > Blog post. List of advice about engineering ML-enabled systems based on experience at Google. Many good pointers.
