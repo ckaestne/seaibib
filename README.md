@@ -470,6 +470,10 @@ Wang, Dakuo, Justin D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey
 
 > IBM-internal interview study of how data scientists and software engineers think of AutoML and similar tools. Anticipating that AutoML is here to stay and that it will lead to augmentation rather than replacement of data scientists and will provide teaching opportunities.
 
+Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons from research practice and software engineering](http://hdl.handle.net/10023/18936)." PhD diss., University of St Andrews, 2019.
+
+> In-depth case studies of interdisciplinary data science projects (from a social science angle), discussing many observed challenges related to collaboration,  process, and various tradeoffs. Lots of interesting observations. Afterward, an SE-inspired process model is suggested (and evaluated!) with checklists for all stages to foster planning and measuring progress. It seems that these checklists are useful to bring different stakeholders together and give them a joint planning document (boundary object).
+
 
 ## Misc
 
@@ -538,7 +542,7 @@ Baylor, Denis, Eric Breck, Heng-Tze Cheng, Noah Fiedel, Chuan Yu Foo, Zakaria Ha
 
 > High-level description of the machine learning infrastructure for building pipelines and model deployment by Google. Discusses engineering concerns and integrated tools across the entire pipeline, including among others automation and tracking in data transformation, training, and deployment. 
 
-Wagstaff, Kiri. "Machine learning that matters." In Proceedings of the 29 th International Conference on Machine Learning, (2012).
+Wagstaff, Kiri. "[Machine learning that matters](https://arxiv.org/abs/1206.4656)." In Proceedings of the 29 th International Conference on Machine Learning, (2012).
 
 > Nice essay about how much of ML research focuses on improving ML algorithms and evaluating on benchmarks with simple metrics, rather than focusing on impact and deployments. The latter requires a much broader scope of thinking in terms of the end-users' goals and the larger system. Good motivation for studying SE4AI/production ML.
 
