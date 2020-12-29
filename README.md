@@ -237,6 +237,10 @@ checking distributions. The key innovation in the paper is doing this at
 scale (at Amazon), whereas the specification mechanisms seem rather straightforward, 
 but generally well written and teachable.
 
+Polyzotis, Neoklis, Martin Zinkevich, Sudip Roy, Eric Breck, and Steven Whang. "[Data validation for machine learning](https://mlsys.org/Conferences/2019/doc/2019/167.pdf)." *Proceedings of Machine Learning and Systems* 1 (2019): 334-347.
+
+> Similar in spirit to the Amazon paper above, describes data validation efforts at Google, mostly at a fairly high level. Mostly relates to schema enforcement and detecting drift between feature value distributions between batches of data. Also describes some efforts at suggesting schema inference (effectively specification/invariant mining) to help with adoption and evolution. Also suggests some simple fuzzing to detect crashing bugs in ML components for generated inputs that fit the schema. Can be read as support for schemas as interfaces between teams and components in ML-based systems. 
+
 
 Polyzotis, Neoklis, Sudip Roy, Steven Euijong Whang, and Martin Zinkevich. 2017. “[Data Management Challenges in Production Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3035918.3054782).” In Proceedings of the 2017 ACM International Conference on Management of Data, 1723–26. ACM.
 
