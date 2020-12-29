@@ -326,6 +326,10 @@ Yokoyama, Haruki. "Machine learning system architectural pattern for improving o
 
 > One of the few papers actually discussing architectural design and tradeoffs of an ML-enabled system explicitly, discussing the integration of ML and non-ML parts. While I feel the design is maybe fairly standard, the paper has actually a nice concrete example and corresponding architectural models that seems very useful for teaching.
 
+Hazelwood, Kim, Sarah Bird, David Brooks, Soumith Chintala, Utku Diril, Dmytro Dzhulgakov, Mohamed Fawzy et al. "[Applied machine learning at facebook: A datacenter infrastructure perspective](https://research.fb.com/wp-content/uploads/2017/12/hpca-2018-facebook.pdf)." In *2018 IEEE International Symposium on High Performance Computer Architecture (HPCA)*, pp. 620-629. IEEE, 2018.
+
+> Paper discussing the infrastructure for learning and serving ML models at Facebook (including discussions of hardware design). Discusses many quality attributes and constraints that are relevant in operation, including cost, latency, model-updated frequency needs, large amounts of data, and ability to recover from outages. For example, it includes an explicit discussion of the cost of outdated models. Much of this is useful input for discussing design constraints and architectural tradeoffs.
+
 
 ## Process
 
