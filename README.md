@@ -121,7 +121,11 @@ Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Ove
 
 > Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
 
-See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging).
+Ribeiro, Marco Tulio, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. "[Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://homes.cs.washington.edu/~wtshuang/static/papers/2020-acl-checklist.pdf)." In Proceedings ACL, p. 4902–4912. (2020).
+
+> Paper suggests ways of generating test cases for capabilities of NLP models: First step is to list specific capabilities of a model (e.g., to handle negation or typos in sentences); for each capability then test cases are curated. Test cases are created by writing simple template-based generators (think QuickCheck) of sentences with holes, where tool support is given for identifying values for those holes (synonyms etc). The model is then tested on those generated sentences, either by giving an expected value (e.g., all sentences generated from a template are positive) or by using invariants (metamorphic relations), see below. The paper shows many examples of tests and invariants; the evaluation shows that this approach of testing is useful for production teams to test whether the models actually learn basic capabilities.
+
+See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
 
 ### (Model Invariants)
 
