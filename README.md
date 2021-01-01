@@ -507,6 +507,10 @@ Zinkevich, Martin. 2017 “[Rules of Machine Learning: Best Practices for ML Eng
 
 > Blog post. List of advice about engineering ML-enabled systems based on experience at Google. Many good pointers.
 
+Akkiraju, Rama, Vibha Sinha, Anbang Xu, Jalal Mahmud, Pritam Gundecha, Zhe Liu, Xiaotong Liu, and John Schumacher. "[Characterizing Machine Learning Processes: A Maturity Framework](https://arxiv.org/pdf/1811.04871)." In *International Conference on Business Process Management*, pp. 17-31. Springer, Cham, 2020.
+
+> Misleading title: Paper contains a list of advice for building AI-enabled systems based on experience at IBM. Not visibly grounded or validated, but some interesting parts, especially about pain points and collaboration points. Not actually discussing a maturity model (only a short draft excerpt shown at the very end).
+
 Horneman, Angela, Andrew Mellinger, and Ipek Ozkaya. *[AI Engineering: 11 Foundational Practices](https://apps.dtic.mil/sti/pdfs/AD1099280.pdf)*. Carnegie Mellon University Pittsburgh United States, 2020.
 
 > Very short technical report from the SEI, with a list of all-plausible recommendations (somewhat similar to the Zinkevich post above).
