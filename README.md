@@ -468,6 +468,10 @@ Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. "[Principles
 
 > Nice example of a user interface with explanations (here Bayes model similar to spam filter) that helps users to build a mental model and adjust weights if needed to fix wrong predictions. Very explicit about design goals and decisions; lots of pointers to related work on mental models and debugging for end users.
 
+Cai, Carrie J., Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. "[’Hello AI’: Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making](https://dl.acm.org/doi/abs/10.1145/3359206)." *Proceedings of the ACM on Human-Computer Interaction* 3, no. CSCW (2019): 1-24.
+
+> Interesting overall discussion about what information users (in this case medical practitioners) need to trust and adopt an ML model’s predictions, based on an study with pathologists. For example, need to convey a mental model of how the AI works, need to explain what data was used to train the model and what features it uses (visible and not visible in UI) to gain trust. Lots of design and data decisions here.
+
 ## Interdisciplinary teams
 
 Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
