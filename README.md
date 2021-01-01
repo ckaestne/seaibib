@@ -377,6 +377,10 @@ Cohen, Jeremy M., Elan Rosenfeld, and J. Zico Kolter. "[Certified adversarial ro
 
 > Discusses *randomized smoothing*, an interesting approach to evaluating robustness: Sample predictions not only about a specific input but also about perturbed versions of that input around that input and report the most common prediction as the result. As a consequence, the prediction will be less sensitive to minor changes in the input. Black box technique that works for any kind of model. If sampled frequently enough, as discussed in the paper, also probabilistic bounds can be provided, although at significant computational costs (they use 100K model inferences per input).
 
+Shneiderman, Ben. "Bridging the gap between ethics and practice: Guidelines for reliable, safe, and trustworthy Human-Centered AI systems." *ACM Transactions on Interactive Intelligent Systems (TiiS)* 10, no. 4 (2020): 1-31.
+
+> Essay-style paper on the many layers of considerations necessary for building safe software systems, with a nice framing of software engineering practices framed by culture and regulation (see Fig 1!). The specific discussions seem somewhat shallow and ad-hoc, but there are several interesting pointers throughout.
+
 ## Security & Privacy
 
 Huang, Ling, Anthony D. Joseph, Blaine Nelson, Benjamin IP Rubinstein, and J. Doug Tygar. "[Adversarial machine learning](http://people.cs.vt.edu/~gangwang/class/cs6604/papers/Adversarial_AISEC.pdf)." In *Proceedings of the 4th ACM Workshop on Security and Artificial Intelligence*, pp. 43-58. 2011.
