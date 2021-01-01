@@ -330,6 +330,10 @@ Hazelwood, Kim, Sarah Bird, David Brooks, Soumith Chintala, Utku Diril, Dmytro D
 
 > Paper discussing the infrastructure for learning and serving ML models at Facebook (including discussions of hardware design). Discusses many quality attributes and constraints that are relevant in operation, including cost, latency, model-updated frequency needs, large amounts of data, and ability to recover from outages. For example, it includes an explicit discussion of the cost of outdated models. Much of this is useful input for discussing design constraints and architectural tradeoffs.
 
+Peng, Zi, Jinqiu Yang, Tse-Hsun Chen, and Lei Ma. "A first look at the integration of machine learning models in complex autonomous driving systems: a case study on Apollo." In *Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering*, pp. 1240-1250. 2020.
+
+> Interesting paper analyzing the source code and architecture of the Baidu’s Apollo self-driving car software. Finding 28 models that are often chained and combined with nontrivial glue code and non-ML components. This makes a strong case to go beyond testing individual models but to test also the interactions with non-ML code and the interactions among multiple models.
+
 
 ## Process
 
