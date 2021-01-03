@@ -381,6 +381,10 @@ Shneiderman, Ben. "Bridging the gap between ethics and practice: Guidelines for 
 
 > Essay-style paper on the many layers of considerations necessary for building safe software systems, with a nice framing of software engineering practices framed by culture and regulation (see Fig 1!). The specific discussions seem somewhat shallow and ad-hoc, but there are several interesting pointers throughout.
 
+Ishikawa, Fuyuki, and Yutaka Matsuno. "[Continuous argument engineering: Tackling uncertainty in machine learning based systems](https://www.researchgate.net/profile/Yutaka_Matsuno2/publication/327113121_Continuous_Argument_Engineering_Tackling_Uncertainty_in_Machine_Learning_Based_Systems_SAFECOMP_2018_Workshops_ASSURE_DECSoS_SASSUR_STRIVE_and_WAISE_Vasteras_Sweden_September_18_2018_Proceedings/links/5dd2b18392851c382f4999d9/Continuous-Argument-Engineering-Tackling-Uncertainty-in-Machine-Learning-Based-Systems-SAFECOMP-2018-Workshops-ASSURE-DECSoS-SASSUR-STRIVE-and-WAISE-Vaesteras-Sweden-September-18-2018-Procee.pdf)." In *International Conference on Computer Safety, Reliability, and Security*, pp. 14-21. Springer, Cham, 2018.
+
+> Well argued short position paper on how to integrate uncertainty and monitoring in safety cases and goal modeling notations. Essentially acknowledges that not all problems can be foreseen, but instead provides means to express uncertainty and a mandate to monitor the system in production and add more concerns and evidence when new problem categories are surfaced.
+
 ## Security & Privacy
 
 Huang, Ling, Anthony D. Joseph, Blaine Nelson, Benjamin IP Rubinstein, and J. Doug Tygar. "[Adversarial machine learning](http://people.cs.vt.edu/~gangwang/class/cs6604/papers/Adversarial_AISEC.pdf)." In *Proceedings of the 4th ACM Workshop on Security and Artificial Intelligence*, pp. 43-58. 2011.
