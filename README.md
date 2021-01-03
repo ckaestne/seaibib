@@ -226,7 +226,7 @@ Chung, Yeounoh, Neoklis Polyzotis, Kihyun Tae, and Steven Euijong Whang. "[Autom
 
 Amershi, Saleema, Max Chickering, Steven M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. "[Modeltracker: Redesigning performance analysis tools for machine learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.697.1689&rep=rep1&type=pdf)." In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, pp. 337-346. 2015.
 
-> Description and evaluation of a visual debugging tool to explore wrong predictions and possible causes. Supports use cases for detecitng mislabled data, missing features, and outliers. Integrated into the larger ML pipeline for labeling and data management. Also nice overview of other viualiztion techniques in related work.
+> Description and evaluation of a visual debugging tool to explore wrong predictions and possible causes. Supports use cases for detecting mislabled data, missing features, and outliers. Integrated into the larger ML pipeline for labeling and data management. Also nice overview of other visualization techniques in related work.
 
 Zhang, Xuezhou, Xiaojin Zhu, and Stephen Wright. "[Training Set Debugging Using Trusted Items](https://arxiv.org/pdf/1801.08019.pdf)." In *Thirty-Second AAAI Conference on Artificial Intelligence*. 2018.
 
