@@ -405,6 +405,10 @@ automatically from log files at Google. While the solution probably does
 not generalize to many smaller organizations, the problem description
 is well done and the solution is interesting. 
 
+Cummaudo, Alex, Scott Barnett, Rajesh Vasa, John Grundy, and Mohamed Abdelrazek. "[Beware the evolving 'intelligent' web service! An integration architecture tactic to guard AI-first components](https://arxiv.org/abs/2005.13186)." *arXiv preprint arXiv:2005.13186* (2020).
+
+> Paper discussing the problem of (silent) API evolution of webservices that provide ML  predictions, such as image classification, which trigger problems in client applications: Models of those services are updated, both internally and with regard to the domain of possible outputs without any public versioning or communication. The paper focuses on a mechanism to detect this when one has no control over the service, but I think the larger picture may be even more important for thinking about interface design: How to version (public or internal) prediction services and how to communicate such changes.
+
 
 ## Computational Notebooks
 
