@@ -570,6 +570,10 @@ Wagstaff, Kiri. "[Machine learning that matters](https://arxiv.org/abs/1206.4656
 
 > Nice essay about how much of ML research focuses on improving ML algorithms and evaluating on benchmarks with simple metrics, rather than focusing on impact and deployments. The latter requires a much broader scope of thinking in terms of the end-users' goals and the larger system. Good motivation for studying SE4AI/production ML.
 
+Humbatova, Nargiz, Gunel Jahangirova, Gabriele Bavota, Vincenzo Riccio, Andrea Stocco, and Paolo Tonella. "[Taxonomy of real faults in deep learning systems](https://arxiv.org/abs/1910.11015)." In *Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering*, pp. 1110-1121. 2020.
+
+> Extensive study of problems data scientists face when using deep learning frameworks, using interviews, issue analysis (of projects using these frameworks!), and stackoverflow questions. Problems mostly related to network architecture, hyperparameters, and data quality.
+
 ## Others with notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
