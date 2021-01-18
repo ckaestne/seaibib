@@ -125,6 +125,10 @@ Ribeiro, Marco Tulio, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. "[Beyond
 
 > Paper suggests ways of generating test cases for capabilities of NLP models: First step is to list specific capabilities of a model (e.g., to handle negation or typos in sentences); for each capability then test cases are curated. Test cases are created by writing simple template-based generators (think QuickCheck) of sentences with holes, where tool support is given for identifying values for those holes (synonyms etc). The model is then tested on those generated sentences, either by giving an expected value (e.g., all sentences generated from a template are positive) or by using invariants (metamorphic relations), see below. The paper shows many examples of tests and invariants; the evaluation shows that this approach of testing is useful for production teams to test whether the models actually learn basic capabilities.
 
+D'Amour, Alexander, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen et al. "[Underspecification presents challenges for credibility in modern machine learning](https://arxiv.org/abs/2011.03395)." *arXiv preprint arXiv:2011.03395* (2020).
+
+> The paper argues strongly for evaluating models with tests of core abstractions of the task (similar to the checklist paper above, which they call stress tests) beyond just evaluating accuracy on data samples taken from the same population. While the paper focuses on showing that models with similar accuracy can differ in how they generalize to other distributions (is this really surprising?), it contains several pointers to papers where the community seems to pick up on the importance of additional tests.
+
 See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
 
 ### (Model Invariants)
