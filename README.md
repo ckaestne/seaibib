@@ -501,6 +501,10 @@ Cai, Carrie J., Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry
 
 > Interesting overall discussion about what information users (in this case medical practitioners) need to trust and adopt an ML model’s predictions, based on an study with pathologists. For example, need to convey a mental model of how the AI works, need to explain what data was used to train the model and what features it uses (visible and not visible in UI) to gain trust. Lots of design and data decisions here.
 
+Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in AI](https://arxiv.org/pdf/2010.07487)." Proc. FAccT (2021).
+
+> Interesting conceptual discussion trying to define trust and trustworthiness, including an important recognition that risk is necessary for trust. They distinguish intrinsic trust which requires that a user’s prior believe align with how the model reasons (here explanations and capability tests are useful) and extrinsic trust from a positive track record in production or a rigorous evaluation as the two key directions to increase trust. They specifically talk about how adhering to partial contracts may be sufficient to establish trust, but remain somewhat vague on the concept beyond some vague references to subpopulations and capabilities.
+
 ## Interdisciplinary teams
 
 Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
