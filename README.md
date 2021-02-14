@@ -110,8 +110,9 @@ Huang, Xiaowei, Daniel Kroening, Wenjie Ruan, James Sharp, Youcheng Sun, Emese T
 
 > Yet another survey, this one extremely broad and ambitious in scope, covering robustness verification, test case generation, test coverage, adversarial attack and defense strategies, and even explanation techniques. This one focuses exclusively on the model and on invariants (mostly robustness) at the model level; it does not relate the techniques or invariants to actual safety concerns at the system level. Nice overview, even though I again have many issues with specific definitions and claims.
 
+### (Slicing Test Data)
 
-### (Test Data Curation)
+*Several papers focus on the idea of looking at subsets of test data evaluate the model on different subpopulations, rather than just looking at a single average accuracy result.*
 
 Barash, Guy, Eitan Farchi, Ilan Jayaraman, Orna Raz, Rachel Tzoref-Brill, and Marcel Zalmanovici. "[Bridging the gap between ML solutions and their business requirements using feature interactions](https://dl.acm.org/doi/abs/10.1145/3338906.3340442)." In Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 1048-1058. 2019.
 
@@ -121,15 +122,31 @@ Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Ove
 
 > Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
 
+See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
+
+### (Unit Testing / Testing Capabilities)
+
+*A number of different papers discuss (more or less explicitly) how to test specific capabilities or partial specifications of a model – which relates closely to traditional unit testing. Capabilities are usually concepts that a model shall learn that mirror domain knowledge or human strategies toward the problem, but that only capture a specific part of the solution. The approaches usually curate or generate test datasets specifically for these capabilities – i.e., unit tests consisting of multiple data points. Assuring capabilities is associated (more or less explicitly) with selecting more robust models that better generalize beyond the training distribution. Several capabilities also relate to invariants described below.*
+
 Ribeiro, Marco Tulio, Tongshuang Wu, Carlos Guestrin, and Sameer Singh. "[Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://homes.cs.washington.edu/~wtshuang/static/papers/2020-acl-checklist.pdf)." In Proceedings ACL, p. 4902–4912. (2020).
 
-> Paper suggests ways of generating test cases for capabilities of NLP models: First step is to list specific capabilities of a model (e.g., to handle negation or typos in sentences); for each capability then test cases are curated. Test cases are created by writing simple template-based generators (think QuickCheck) of sentences with holes, where tool support is given for identifying values for those holes (synonyms etc). The model is then tested on those generated sentences, either by giving an expected value (e.g., all sentences generated from a template are positive) or by using invariants (metamorphic relations), see below. The paper shows many examples of tests and invariants; the evaluation shows that this approach of testing is useful for production teams to test whether the models actually learn basic capabilities.
+> Paper suggests ways of generating test cases for capabilities of NLP models: First step is to list specific capabilities of a model (e.g., to handle negation or typos in sentences); for each capability then test cases are curated. Test cases are created by writing simple template-based generators (think: QuickCheck) of sentences with holes, where tool support is given for identifying values for those holes (synonyms etc). The model is then tested on those generated sentences, either by giving an expected value (e.g., all sentences generated from a template are positive) or by using invariants (metamorphic relations), see below. The paper shows many examples of tests and invariants; the evaluation shows that this approach of testing is useful for production teams to test whether the models actually learn basic capabilities.
+
+Naik, Aakanksha, Abhilasha Ravichander, Norman Sadeh, Carolyn Rose, and Graham Neubig. "[Stress test evaluation for natural language inference](https://www.aclweb.org/anthology/C18-1198.pdf)." Proceedings of the 27th International Conference on Computational Linguistics, p. 2340--2353 (2018).
+
+> Similar to the CheckList paper, this paper identifies 6 capabilities for NLP models, after performing an error analysis of common wrong predictions (think: root cause analysis). Capability tests are separated as competency tests, distraction tests, and noise tests, each encoding tests for specific capabilities, such as understanding antonyms or ignoring spelling errors. Test data is generated following handwritten patterns. The term “stress test” is explicitly introduced, but I consider it very misleading from a software testing perspective.
+
+McCoy, R. Thomas, Ellie Pavlick, and Tal Linzen. "[Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference](https://arxiv.org/pdf/1902.01007)." Proc. ACL (2019).
+
+> Inverse strategy from testing capabilities: Testing for known common shortcuts (maybe anti-capabilities). They identify three shortcut heuristics often used by NLP models (no discussion how identified and how this would generalize) and then create test data using patterns, not unlike the stress testing and CheckList papers above. That is, instead of testing capabilities, the absence of shortcut heuristics is tested.
+
+Kaushik, Divyansh, Eduard Hovy, and Zachary C. Lipton. "[Learning the difference that makes a difference with counterfactually-augmented data](https://openreview.net/pdf/6267805abf4a2ab7b3f971c759b8c669e6060774.pdf)." Proc. International Conference on Learning Representations (ICLR), (2020).
+
+> Another paper that (implicitly) discusses capabilities of NLP systems. In the context of a sentiment analysis, they instruct crowd-workers to minimally modify existing sentences to change the sentiment of the text. They similarly instruct crowd-workers to minimally modify sentences to change the outcome of inference tasks. By manually analyzing the kind of changes their participants make, they find 15 common patterns, which could be interpreted as capabilities they want the model to understand, such as sarcasm, distinguishing facts from hopes, and negation. While aimed at collecting additional training data rather than generating test data, the same strategy can be used to identify capabilities and to curate test data for those capabilities.
 
 D'Amour, Alexander, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen et al. "[Underspecification presents challenges for credibility in modern machine learning](https://arxiv.org/abs/2011.03395)." *arXiv preprint arXiv:2011.03395* (2020).
 
 > The paper argues strongly for evaluating models with tests of core abstractions of the task (similar to the checklist paper above, which they call stress tests) beyond just evaluating accuracy on data samples taken from the same population. While the paper focuses on showing that models with similar accuracy can differ in how they generalize to other distributions (is this really surprising?), it contains several pointers to papers where the community seems to pick up on the importance of additional tests.
-
-See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
 
 ### (Model Invariants)
 
@@ -161,7 +178,7 @@ Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "[Anchors: High-precisi
 
 Kang, Daniel, Deepti Raghavan, Peter Bailis, and Matei Zaharia. "[Model Assertions for Monitoring and Improving ML Model](https://arxiv.org/abs/2003.01668)." In Proceedings of MLSys 2020.
 
-> Discusses use cases of “soft” assertions or invariants that show inconsistencies, especially across time series data and across multiple classifiers, without having to have access to labels. Table 5 in the appendix has a very good overview of different invariants and the paper discusses several plausible examples. Note that these invariants are probabilistic in nature rather than hard tests. This can be used for testing and runtime monitoring (e.g., runtime adaptation and safety mechanisms) without the need for telemetry! Unfortunately, the paper is very vague about concrete interfaces and technical details and focuses primarily on ML details for additional active learning and weak supervision use cases.
+> Discusses use cases of “soft” assertions or invariants that show inconsistencies, especially across time series data and across multiple classifiers, without having to have access to labels. Table 5 in the appendix has a very good overview of different invariants and the paper discusses several plausible examples. Note that these invariants are probabilistic in nature rather than hard tests. This can be used for testing and runtime monitoring (e.g., runtime adaptation and safety mechanisms) without the need for labels! Unfortunately, the paper is very vague about concrete interfaces and technical details and focuses primarily on ML details for additional active learning and weak supervision use cases.
 
 
 ### (Testing ML Frameworks)
