@@ -505,6 +505,10 @@ Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust
 
 > Interesting conceptual discussion trying to define trust and trustworthiness, including an important recognition that risk is necessary for trust. They distinguish intrinsic trust which requires that a user’s prior believe align with how the model reasons (here explanations and capability tests are useful) and extrinsic trust from a positive track record in production or a rigorous evaluation as the two key directions to increase trust. They specifically talk about how adhering to partial contracts may be sufficient to establish trust, but remain somewhat vague on the concept beyond some vague references to subpopulations and capabilities.
 
+Springer, Aaron, Victoria Hollis, and Steve Whittaker. "[Dice in the black box: User experiences with an inscrutable algorithm](https://arxiv.org/abs/1812.03219)." AAAI Spring Symp. (2017).
+
+> Interesting small experiment: designing a ML-based system to rate text that is actually just random. Users will go to great length to interpret meaning into the system’s actions and seek confirmation bias for their own mental model, even if the system does not have any intelligence.
+
 ## Interdisciplinary teams
 
 Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
