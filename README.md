@@ -152,6 +152,10 @@ D'Amour, Alexander, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, 
 
 > The paper argues strongly for evaluating models with tests of core abstractions of the task (similar to the checklist paper above, which they call stress tests) beyond just evaluating accuracy on data samples taken from the same population. While the paper focuses on showing that models with similar accuracy can differ in how they generalize to other distributions (is this really surprising?), it contains several pointers to papers where the community seems to pick up on the importance of additional tests.
 
+Geirhos, Robert, Jörn-Henrik Jacobsen, Claudio Michaelis, Richard Zemel, Wieland Brendel, Matthias Bethge, and Felix A. Wichmann. "[Shortcut learning in deep neural networks](https://arxiv.org/abs/2004.07780)." *Nature Machine Intelligence* 2, no. 11 (2020): 665-673.
+
+> Excellent and easy to read survey of the problem of shortcut learning (i.e. not using intended capabilities) and some directions to address it. Good introduction and examples; very good (visual) description of i.i.d. vs out-of-distribution concerns.
+
 ### (Model Invariants)
 
 Segura, Sergio, Gordon Fraser, Ana B. Sanchez, and Antonio Ruiz-Cortés. "[A survey on metamorphic testing](https://core.ac.uk/download/pdf/74235918.pdf)." IEEE Transactions on software engineering 42, no. 9 (2016): 805-824.
