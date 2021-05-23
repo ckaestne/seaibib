@@ -685,6 +685,10 @@ de Souza Nascimento, Elizamary, Iftekhar Ahmed, Edson Oliveira, Márcio Piedade 
 
 > Small-scale interview study in 3 small Brazilian companies eliciting the ML process and three problems: identifying business goals, data definition, and undefined process. Suggest a checklist for each.
 
+Haq, Fitash Ul, Donghwan Shin, Shiva Nejati, and Lionel Briand. "[Can Offline Testing of Deep Neural Networks Replace Their Online Testing?](https://arxiv.org/abs/2101.11118)" *Empirical Software Engineering* (2021).
+
+> Paper compares model accuracy with a safety property assessed in a simulator in the context of determining the steering angle in a self-driving car, showing that accuracy is not a meaningful predictor for assuring the safety property. Not considering much of the system beyond a single model, and not really a fair comparison, and results shouldn’t be surprising, but another good reminder that prediction accuracy evaluation evaluations alone are usually not meaningful to establish system quality.
+
 
 ## Other Lists
 
