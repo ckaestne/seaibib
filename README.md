@@ -232,6 +232,10 @@ Molnar, Christoph. "[Interpretable machine learning. A Guide for Making Black Bo
 > Though primarily about interpretability, this book provides a great overview of techniques to understand and debug models. 
 The book covers both inherently interpretable models and many techniques for ex-post explanations inferred from blackbox models. Explanations can be shown to the user (though the book is fairly shallow on the challenges of doing this and larger system design questions), but they also seem very useful in understanding model (mis-)behavior, understanding individual wrong predictions and outliers. The book covers both techniques for understanding the model and understanding characteristics of the training data. Written in a fairly accessible and pragmatic style, covering the important math but also providing good intutions.
 
+Lipton, Zachary C. "[The Mythos of Model Interpretability: In machine learning, the concept of interpretability is both important and slippery](https://dl.acm.org/doi/pdf/10.1145/3236386.3241340)." *Queue* 16, no. 3 (2018): 31-57.
+
+> Good and compact overview of different goals and notions of explainablity, interpretability, trust, and transparency and a quick overview of different techniques in this area.
+
 Ma, Shiqing, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. "[MODE: automated neural network model debugging via state differential analysis and input selection](https://dl.acm.org/doi/pdf/10.1145/3236024.3236082)." In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 175-186. 2018.
 
 > Uses a SE mindset (delta debugging, slicing) to approach the problem of debugging deep neural networks, especially to identify features that are critical for misbehavior with the goal of providing better learning data (framed as "root cause identification" of "training bugs"). Fairly pragmatic.
