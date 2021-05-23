@@ -341,6 +341,10 @@ Binns, Reuben. "[Fairness in machine learning: Lessons from political philosophy
 
 > Interesting overview of the philosophical arguments around discrimination and fairness. Useful introduction to the topic.
 
+Yeom, Samuel, and Michael Carl Tschantz. "[Avoiding Disparity Amplification under Different Worldviews](https://dl.acm.org/doi/abs/10.1145/3442188.3445892)." In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, pp. 273-283. 2021.
+
+> Another paper that points out how different views and goals of fairness lead to very different approaches. The key point is that bias can be difficult to assess if your observations may be biased, but different assumptions about whether observations are biased lead to very different fairness approaches.
+
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft, 2019
