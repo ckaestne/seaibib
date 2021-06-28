@@ -552,13 +552,6 @@ Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons fro
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
-Bosch, J., Olsson, H.H. and Crnkovic, I., 2021. "[Engineering ai systems: A research agenda](https://arxiv.org/pdf/2001.07522.pdf)". In *Artificial Intelligence Paradigms for Smart Cyber-Physical Systems* (pp. 1-19). IGI Global.
-
-> Paper provides an overview of open research questions in the field
-as of 2021. These observations are derived through semi-structured interviews with
-employees from companies (small start-ups to large corporations) in
-various domains.
-
 Ameisen, Emmanuel. "Building Machine Learning Powered Applications: Going From Idea to Product." O'Reilly Media, 2020.
 
 > Nice book that takes a wider view of building ML applications than most, starting with discussing product goals (not just ML model goals) and going up to deployment and monitoring. It mostly stays fairly close to the model with more detailed content on the ML pipeline (including guidance for quality assurance and debugging), whereas the coverage of requirements engineering and deployment is more high-level and shallow. Overall a nice book with a healthy engineering attitude and a view that exceeds beyond the ML model.
@@ -698,8 +691,6 @@ Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. "[What do de
 
 > Large scale of stackoverflow questions related to 10 machine learning frameworks. Largely quantitative reporting, for example, which stages are most covered in those questions.
 
-
-
 de Souza Nascimento, Elizamary, Iftekhar Ahmed, Edson Oliveira, Márcio Piedade Palheta, Igor Steinmacher, and Tayana Conte. "[Understanding Development Process of Machine Learning Systems: Challenges and Solutions](https://www.ics.uci.edu/~iftekha/pdf/W.6.pdf)." In *2019 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)*, pp. 1-6. IEEE, 2019.
 
 > Small-scale interview study in 3 small Brazilian companies eliciting the ML process and three problems: identifying business goals, data definition, and undefined process. Suggest a checklist for each.
@@ -707,6 +698,10 @@ de Souza Nascimento, Elizamary, Iftekhar Ahmed, Edson Oliveira, Márcio Piedade 
 Haq, Fitash Ul, Donghwan Shin, Shiva Nejati, and Lionel Briand. "[Can Offline Testing of Deep Neural Networks Replace Their Online Testing?](https://arxiv.org/abs/2101.11118)" *Empirical Software Engineering* (2021).
 
 > Paper compares model accuracy with a safety property assessed in a simulator in the context of determining the steering angle in a self-driving car, showing that accuracy is not a meaningful predictor for assuring the safety property. Not considering much of the system beyond a single model, and not really a fair comparison, and results shouldn’t be surprising, but another good reminder that prediction accuracy evaluation evaluations alone are usually not meaningful to establish system quality.
+
+Bosch, Jan, Helena Holmström Olsson, and Ivica Crnkovic. "[Engineering AI systems: A research agenda](https://arxiv.org/pdf/2001.07522.pdf)." In *Artificial Intelligence Paradigms for Smart Cyber-Physical Systems*, pp. 1-19. IGI Global, 2021.
+
+> Position paper listing a number of open research challenges for AI engineering in several application domains. These observations are based on consulting and interviews with companies (small start-ups to large corporations) in various domains, though no clear traceability is provided. Main focus is on ML components rather than the whole system.
 
 
 ## Other Lists
