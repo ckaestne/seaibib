@@ -552,6 +552,13 @@ Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons fro
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
+Bosch, J., Olsson, H.H. and Crnkovic, I., 2021. "[Engineering ai systems: A research agenda](https://arxiv.org/pdf/2001.07522.pdf)". In *Artificial Intelligence Paradigms for Smart Cyber-Physical Systems* (pp. 1-19). IGI Global.
+
+> Paper provides an overview of open research questions in the field
+as of 2021. These observations are derived through semi-structured interviews with
+employees from companies (small start-ups to large corporations) in
+various domains.
+
 Ameisen, Emmanuel. "Building Machine Learning Powered Applications: Going From Idea to Product." O'Reilly Media, 2020.
 
 > Nice book that takes a wider view of building ML applications than most, starting with discussing product goals (not just ML model goals) and going up to deployment and monitoring. It mostly stays fairly close to the model with more detailed content on the ML pipeline (including guidance for quality assurance and debugging), whereas the coverage of requirements engineering and deployment is more high-level and shallow. Overall a nice book with a healthy engineering attitude and a view that exceeds beyond the ML model.
