@@ -639,6 +639,10 @@ Humbatova, Nargiz, Gunel Jahangirova, Gabriele Bavota, Vincenzo Riccio, Andrea S
 
 > Extensive study of problems data scientists face when using deep learning frameworks, using interviews, issue analysis (of projects using these frameworks!), and stackoverflow questions. Problems mostly related to network architecture, hyperparameters, and data quality.
 
+Jiang, Ray, Silvia Chiappa, Tor Lattimore, András György, and Pushmeet Kohli. "[Degenerate feedback loops in recommender systems](https://dl.acm.org/doi/10.1145/3306618.3314288)." In *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*, pp. 383-390. 2019.
+
+> Very formal paper using simulation to study the effects of feedback loops of recommender systems on filter bubbles and echo chambers. Helps understanding the problem and thinking of solutions as part of the system’s design.
+
 ## Others with notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
