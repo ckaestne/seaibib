@@ -375,6 +375,10 @@ Peng, Zi, Jinqiu Yang, Tse-Hsun Chen, and Lei Ma. "A first look at the integrati
 
 > Interesting paper analyzing the source code and architecture of the Baidu’s Apollo self-driving car software. Finding 28 models that are often chained and combined with nontrivial glue code and non-ML components. This makes a strong case to go beyond testing individual models but to test also the interactions with non-ML code and the interactions among multiple models.
 
+Serban, Alex, and Joost Visser. "[An Empirical Study of Software Architecture for Machine Learning](https://arxiv.org/abs/2105.12422)." *arXiv preprint arXiv:2105.12422* (2021).
+
+> Interview study with 10 software architects working on ML-based projects, combined with literature analysis and small-scale survey. Lists several challenges and possible solutions, though scope seems to drift beyond software architecture, describing many well known challenges around model development and deployment. 
+
 
 ## Process
 
