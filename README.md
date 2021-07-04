@@ -552,6 +552,10 @@ Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons fro
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
+Martínez-Fernández, Silverio, Justus Bogner, Xavier Franch, Marc Oriol, Julien Siebert, Adam Trendowicz, Anna Maria Vollmer, and Stefan Wagner. "[Software Engineering for AI-Based Systems: A Survey](https://arxiv.org/abs/2105.01984)." *arXiv preprint arXiv:2105.01984* (2021).
+
+> Incredibly ambitious and broad survey, covering all of software engineering for systems with AI components (not just model building and deployment). The scope is so wide that it won’t cover all papers in this area, often just selecting a few papers for a field with lots of research and tools (and they exclude grey literature), but it provides a very good overview and puts a lot of effort in organizing the literature.
+
 Ameisen, Emmanuel. "Building Machine Learning Powered Applications: Going From Idea to Product." O'Reilly Media, 2020.
 
 > Nice book that takes a wider view of building ML applications than most, starting with discussing product goals (not just ML model goals) and going up to deployment and monitoring. It mostly stays fairly close to the model with more detailed content on the ML pipeline (including guidance for quality assurance and debugging), whereas the coverage of requirements engineering and deployment is more high-level and shallow. Overall a nice book with a healthy engineering attitude and a view that exceeds beyond the ML model.
