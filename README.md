@@ -156,6 +156,10 @@ Talmor, Alon, Yanai Elazar, Yoav Goldberg, and Jonathan Berant. "[oLMpics-on wha
 
 > Another paper that proposes generators for creating test data for 9 specific capabilities for NLP reasoning tasks, including numeric reasoning, distinguishing always from often, handling conjunctions of facts and multi-hop reasoning. Origin of the capabilities not discussed.
 
+Barnes, Jeremy, Lilja Øvrelid, and Erik Velldal. "[Sentiment Analysis Is Not Solved! Assessing and Probing Sentiment Classification](https://arxiv.org/abs/1906.05887)." In *Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP*, pp. 12-23. 2019.
+
+> Systematic analysis of mistakes of mistakes of sentiment analysis models to identify capabilities (or patterns) with which the models struggle. Good example of identifying capabilities from the data (similar to Naik et al above). No testing proposed.
+
 D'Amour, Alexander, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen et al. "[Underspecification presents challenges for credibility in modern machine learning](https://arxiv.org/abs/2011.03395)." *arXiv preprint arXiv:2011.03395* (2020).
 
 > The paper argues strongly for evaluating models with tests of core abstractions of the task (similar to the checklist paper above, which they call stress tests) beyond just evaluating accuracy on data samples taken from the same population. While the paper focuses on showing that models with similar accuracy can differ in how they generalize to other distributions (is this really surprising?), it contains several pointers to papers where the community seems to pick up on the importance of additional tests.
