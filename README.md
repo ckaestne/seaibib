@@ -580,6 +580,10 @@ Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons fro
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
+Hopkins, Aspen, and Serena Booth. "[Machine Learning Practices Outside Big Tech: How Resource Constraints Challenge Responsible Development](http://www.slbooth.com/papers/AIES-2021_Hopkins_and_Booth.pdf)." In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (AIES ’21) (2021).
+
+> Very interesting interview studies with 17 participants from organizations building ML products outside of Big Tech companies, showing a wide range of challenges. The initial focus is on model fairness, but it shows how resource constraints influence many design decisions and tradeoffs and create many pain points in teams. Focused mostly on model development, not the larger system.
+
 Martínez-Fernández, Silverio, Justus Bogner, Xavier Franch, Marc Oriol, Julien Siebert, Adam Trendowicz, Anna Maria Vollmer, and Stefan Wagner. "[Software Engineering for AI-Based Systems: A Survey](https://arxiv.org/abs/2105.01984)." *arXiv preprint arXiv:2105.01984* (2021).
 
 > Incredibly ambitious and broad survey, covering all of software engineering for systems with AI components (not just model building and deployment). The scope is so wide that it won’t cover all papers in this area, often just selecting a few papers for a field with lots of research and tools (and they exclude grey literature), but it provides a very good overview and puts a lot of effort in organizing the literature.
