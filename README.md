@@ -152,6 +152,10 @@ Kaushik, Divyansh, Eduard Hovy, and Zachary C. Lipton. "[Learning the difference
 
 > Another paper that (implicitly) discusses capabilities of NLP systems. In the context of a sentiment analysis, they instruct crowd-workers to minimally modify existing sentences to change the sentiment of the text. They similarly instruct crowd-workers to minimally modify sentences to change the outcome of inference tasks. By manually analyzing the kind of changes their participants make, they find 15 common patterns, which could be interpreted as capabilities they want the model to understand, such as sarcasm, distinguishing facts from hopes, and negation. While aimed at collecting additional training data rather than generating test data, the same strategy can be used to identify capabilities and to curate test data for those capabilities.
 
+Talmor, Alon, Yanai Elazar, Yoav Goldberg, and Jonathan Berant. "[oLMpics-on what language model pre-training captures](https://arxiv.org/abs/1912.13283)." *Transactions of the Association for Computational Linguistics* 8 (2020): 743-758.
+
+> Another paper that proposes generators for creating test data for 9 specific capabilities for NLP reasoning tasks, including numeric reasoning, distinguishing always from often, handling conjunctions of facts and multi-hop reasoning. Origin of the capabilities not discussed.
+
 D'Amour, Alexander, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen et al. "[Underspecification presents challenges for credibility in modern machine learning](https://arxiv.org/abs/2011.03395)." *arXiv preprint arXiv:2011.03395* (2020).
 
 > The paper argues strongly for evaluating models with tests of core abstractions of the task (similar to the checklist paper above, which they call stress tests) beyond just evaluating accuracy on data samples taken from the same population. While the paper focuses on showing that models with similar accuracy can differ in how they generalize to other distributions (is this really surprising?), it contains several pointers to papers where the community seems to pick up on the importance of additional tests.
