@@ -369,6 +369,10 @@ Yeom, Samuel, and Michael Carl Tschantz. "[Avoiding Disparity Amplification unde
 
 > Another paper that points out how different views and goals of fairness lead to very different approaches. The key point is that bias can be difficult to assess if your observations may be biased, but different assumptions about whether observations are biased lead to very different fairness approaches.
 
+Rakova, Bogdana, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. "[Where responsible AI meets reality: Practitioner perspectives on enablers for shifting organizational practices](https://arxiv.org/abs/2006.12358)." *Proceedings of the ACM on Human-Computer Interaction* 5, no. CSCW1 (2021): 1-23.
+
+> Another excellent interview study on fairness practice, showing current practices but also wants and aspirations. Strong focus on embedding practices into processes and establishing clear responsibilities; also discusses the role of activists in an organization. Based on 26 interviews in 19 organizations.
+
 ## Software Architecture and Design
 
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft, 2019
