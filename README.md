@@ -172,6 +172,10 @@ Gardner, Matt, Yoav Artzi, Victoria Basmov, Jonathan Berant, Ben Bogin, Sihao Ch
 
 > Well argued position paper that ML competitions should include challenging datasets at the decision boundary to test specific capabilities. Good visual illustration of i.i.d. challenges. No discussion of how to identify relevant capabilities though, left to the author of the dataset.
 
+Weber, Noah, Leena Shekhar, and Niranjan Balasubramanian. "[The Fine Line between Linguistic Generalization and Failure in Seq2Seq-Attention Models](https://aclanthology.org/W18-1004.pdf)." In *Proceedings of the Workshop on Generalization in the Age of Deep Learning*, pp. 24-27. 2018.
+
+> Very short paper showing with an illustrative experiment the importance of learning the right structure for a task, rather than surface learning. Very explicit about how the right linguistic structure (and nothing else) is needed to generalize beyond the training distribution (“linguistic generalization”).
+
 ### (Model Invariants)
 
 Segura, Sergio, Gordon Fraser, Ana B. Sanchez, and Antonio Ruiz-Cortés. "[A survey on metamorphic testing](https://core.ac.uk/download/pdf/74235918.pdf)." IEEE Transactions on software engineering 42, no. 9 (2016): 805-824.
