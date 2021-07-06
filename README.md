@@ -375,6 +375,10 @@ Rakova, Bogdana, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. "[Where 
 
 ## Software Architecture and Design
 
+Lakshmanan, Valliappa, Sara Robinson, and Michael Munn. *Machine learning design patterns*. O'Reilly Media, 2020.
+
+> Interesting book collecting a number of design patterns for building and deploying ML models. Patterns are described in lots of details with examples and concrete code snippets. It is very model focused and example driven, but covers the whole machine learning pipeline including feature engineering, training, and serving. Especially the coverage of MLOps (stateless serving function, transform, feature store, ...) seem useful and cover many modern tools and practices.
+
 Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. "[Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)." Paper draft, 2019
 
 > A useful collection of design patterns, architectural patterns, and anti-patterns derived from a literature survey of 19 papers and 19 grey literature articles. Not a detailed discussion and no detailed pattern description, but pointers to the sources, a list of patterns names, and an overview of their relations, that are likely useful for further exploration and discussions, see their [web site](http://www.washi.cs.waseda.ac.jp/ml-patterns/). Many of the patterns seem to relate more to big-data processing than ML, but are likely useful when building ML-enabled systems. 
