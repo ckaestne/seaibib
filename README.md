@@ -287,6 +287,14 @@ Zhang, Xuezhou, Xiaojin Zhu, and Stephen Wright. "[Training Set Debugging Using 
 
 ## Data Quality and Data Management
 
+Barrak, A., Eghan, E.E. and Adams, B. 2021. "[On the Co-evolution of ML Pipelines and Source Code-Empirical Study of DVC Projects](https://ieeexplore.ieee.org/abstract/document/9425888)". In 2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) (pp. 422-433). IEEE.
+
+> Paper conducts empirical analysis of 391 open source projects which
+> use DVC (https://dvc.org/) to manage their ML workflows and
+> artefacts (models & datasets). The 25 most active projects are
+> further analysed to understand prevalence of ML versioning tools and
+> the challenges associated with them.
+
 Schelter, Sebastian, Dustin Lange, Philipp Schmidt, Meltem Celikel, Felix Biessmann, and Andreas Grafberger. 2018. “[Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf).” Proceedings of the VLDB Endowment International Conference on Very Large Data Bases 11 (12): 1781–94.
 
 > Good paper discussing data validation, including schema validation and
