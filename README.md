@@ -287,14 +287,6 @@ Zhang, Xuezhou, Xiaojin Zhu, and Stephen Wright. "[Training Set Debugging Using 
 
 ## Data Quality and Data Management
 
-Barrak, A., Eghan, E.E. and Adams, B. 2021. "[On the Co-evolution of ML Pipelines and Source Code-Empirical Study of DVC Projects](https://ieeexplore.ieee.org/abstract/document/9425888)". In 2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) (pp. 422-433). IEEE.
-
-> Paper conducts empirical analysis of 391 open source projects which
-> use DVC (https://dvc.org/) to manage their ML workflows and
-> artefacts (models & datasets). The 25 most active projects are
-> further analysed to understand prevalence of ML versioning tools and
-> the challenges associated with them.
-
 Schelter, Sebastian, Dustin Lange, Philipp Schmidt, Meltem Celikel, Felix Biessmann, and Andreas Grafberger. 2018. “[Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf).” Proceedings of the VLDB Endowment International Conference on Very Large Data Bases 11 (12): 1781–94.
 
 > Good paper discussing data validation, including schema validation and
@@ -320,6 +312,17 @@ Ratner, Alexander, Stephen H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and Ch
 
 > Description of Snorkel, an approach to semi-automatically label training data, where humans provide partial training functions (e.g., labeling some instances based simply on some keywords). The system will learn automatically which of these partial labels to trust and will produce training labels at scale. This is an interesting strategy to gather training data that may work in a number of domains and has been used by a number of companies -- worth exploring. Many further discussions can be based on this, e.g., how to combine manual labels with different confidence, how to combine manual and automatic labels, which labels to trust, how much to involve crowdworkers in labeling and on which data points, etc.
 
+Barrak, A., Eghan, E.E. and Adams, B. 2021. "[On the Co-evolution of ML Pipelines and Source Code-Empirical Study of DVC Projects](https://ieeexplore.ieee.org/abstract/document/9425888)". In 2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER) (pp. 422-433). IEEE.
+
+> DVC (https://dvc.org/) is an open source tool for versioning data
+> and ML workflows. Paper conducts empirical analysis of 391 open
+> source projects which use DVC. The 25 most active projects are
+> further analysed to understand prevalence of ML versioning tools and
+> the challenges associated with them. The results indicate that ML
+> versioning is a relatively young practise with data versioning being
+> the most utilised feature. A high coupling between source code and
+> DVC files is noted while coupling between test files and DVC files
+> is negligible.
 
 ## Requirements Engineering
 
