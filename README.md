@@ -62,6 +62,8 @@ Ozkaya, Ipek. "[What Is Really Different in Engineering AI-Enabled Systems?](htt
 
 > Concise opinion paper (editorial), discussing that building software system with AI components is harder but not necessarily that different from building traditional software systems. This very much mirrors my own opinion shared in my class and talks. Touches on many great points regarding specifications, requirements, and safety. Essentially a call to action that we need more software engineering.
 
+Malinda Dilhara, Ameya Ketkar, and Danny Dig [Understanding Software-2.0](https://dl.acm.org/doi/abs/10.1145/3453478) ACM Trans. Softw. Eng. Methodol. Vol. 30, No. 4, Article 55:
+> The paper mainly studies common practices and challenges of maintaining and, most importantly, evolving ML components. It conducts a very large-scale quantitative and qualitative empirical study with 3,340 top-rated ML systems and 109 developers. The authors discuss many new research opportunities in the implication section. 
 ## Quality Assurance
 
 *There is a lot of work that covers testing ML systems in some form, most
