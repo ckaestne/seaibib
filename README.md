@@ -1,8 +1,6 @@
 # Software Engineering for AI/ML -- An Annotated Bibliography
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-Author: Christian Kästner, CMU
+Author: [Christian Kästner](https://www.cs.cmu.edu/~ckaestne/), Carnegie Mellon University
 
 ## Context
 
@@ -18,14 +16,15 @@ to read up on the field. I had several interesting discussions since
 and have shared my collection of papers on the topic repeatedly and received
 some pointers to other papers as well. In an effort to help the community
 I'm sharing here a list of papers that I found interesting and useful
-with some sparse notes.
+with some sparse notes. 
 
 All notes are my personal opinions.
 
-If you have suggestions for other readings (with or without annotations)
-consider sending a pull request :)
+If you have suggestions for other papers (with or without annotations)
+*open an issue* please :)
 
-## Key Resources
+
+## 1. Key Resources
 
 Hulten, Geoff. [Building Intelligent Systems: A Guide to Machine Learning Engineering](https://www.buildingintelligentsystems.com/). Apress. 2018
 
@@ -62,17 +61,17 @@ Ozkaya, Ipek. "[What Is Really Different in Engineering AI-Enabled Systems?](htt
 
 > Concise opinion paper (editorial), discussing that building software system with AI components is harder but not necessarily that different from building traditional software systems. This very much mirrors my own opinion shared in my class and talks. Touches on many great points regarding specifications, requirements, and safety. Essentially a call to action that we need more software engineering.
 
-## Quality Assurance
+## 2. Quality Assurance
 
 *There is a lot of work that covers testing ML systems in some form, most
 of it seems focused on fairly narrow properties of a model. Testing an ML-enabled
-system should be much broader, including system testing and testing of 
+system should be much broader, including testing the entire system that includes a model and testing of 
 the infrastructure (e.g., learning pipeline and update mechanisms) and
 testing in production.*
 
 Breck, Eric, Shanqing Cai, Eric Nielsen, Michael Salib, and D. Sculley. 2017. “[The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction](https://research.google/pubs/pub46555.pdf).” IEEE International Conference on Big Data (Big Data). 2017.
 
-> Nice position paper that discusses the many different aspects of quality assurance in an ML project, beyond just model and data quality. Includes some examples and a checklist of QA steps to consider. Good introduction to the problem and based on practical experience at Google. (Note this is a slightly extended version from a similarly titled paper)
+> Nice position paper that discusses the many different aspects of quality assurance in an ML project, beyond just model and data quality. Good introduction to the problem and based on practical experience at Google. Despite it's broader scope it is still model-centric and  focuses only on the ML pipeline, not how it interacts with the rest of the system. Includes some examples and a checklist of QA steps to consider. (Note this is a slightly extended version from a similarly titled paper)
 
 Kaestner, Christian. "[Machine Learning is Requirements Engineering — On the Role of Bugs, Verification, and Validation in Machine Learning](https://medium.com/@ckaestne/machine-learning-is-requirements-engineering-8957aee55ef4)." Medium Blog Post. 2020.
 
@@ -92,7 +91,8 @@ Nushi, Besmira, Ece Kamar, Eric Horvitz, and Donald Kossmann. "[On human intelle
 
 > The paper is really about interfaces and blame assignment between multiple ML models that are composed in a system. It discusses the problem with a concrete example (nice!) with three ML models for creating text labels for images, illustrating non-local and non-monotonic effects. The concrete solution requires that individual models can be evaluated and improved with crowd workers, but may be less relevant than the overall framework and example.
 
-### (Surveys)
+### 2.1. Quality Assurance Surveys
+*Several surveys have been written on testing of ML models, mostly all around the same time with similar coverage. They tend to be all model-centric, focusing on mostly on the model (e.g., input generation, robustness), rarely on the pipeline, and almost never on the rest of the system.*
 
 Ashmore, Rob, Radu Calinescu, and Colin Paterson. "[Assuring the machine learning lifecycle: Desiderata, methods, and challenges](https://arxiv.org/abs/1905.04223)." arXiv preprint arXiv:1905.04223. 2019.
 
@@ -114,7 +114,7 @@ Huang, Xiaowei, Daniel Kroening, Wenjie Ruan, James Sharp, Youcheng Sun, Emese T
 
 > Yet another survey, this one extremely broad and ambitious in scope, covering robustness verification, test case generation, test coverage, adversarial attack and defense strategies, and even explanation techniques. This one focuses exclusively on the model and on invariants (mostly robustness) at the model level; it does not relate the techniques or invariants to actual safety concerns at the system level. Nice overview, even though I again have many issues with specific definitions and claims.
 
-### (Slicing Test Data)
+### 2.2. Slicing Test Data
 
 *Several papers focus on the idea of looking at subsets of test data evaluate the model on different subpopulations, rather than just looking at a single average accuracy result.*
 
@@ -128,7 +128,7 @@ Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Ove
 
 See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
 
-### (Unit Testing / Testing Capabilities)
+### 2.3. Unit Testing / Testing Capabilities
 
 *A number of different papers discuss (more or less explicitly) how to test specific capabilities or partial specifications of a model – which relates closely to traditional unit testing. Capabilities are usually concepts that a model shall learn that mirror domain knowledge or human strategies toward the problem, but that only capture a specific part of the solution. The approaches usually curate or generate test datasets specifically for these capabilities – i.e., unit tests consisting of multiple data points. Assuring capabilities is associated (more or less explicitly) with selecting more robust models that better generalize beyond the training distribution. Several capabilities also relate to invariants described below.*
 
@@ -176,7 +176,7 @@ Weber, Noah, Leena Shekhar, and Niranjan Balasubramanian. "[The Fine Line betwee
 
 > Very short paper showing with an illustrative experiment the importance of learning the right structure for a task, rather than surface learning. Very explicit about how the right linguistic structure (and nothing else) is needed to generalize beyond the training distribution (“linguistic generalization”).
 
-### (Model Invariants)
+### 2.4. Model Invariants
 
 Segura, Sergio, Gordon Fraser, Ana B. Sanchez, and Antonio Ruiz-Cortés. "[A survey on metamorphic testing](https://core.ac.uk/download/pdf/74235918.pdf)." IEEE Transactions on software engineering 42, no. 9 (2016): 805-824.
 
@@ -209,7 +209,7 @@ Kang, Daniel, Deepti Raghavan, Peter Bailis, and Matei Zaharia. "[Model Assertio
 > Discusses use cases of “soft” assertions or invariants that show inconsistencies, especially across time series data and across multiple classifiers, without having to have access to labels. Table 5 in the appendix has a very good overview of different invariants and the paper discusses several plausible examples. Note that these invariants are probabilistic in nature rather than hard tests. This can be used for testing and runtime monitoring (e.g., runtime adaptation and safety mechanisms) without the need for labels! Unfortunately, the paper is very vague about concrete interfaces and technical details and focuses primarily on ML details for additional active learning and weak supervision use cases.
 
 
-### (Testing ML Frameworks)
+### 2.5. Testing ML Frameworks
 
 Srisakaokul, Siwakorn, Zhengkai Wu, Angello Astorga, Oreoluwa Alebiosu, and Tao Xie. "[Multiple-implementation testing of supervised learning software](https://www.aaai.org/ocs/index.php/WS/AAAIW18/paper/viewPDFInterstitial/17301/15599)." In Workshops at the Thirty-Second AAAI Conference on Artificial Intelligence. 2018.
 
@@ -224,7 +224,7 @@ Cheng, Dawei, Chun Cao, Chang Xu, and Xiaoxing Ma. "[Manifesting bugs in machine
 > Using mutation testing to mutate the machine learning code (e.g. SVM) to see how robust the ML implementations are to subtle faults. Shows that many mutations to the learning code lead to small degradation of accuracy of the produced models without a crash and that metamorphic testing (as in the paper above) was also not useful to find these kinds of faults.
 
 
-### (Other Quality Assurance Work)
+### 2.6. Other Quality Assurance Work
 
 Renggli, Cedric, Bojan Karlaš, Bolin Ding, Feng Liu, Kevin Schawinski, Wentao Wu, and Ce Zhang. "[Continuous integration of machine learning models with ease.ml/ci: Towards a rigorous yet practical treatment](https://arxiv.org/abs/1903.00278)." *arXiv preprint arXiv:1903.00278* (2019).
 
@@ -249,7 +249,9 @@ Tramer, Florian, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Jean-Pierre Hu
 
 > Approach to explore correlations between protected attributes and prediction outcomes in *subpopulations* of the dataset. The key idea is that there may not be such a correlation (generalizes to various fairness measures on the confusion matrix) for the entire population, but it may well exists for certain subpopulations, e.g., only among low-income residence do we observe gender-based discrimination. The key contribution is an efficient search among subpopulations inspired by decision tree learning algorithms. Explicitly adopts testing and debugging terminology and goes beyond the simple invariants (anti-classification) in many other fairness testing papers, i.e., it can account for unfairness through correlated attributes.
 
-## Debugging
+## 3. Debugging and Interpretability
+
+*How do we understand what a model does and why it is wrong? Debugging seems closely related with the quest for interpretability, even if just through approximations. This can focus on the model as well as on the data or the learning algorithm.*
 
 Molnar, Christoph. "[Interpretable machine learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)", 2019. 
 
@@ -285,7 +287,7 @@ Zhang, Xuezhou, Xiaojin Zhu, and Stephen Wright. "[Training Set Debugging Using 
 
 > Neat idea on debugging training data: Use a trusted subset of the data to see whether other untrusted training data is responsible for wrong predictions in this subset, or what’s the smallest change to the training data to make the model work on the trusted data. 
 
-## Data Quality and Data Management
+## 4. Data Quality and Data Management
 
 Schelter, Sebastian, Dustin Lange, Philipp Schmidt, Meltem Celikel, Felix Biessmann, and Andreas Grafberger. 2018. “[Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf).” Proceedings of the VLDB Endowment International Conference on Very Large Data Bases 11 (12): 1781–94.
 
@@ -343,7 +345,7 @@ Systems, pp. 1-15. 2021.
 > results indicate that data cascades are highly relevant amongst AI
 > practitioners, especially in "high stakes" AI, promoting a shift
 > from model to data goodness.
-## Requirements Engineering
+## 5. Requirements Engineering
 
 *I have the impression that many practical problems in building AI-enabled systems are 
 really requirements engineering problems. For example: There are many different notions
@@ -371,9 +373,9 @@ Wiens, Jenna, Suchi Saria, Mark Sendak, Marzyeh Ghassemi, Vincent X. Liu, Finale
 
 > Position paper with a fairly high-level overview of what it takes to build and deploy machine learning products in health care settings. Lot’s of emphasis on what are essentially all requirements engineering challenges of understanding the domain, involving stakeholders, integrating the product into practice, etc etc.
 
-### (Fairness)
+### 5.1. Fairness
 
-*Much of the interesting fairness discussions are really about requirements engineering in my book. Here are a couple of papers that I liked.*
+*Much of the interesting fairness discussions are really about requirements engineering in my book. Once a fairness measure and protected attributes are defined, measurement is typically not very challenging. The challenge is in identifying what notion of fairness is appropriate, a typical requirements engineering problem (and process challenge) negotiating the demands of various stakeholders. Here are a couple of papers that I liked.*
 
 Corbett-Davies, Sam, and Sharad Goel. "[The measure and mismeasure of fairness: A critical review of fair machine learning](https://arxiv.org/abs/1808.00023)." arXiv preprint arXiv:1808.00023 (2018).
 
@@ -403,7 +405,9 @@ Rakova, Bogdana, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. "[Where 
 
 > Another excellent interview study on fairness practice, showing current practices but also wants and aspirations. Strong focus on embedding practices into processes and establishing clear responsibilities; also discusses the role of activists in an organization. Based on 26 interviews in 19 organizations.
 
-## Software Architecture and Design
+## 6. Software Architecture and Design
+
+*Design of machine-learning pipelines, and more importantly design of systems that use machine learning components. How does one integrate such a component in the rest of the system? For example, how to design the system anticipating that the model will make wrong predictions eventually?*
 
 Lakshmanan, Valliappa, Sara Robinson, and Michael Munn. *Machine learning design patterns*. O'Reilly Media, 2020.
 
@@ -433,8 +437,9 @@ Serban, Alex, and Joost Visser. "[An Empirical Study of Software Architecture fo
 
 > Interview study with 10 software architects working on ML-based projects, combined with literature analysis and small-scale survey. Lists several challenges and possible solutions, though scope seems to drift beyond software architecture, describing many well known challenges around model development and deployment. 
 
+## 7. Process
 
-## Process
+*Several papers on the process of model development and how processes for data scientists and software engineers may differ. See also section Requirements Engineering/Fairness above for challenges of integrating fairness considerations into the process and section Interdisciplinary Teams below for process challenges at the interface between teams.*
 
 Studer, Stefan, Thanh Binh Bui, Christian Drescher, Alexander Hanuschkin, Ludwig Winkler, Steven Peters, and Klaus-Robert Mueller. "[Towards CRISP-ML (Q): A Machine Learning Process Model with Quality Assurance Methodology](https://arxiv.org/abs/2003.05155)." arXiv preprint arXiv:2003.05155 (2020).
 
@@ -453,9 +458,9 @@ Martínez-Plumed, Fernando, Lidia Contreras-Ochando, Cesar Ferri, José Hernánd
 > Discussion how today's data science differs from past data mining (less prescriptive, more exploratory) and how hence CRISP-DM is too rigid a model to cover the diverse processes. The paper essentially proposes a megamodel with different process steps, which projects might pass through in different orders (called trajectories). Gives examples of different trajectories that may be appropriate in different projects. Limited evaluation, but interesting discussion. Focused on data science side, not building entire system though.
 
 
-## Safety & Robustness
+## 8. Safety & Robustness
 
-*There is a significant amount of machine learning research on safety and security, especially on narrow properties of robustness, but also some system-level discussions on safeguard mechanisms. A software engineering professional should probably understand the tools and techniques.*
+*There is a significant amount of machine learning research on safety and security, especially on narrow properties of robustness, but also some system-level discussions on safeguard mechanisms outside of the model. A software engineering professional should probably understand the tools and techniques. Many testing papers in the section Quality Assurance above cover robustness properties.*
 
 Borg, Markus, Cristofer Englund, Krzysztof Wnuk, Boris Duran, Christoffer Levandowski, Shenjian Gao, Yanwen Tan, Henrik Kaijser, Henrik Lönn, and Jonas Törnqvist. "[Safely entering the deep: A review of verification and validation for machine learning and a challenge elicitation in the automotive industry](https://www.atlantis-press.com/journals/jase/125905766)." Journal of Automotive Software Engineering. Volume 1, Issue 1, Pages 1 - 19. 2019
 
@@ -484,7 +489,9 @@ Ishikawa, Fuyuki, and Yutaka Matsuno. "[Continuous argument engineering: Tacklin
 
 > Well argued short position paper on how to integrate uncertainty and monitoring in safety cases and goal modeling notations. Essentially acknowledges that not all problems can be foreseen, but instead provides means to express uncertainty and a mandate to monitor the system in production and add more concerns and evidence when new problem categories are surfaced.
 
-## Security & Privacy
+## 9. Security & Privacy
+
+*A few papers on security and privacy in machine learning. Much focus is on adversarial machine learning, which largely relates to robustness properties discussed in section Safety above.*
 
 Huang, Ling, Anthony D. Joseph, Blaine Nelson, Benjamin IP Rubinstein, and J. Doug Tygar. "[Adversarial machine learning](http://people.cs.vt.edu/~gangwang/class/cs6604/papers/Adversarial_AISEC.pdf)." In *Proceedings of the 4th ACM Workshop on Security and Artificial Intelligence*, pp. 43-58. 2011.
 
@@ -498,8 +505,10 @@ McGraw, Gary, Harold Figueroa, Victor Shepardson, and Richie Bonett. "[An archit
 
 > Fairly systematic and comprehensive list of possible security problems and corresponding controls and high-level strategies (not explicitly grounded or evaluated). Contains a useful architectural breakdown of the ML parts of a system, especially with regards to data. Could very well be used as a checklist during threat modeling. 
 
+See also this [annotated bibliography](https://berryvilleiml.com/references/).
 
-## Reproducibility, Provenance
+
+## 10. Reproducibility, Provenance
 
 Halevy, Alon, Flip Korn, Natalya F. Noy, Christopher Olston, Neoklis Polyzotis, Sudip Roy, and Steven Euijong Whang. "[Goods: Organizing Google's datasets](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730)." In Proceedings of the 2016 International Conference on Management of Data, pp. 795-806. 2016.
 
@@ -512,13 +521,69 @@ Cummaudo, Alex, Scott Barnett, Rajesh Vasa, John Grundy, and Mohamed Abdelrazek.
 
 > Paper discussing the problem of (silent) API evolution of webservices that provide ML  predictions, such as image classification, which trigger problems in client applications: Models of those services are updated, both internally and with regard to the domain of possible outputs without any public versioning or communication. The paper focuses on a mechanism to detect this when one has no control over the service, but I think the larger picture may be even more important for thinking about interface design: How to version (public or internal) prediction services and how to communicate such changes.
 
+## 11. Interdisciplinary teams
 
-## Computational Notebooks
+*Building software systems with machine learning components requires expertise in several domains, almost always by bringing together people with different backgrounds in interdisciplinary teams. Several papers explore how to foster such collaboration in a ML context, often with a focus on understanding particularly the interactions between data scientists and software engineers.*
+
+Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
+
+> Discusses the role of data scientists and their challenges through interviews and surveys. See also the subsequent Amershi paper for a more ML-specific view.
+
+Ryan Orban. "[Bridging the Gap Between Data Science & Engineer: Building High-Performance Teams](https://www.slideshare.net/ryanorban/bridging-the-gap-between-data-science-engineer-building-highperformance-teams)." Presentation 2016
+
+> Short presentation about the different roles of data scientists and software engineers and how to build interdisciplinary teams. Matches very closely my view of software engineering for AI-enabled systems, in that we still need data scientists and software engineers (and operators, and ...) as separate disciplines, but that we need a Devops-like integration around a common understanding and a joint mission.
+
+Yang, Qian, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. "[Grounding interactive machine learning tool design in how non-experts actually build models](http://www.audentia-gestion.fr/MICROSOFT/Machine_Teaching_DIS_18.pdf)." In *Proceedings of the 2018 Designing Interactive Systems Conference*, pp. 573-584. 2018.
+
+> Interesting view on how people without data science training (mostly software engineers) build machine learning models. In short, they often don’t check for generalization, don’t analyze their data or features much, and strongly prefer to write code. Points out communication and education gaps. Nice contrast between data scientists and software engineers, here focused on the data science tasks.
+
+Wang, Dakuo, Justin D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. "[Human-AI Collaboration in Data Science: Exploring Data Scientists' Perceptions of Automated AI](https://www.researchgate.net/profile/Michael_Muller/publication/335703274_Human-AI_Collaboration_in_Data_Science_Exploring_Data_Scientists'_Perceptions_of_Automated_AI/links/5d76a0294585151ee4ab0338/Human-AI-Collaboration-in-Data-Science-Exploring-Data-Scientists-Perceptions-of-Automated-AI.pdf)." Proceedings of the ACM on Human-Computer Interaction 3, no. CSCW (2019): 1-24.
+
+> IBM-internal interview study of how data scientists and software engineers think of AutoML and similar tools. Anticipating that AutoML is here to stay and that it will lead to augmentation rather than replacement of data scientists and will provide teaching opportunities.
+
+Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons from research practice and software engineering](http://hdl.handle.net/10023/18936)." PhD diss., University of St Andrews, 2019.
+
+> In-depth case studies of interdisciplinary data science projects (from a social science angle), discussing many observed challenges related to collaboration,  process, and various tradeoffs. Lots of interesting observations. Afterward, an SE-inspired process model is suggested (and evaluated!) with checklists for all stages to foster planning and measuring progress. It seems that these checklists are useful to bring different stakeholders together and give them a joint planning document (boundary object).
+
+## 12. Human-AI Interaction
+
+*This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
+
+Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "[Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems](http://library.usc.edu.ph/ACM/CHI2019/1proc/paper411.pdf)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
+
+> Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
+
+Stumpf, Simone, Adrian Bussone, and Dympna O’sullivan. "[Explanations considered harmful? user interactions with machine learning systems](http://www.doc.gold.ac.uk/~mas02mg/HCML2016/HCML2016_paper_2.pdf)." In *Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)*. 2016.
+
+> Interesting short paper with a small experiment, illustrating that explanations of a model’s predictions can foster trust for the prediction up to the point that the users (here physicians for a medical diagnosis) trust the system over their own judgment and accept more wrong predictions. The sentiment is that “the model seems to know more than me” even if the prediction and explanation are wrong.
+
+Amershi, Saleema, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh et al. "[Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf)." In *Proceedings of the 2019 CHI conference on human factors in computing systems*, pp. 1-13. 2019.
+
+> Curated collection of a number of high-level design guidelines extracted from (grey) literature survey and heavily workshoped and evaluated. Table 1 contains the main guidelines.
+
+Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. "[Principles of explanatory debugging to personalize interactive machine learning](ftp://az.engr.oregonstate.edu/pub/burnett/iui15-elucidebug.pdf)." In *Proceedings of the 20th international conference on intelligent user interfaces*, pp. 126-137. 2015.
+
+> Nice example of a user interface with explanations (here Bayes model similar to spam filter) that helps users to build a mental model and adjust weights if needed to fix wrong predictions. Very explicit about design goals and decisions; lots of pointers to related work on mental models and debugging for end users.
+
+Cai, Carrie J., Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. "[’Hello AI’: Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making](https://dl.acm.org/doi/abs/10.1145/3359206)." *Proceedings of the ACM on Human-Computer Interaction* 3, no. CSCW (2019): 1-24.
+
+> Interesting overall discussion about what information users (in this case medical practitioners) need to trust and adopt an ML model’s predictions, based on an study with pathologists. For example, need to convey a mental model of how the AI works, need to explain what data was used to train the model and what features it uses (visible and not visible in UI) to gain trust. Lots of design and data decisions here.
+
+Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in AI](https://arxiv.org/pdf/2010.07487)." Proc. FAccT (2021).
+
+> Interesting conceptual discussion trying to define trust and trustworthiness, including an important recognition that risk is necessary for trust. They distinguish intrinsic trust which requires that a user’s prior believe align with how the model reasons (here explanations and capability tests are useful) and extrinsic trust from a positive track record in production or a rigorous evaluation as the two key directions to increase trust. They specifically talk about how adhering to partial contracts may be sufficient to establish trust, but remain somewhat vague on the concept beyond some vague references to subpopulations and capabilities.
+
+Springer, Aaron, Victoria Hollis, and Steve Whittaker. "[Dice in the black box: User experiences with an inscrutable algorithm](https://arxiv.org/abs/1812.03219)." AAAI Spring Symp. (2017).
+
+> Interesting small experiment: designing a ML-based system to rate text that is actually just random. Users will go to great length to interpret meaning into the system’s actions and seek confirmation bias for their own mental model, even if the system does not have any intelligence.
+
+## 13. Computational Notebooks
 
 *There is quite a bit of work on computational notebooks recently, mostly 
 focused on the exploratory work that data scientists perform. Some of this
 is focused on poor software engineering practices, e.g., with regard to
-testing, modularity, reuse, versioning, dependency management, and determinism.*
+testing, modularity, reuse, versioning, dependency management, and determinism. 
+Many papers in this area study pain points and suggest new tooling extensions.*
 
 Pimentel, Joao Felipe, Leonardo Murta, Vanessa Braganholo, and Juliana Freire. "[A large-scale study about quality and reproducibility of Jupyter notebooks](http://www2.ic.uff.br/~leomurta/papers/pimentel2019a.pdf)." In 2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR), pp. 507-517. IEEE, 2019.
 
@@ -555,62 +620,8 @@ Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks a
 
 > Personally, I find it rather surprising to use Notebooks for automation in production. Might be an interesting architectural and infrastructure decision worth discussing.
 
-## Human-AI Interaction
 
-*This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
-
-Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "[Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems](http://library.usc.edu.ph/ACM/CHI2019/1proc/paper411.pdf)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
-
-> Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
-
-Stumpf, Simone, Adrian Bussone, and Dympna O’sullivan. "[Explanations considered harmful? user interactions with machine learning systems](http://www.doc.gold.ac.uk/~mas02mg/HCML2016/HCML2016_paper_2.pdf)." In *Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)*. 2016.
-
-> Interesting short paper with a small experiment, illustrating that explanations of a model’s predictions can foster trust for the prediction up to the point that the users (here physicians for a medical diagnosis) trust the system over their own judgment and accept more wrong predictions. The sentiment is that “the model seems to know more than me” even if the prediction and explanation are wrong.
-
-Amershi, Saleema, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh et al. "[Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf)." In *Proceedings of the 2019 CHI conference on human factors in computing systems*, pp. 1-13. 2019.
-
-> Curated collection of a number of high-level design guidelines extracted from (grey) literature survey and heavily workshoped and evaluated. Table 1 contains the main guidelines.
-
-Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. "[Principles of explanatory debugging to personalize interactive machine learning](ftp://az.engr.oregonstate.edu/pub/burnett/iui15-elucidebug.pdf)." In *Proceedings of the 20th international conference on intelligent user interfaces*, pp. 126-137. 2015.
-
-> Nice example of a user interface with explanations (here Bayes model similar to spam filter) that helps users to build a mental model and adjust weights if needed to fix wrong predictions. Very explicit about design goals and decisions; lots of pointers to related work on mental models and debugging for end users.
-
-Cai, Carrie J., Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. "[’Hello AI’: Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making](https://dl.acm.org/doi/abs/10.1145/3359206)." *Proceedings of the ACM on Human-Computer Interaction* 3, no. CSCW (2019): 1-24.
-
-> Interesting overall discussion about what information users (in this case medical practitioners) need to trust and adopt an ML model’s predictions, based on an study with pathologists. For example, need to convey a mental model of how the AI works, need to explain what data was used to train the model and what features it uses (visible and not visible in UI) to gain trust. Lots of design and data decisions here.
-
-Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in AI](https://arxiv.org/pdf/2010.07487)." Proc. FAccT (2021).
-
-> Interesting conceptual discussion trying to define trust and trustworthiness, including an important recognition that risk is necessary for trust. They distinguish intrinsic trust which requires that a user’s prior believe align with how the model reasons (here explanations and capability tests are useful) and extrinsic trust from a positive track record in production or a rigorous evaluation as the two key directions to increase trust. They specifically talk about how adhering to partial contracts may be sufficient to establish trust, but remain somewhat vague on the concept beyond some vague references to subpopulations and capabilities.
-
-Springer, Aaron, Victoria Hollis, and Steve Whittaker. "[Dice in the black box: User experiences with an inscrutable algorithm](https://arxiv.org/abs/1812.03219)." AAAI Spring Symp. (2017).
-
-> Interesting small experiment: designing a ML-based system to rate text that is actually just random. Users will go to great length to interpret meaning into the system’s actions and seek confirmation bias for their own mental model, even if the system does not have any intelligence.
-
-## Interdisciplinary teams
-
-Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scientists in software teams: State of the art and challenges](https://doi.org/10.1109/tse.2017.2754374)." IEEE Transactions on Software Engineering 44, no. 11 (2017): 1024-1038.
-
-> Discusses the role of data scientists and their challenges through interviews and surveys. See also the subsequent Amershi paper for a more ML-specific view.
-
-Ryan Orban. "[Bridging the Gap Between Data Science & Engineer: Building High-Performance Teams](https://www.slideshare.net/ryanorban/bridging-the-gap-between-data-science-engineer-building-highperformance-teams)." Presentation 2016
-
-> Short presentation about the different roles of data scientists and software engineers and how to build interdisciplinary teams. Matches very closely my view of software engineering for AI-enabled systems, in that we still need data scientists and software engineers (and operators, and ...) as separate disciplines, but that we need a Devops-like integration around a common understanding and a joint mission.
-
-Yang, Qian, Jina Suh, Nan-Chen Chen, and Gonzalo Ramos. "[Grounding interactive machine learning tool design in how non-experts actually build models](http://www.audentia-gestion.fr/MICROSOFT/Machine_Teaching_DIS_18.pdf)." In *Proceedings of the 2018 Designing Interactive Systems Conference*, pp. 573-584. 2018.
-
-> Interesting view on how people without data science training (mostly software engineers) build machine learning models. In short, they often don’t check for generalization, don’t analyze their data or features much, and strongly prefer to write code. Points out communication and education gaps. Nice contrast between data scientists and software engineers, here focused on the data science tasks.
-
-Wang, Dakuo, Justin D. Weisz, Michael Muller, Parikshit Ram, Werner Geyer, Casey Dugan, Yla Tausczik, Horst Samulowitz, and Alexander Gray. "[Human-AI Collaboration in Data Science: Exploring Data Scientists' Perceptions of Automated AI](https://www.researchgate.net/profile/Michael_Muller/publication/335703274_Human-AI_Collaboration_in_Data_Science_Exploring_Data_Scientists'_Perceptions_of_Automated_AI/links/5d76a0294585151ee4ab0338/Human-AI-Collaboration-in-Data-Science-Exploring-Data-Scientists-Perceptions-of-Automated-AI.pdf)." Proceedings of the ACM on Human-Computer Interaction 3, no. CSCW (2019): 1-24.
-
-> IBM-internal interview study of how data scientists and software engineers think of AutoML and similar tools. Anticipating that AutoML is here to stay and that it will lead to augmentation rather than replacement of data scientists and will provide teaching opportunities.
-
-Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons from research practice and software engineering](http://hdl.handle.net/10023/18936)." PhD diss., University of St Andrews, 2019.
-
-> In-depth case studies of interdisciplinary data science projects (from a social science angle), discussing many observed challenges related to collaboration,  process, and various tradeoffs. Lots of interesting observations. Afterward, an SE-inspired process model is suggested (and evaluated!) with checklists for all stages to foster planning and measuring progress. It seems that these checklists are useful to bring different stakeholders together and give them a joint planning document (boundary object).
-
-
-## Misc
+## 14. Misc
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
@@ -701,7 +712,7 @@ Jiang, Ray, Silvia Chiappa, Tor Lattimore, András György, and Pushmeet Kohli. 
 
 > Very formal paper using simulation to study the effects of feedback loops of recommender systems on filter bubbles and echo chambers. Helps understanding the problem and thinking of solutions as part of the system’s design.
 
-## Others with notes
+## 15. Others with notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
 
@@ -778,7 +789,7 @@ Bosch, Jan, Helena Holmström Olsson, and Ivica Crnkovic. "[Engineering AI syste
 > Position paper listing a number of open research challenges for AI engineering in several application domains. These observations are based on consulting and interviews with companies (small start-ups to large corporations) in various domains, though no clear traceability is provided. Main focus is on ML components rather than the whole system.
 
 
-## Other Lists
+## 16. Other Lists
 
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
 
