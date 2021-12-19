@@ -235,17 +235,7 @@ Kohavi, Ron, Diane Tang, and Ya Xu. *Trustworthy Online Controlled Experiments: 
 
 > Book providing a deep dive into A/B testing, including detailed discussions of statistics.
 
-### 2.7. Documentation
-
-Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "[Model cards for model reporting](https://arxiv.org/abs/1810.03993)." In *Proceedings of the conference on fairness, accountability, and transparency*, pp. 220-229. 2019.
-
-> Position paper suggesting model cards as a short (1 page) documentation of the purpose and limits of the model, evaluation results, and considerations regarding fairness. Illustrated with two good examples. Strongly motivated by fairness discussions, but also a decent starting point for thinking more broadly about how to document a model.
-
-Arnold, Matthew, Rachel KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilović, Ravi Nair et al. "[FactSheets: Increasing trust in AI services through supplier's declarations of conformity](https://arxiv.org/pdf/1808.07261.pdf)." *IBM Journal of Research and Development* 63, no. 4/5 (2019): 6-1.
-
-> Position paper suggesting fact sheets as documentation of a model and the assurances provided. Similar to model cards, but much broader in scope, including for example safety, explainability, and lineage concerns. Limited explanation and examples on most points though.
-
-### 2.8. Other Quality Assurance Work
+### 2.7. Other Quality Assurance Work
 
 Renggli, Cedric, Bojan Karlaš, Bolin Ding, Feng Liu, Kevin Schawinski, Wentao Wu, and Ce Zhang. "[Continuous integration of machine learning models with ease.ml/ci: Towards a rigorous yet practical treatment](https://arxiv.org/abs/1903.00278)." *arXiv preprint arXiv:1903.00278* (2019).
 
@@ -457,6 +447,16 @@ Peng, Zi, Jinqiu Yang, Tse-Hsun Chen, and Lei Ma. "A first look at the integrati
 Serban, Alex, and Joost Visser. "[An Empirical Study of Software Architecture for Machine Learning](https://arxiv.org/abs/2105.12422)." *arXiv preprint arXiv:2105.12422* (2021).
 
 > Interview study with 10 software architects working on ML-based projects, combined with literature analysis and small-scale survey. Lists several challenges and possible solutions, though scope seems to drift beyond software architecture, describing many well known challenges around model development and deployment. 
+
+### 6.1. Model API Documentation
+
+Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "[Model cards for model reporting](https://arxiv.org/abs/1810.03993)." In *Proceedings of the conference on fairness, accountability, and transparency*, pp. 220-229. 2019.
+
+> Position paper suggesting model cards as a short (1 page) documentation of the purpose and limits of the model, evaluation results, and considerations regarding fairness. Illustrated with two good examples. Strongly motivated by fairness discussions, but also a decent starting point for thinking more broadly about how to document a model.
+
+Arnold, Matthew, Rachel KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilović, Ravi Nair et al. "[FactSheets: Increasing trust in AI services through supplier's declarations of conformity](https://arxiv.org/pdf/1808.07261.pdf)." *IBM Journal of Research and Development* 63, no. 4/5 (2019): 6-1.
+
+> Position paper suggesting fact sheets as documentation of a model and the assurances provided. Similar to model cards, but much broader in scope, including for example safety, explainability, and lineage concerns. Limited explanation and examples on most points though.
 
 ## 7. Process
 
