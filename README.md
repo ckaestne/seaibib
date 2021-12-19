@@ -81,12 +81,6 @@ Siebert, Julien, Lisa Joeckel, Jens Heidrich, Koji Nakamichi, Kyoko Ohashi, Isao
 
 > The paper discusses quality attributes of a production ML system beyond just the ML components. It is explicit about considering multiple views of different components, of the entire system, and of the environment the system is embedded it. These views are useful for guiding a discussion of which qualities to consider. Importantly, the paper provides a concrete example of a system by Fujitsu and lists a large number of qualities considered in Table 1 -- very useful for teaching.
 
-Tang, Diane, Ashish Agarwal, Deirdre O'Brien, and Mike Meyer. "[Overlapping experiment infrastructure: More, better, faster experimentation](https://dl.acm.org/doi/pdf/10.1145/1835804.1835810)." In Proceedings of the 16th ACM SIGKDD international conference on Knowledge discovery and data mining, pp. 17-26. 2010.
-
-Bakshy, Eytan, Dean Eckles, and Michael S. Bernstein. "[Designing and deploying online field experiments](https://dl.acm.org/doi/pdf/10.1145/2566486.2567967)." In Proceedings of the 23rd international conference on World wide web, pp. 283-292. 2014.
-
-> Two papers discussing infrastructure for A/B testing (which is a good foundation and frequently used for testing ML systems in production) at Google and Facebook. More focused on infrastructure around it, but useful for getting into a discussion on how to test in production.
-
 Nushi, Besmira, Ece Kamar, Eric Horvitz, and Donald Kossmann. "[On human intellect and machine failures: troubleshooting integrative machine learning systems](http://erichorvitz.com/human_repair_AI_pipeline.pdf)." In *Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence*, pp. 1017-1025. 2017.
 
 > The paper is really about interfaces and blame assignment between multiple ML models that are composed in a system. It discusses the problem with a concrete example (nice!) with three ML models for creating text labels for images, illustrating non-local and non-monotonic effects. The concrete solution requires that individual models can be evaluated and improved with crowd workers, but may be less relevant than the overall framework and example.
@@ -222,6 +216,24 @@ Xie, Xiaoyuan, Joshua WK Ho, Christian Murphy, Gail Kaiser, Baowen Xu, and Tsong
 Cheng, Dawei, Chun Cao, Chang Xu, and Xiaoxing Ma. "[Manifesting bugs in machine learning code: An explorative study with mutation testing](https://ieeexplore.ieee.org/iel7/8424855/8424858/08424982.pdf)." In *2018 IEEE International Conference on Software Quality, Reliability and Security (QRS)*, pp. 313-324. IEEE, 2018.
 
 > Using mutation testing to mutate the machine learning code (e.g. SVM) to see how robust the ML implementations are to subtle faults. Shows that many mutations to the learning code lead to small degradation of accuracy of the produced models without a crash and that metamorphic testing (as in the paper above) was also not useful to find these kinds of faults.
+
+### 2.6. Quality Assurance in Production
+
+*Model accuracy is often not a very useful metric in itself. In practice it is important to assess the system with real-world inputs. In this context, designing  telemetry, monitoring systems, and running A/B experiments is very common.*
+
+Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machine learning models: 6 lessons learned at Booking.com." In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1743-1751. 2019.
+
+> Experience report of building various models in a production system, examples of ML-driven products (seems to start with "what could we predict" rather than with "what does this product need"). Good illustration with concrete examples how model accuracy may not align with business success measures of the product (sales) and some speculation why. Strong focus on A/B testing with business metrics rather than model accuracy.
+
+Tang, Diane, Ashish Agarwal, Deirdre O'Brien, and Mike Meyer. "[Overlapping experiment infrastructure: More, better, faster experimentation](https://dl.acm.org/doi/pdf/10.1145/1835804.1835810)." In Proceedings of the 16th ACM SIGKDD international conference on Knowledge discovery and data mining, pp. 17-26. 2010.
+
+Bakshy, Eytan, Dean Eckles, and Michael S. Bernstein. "[Designing and deploying online field experiments](https://dl.acm.org/doi/pdf/10.1145/2566486.2567967)." In Proceedings of the 23rd international conference on World wide web, pp. 283-292. 2014.
+
+> Two papers discussing infrastructure for A/B testing (which is a good foundation and frequently used for testing ML systems in production) at Google and Facebook. More focused on infrastructure around it, but useful for getting into a discussion on how to test in production.
+
+Kohavi, Ron, Diane Tang, and Ya Xu. *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing*. Cambridge University Press, 2020.
+
+> Book providing a deep dive into A/B testing, including detailed discussions of statistics.
 
 
 ### 2.6. Other Quality Assurance Work
@@ -767,10 +779,6 @@ Wan, Zhiyuan, Xin Xia, David Lo, and Gail C. Murphy. "[How does machine learning
 Ishikawa, Fuyuki, and Nobukazu Yoshioka. "How do engineers perceive difficulties in engineering of machine-learning systems? Questionnaire survey." In 2019 IEEE/ACM Joint 7th International Workshop on Conducting Empirical Studies in Industry (CESI) and 6th International Workshop on Software Engineering Research and Industrial Practice (SER&IP), pp. 2-9. IEEE, 2019.
 
 > Fairly large-scale survey about pain points in developing ML-based systems. Mostly results as expected, but nice plots summarizing the most common difficulties.
-
-Bernardi, Lucas, Themistoklis Mavridis, and Pablo Estevez. "150 successful machine learning models: 6 lessons learned at Booking.com." In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1743-1751. 2019.
-
-> Experience report of building various models in a production system, examples of ML-driven products (seems to start with "what could we predict" rather than with "what does this product need"). Good illustration with concrete examples how model accuracy may not align with business success measures of the product (sales) and some speculation why. Strong focus on A/B testing with business metrics rather than model accuracy.
 
 Cambo, Scott Allen, and Darren Gergle. "User-centred evaluation for machine learning." In Human and Machine Learning, pp. 315-339. Springer, Cham, 2018.
 
