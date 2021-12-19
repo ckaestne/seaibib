@@ -529,7 +529,7 @@ Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scienti
 
 > Discusses the role of data scientists and their challenges through interviews and surveys. See also the subsequent Amershi paper for a more ML-specific view.
 
-Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian Kästner. “[Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process](https://arxiv.org/abs/2110.10234).” In Proceedings of the 44th International Conference on Software Engineering (ICSE), May 2022.
+Nahar, Nadia, Shurui Zhou, Grace Lewis, and Christian Kästner. “[Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process](https://arxiv.org/abs/2110.10234).” In Proceedings of the 44th International Conference on Software Engineering (ICSE), May 2022.
 
 > Our own interview study on collaboration challenges between data scientists and software engineers when building production ML systems. Lots of problems arise at the interface between the ML component and the rest of the system. Engineering is often undervalued, ML is difficult to fit into the larger process, documentation at the interfaces is often a big problem, and even communication across discipline boundaries can be difficult. The paper highlights that team structures differ substantially, but that certain problems associated with certain decisions such as whether to develop the model first and then build a system around it or whether to start with the system.
 
@@ -624,7 +624,7 @@ Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks a
 
 > Personally, I find it rather surprising to use Notebooks for automation in production. Might be an interesting architectural and infrastructure decision worth discussing.
 
-Chenyang Yang, Shurui Zhou, Jin L.C. Guo, and Christian Kästner. “[Subtle Bugs Everywhere: Generating Documentation for Data Wrangling Code](https://www.cs.cmu.edu/~ckaestne/pdf/ase21.pdf).” In Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2021. 
+Yang, Chenyang, Shurui Zhou, Jin L.C. Guo, and Christian Kästner. “[Subtle Bugs Everywhere: Generating Documentation for Data Wrangling Code](https://www.cs.cmu.edu/~ckaestne/pdf/ase21.pdf).” In Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2021. 
 
 > Adapting program synthesis and test suite minimization techniques to automatically generate summaries of the transformations performed on data frames within a notebook cell. This is shown the be useful to understand what happens and identify incorrect data transformations – which seem to be very common in public notebooks.
 
