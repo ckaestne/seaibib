@@ -569,6 +569,10 @@ Lvov, Ilia. "[Project Management in Social Data Science: integrating lessons fro
 
 > In-depth case studies of interdisciplinary data science projects (from a social science angle), discussing many observed challenges related to collaboration,  process, and various tradeoffs. Lots of interesting observations. Afterward, an SE-inspired process model is suggested (and evaluated!) with checklists for all stages to foster planning and measuring progress. It seems that these checklists are useful to bring different stakeholders together and give them a joint planning document (boundary object).
 
+Muller, Michael, Ingrid Lange, Dakuo Wang, David Piorkowski, Jason Tsay, Q. Vera Liao, Casey Dugan, and Thomas Erickson. "[How data science workers work with data: Discovery, capture, curation, design, creation](http://tomeri.org/DataScienceWorkers_CHI2019.pdf)." In *Proceedings of the 2019 CHI conference on human factors in computing systems*, pp. 1-15. 2019.
+
+> Paper exploring how data scientists engage with data through 21 interviews at IBM. Emphasizes how data wrangling (cleaning, feature engineering) requires high effort and creativity. Pushes “conversation with data” as a description of this kind of work.
+
 ## 12. Human-AI Interaction
 
 *This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
