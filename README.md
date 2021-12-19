@@ -457,6 +457,10 @@ Martínez-Plumed, Fernando, Lidia Contreras-Ochando, Cesar Ferri, José Hernánd
 
 > Discussion how today's data science differs from past data mining (less prescriptive, more exploratory) and how hence CRISP-DM is too rigid a model to cover the diverse processes. The paper essentially proposes a megamodel with different process steps, which projects might pass through in different orders (called trajectories). Gives examples of different trajectories that may be appropriate in different projects. Limited evaluation, but interesting discussion. Focused on data science side, not building entire system though.
 
+Kaestner, Christian. “[On the process for building software with ML components](https://ckaestne.medium.com/on-the-process-for-building-software-with-ml-components-c54bdb86db24).” Medium Blog Post, 2020.
+
+> My own (early) thoughts on how process differs for data science and software engineering, but also how both of them might be integrated into a larger picture.
+
 
 ## 8. Safety & Robustness
 
@@ -488,6 +492,10 @@ Shneiderman, Ben. "Bridging the gap between ethics and practice: Guidelines for 
 Ishikawa, Fuyuki, and Yutaka Matsuno. "[Continuous argument engineering: Tackling uncertainty in machine learning based systems](https://www.researchgate.net/profile/Yutaka_Matsuno2/publication/327113121_Continuous_Argument_Engineering_Tackling_Uncertainty_in_Machine_Learning_Based_Systems_SAFECOMP_2018_Workshops_ASSURE_DECSoS_SASSUR_STRIVE_and_WAISE_Vasteras_Sweden_September_18_2018_Proceedings/links/5dd2b18392851c382f4999d9/Continuous-Argument-Engineering-Tackling-Uncertainty-in-Machine-Learning-Based-Systems-SAFECOMP-2018-Workshops-ASSURE-DECSoS-SASSUR-STRIVE-and-WAISE-Vaesteras-Sweden-September-18-2018-Procee.pdf)." In *International Conference on Computer Safety, Reliability, and Security*, pp. 14-21. Springer, Cham, 2018.
 
 > Well argued short position paper on how to integrate uncertainty and monitoring in safety cases and goal modeling notations. Essentially acknowledges that not all problems can be foreseen, but instead provides means to express uncertainty and a mandate to monitor the system in production and add more concerns and evidence when new problem categories are surfaced.
+
+Kaestner, Christian. “[Why Robustness is not Enough for Safety and Security in Machine Learning](https://towardsdatascience.com/why-robustness-is-not-enough-for-safety-and-security-in-machine-learning-1a35f6706601).” Medium Blog Post 2021.
+
+> My attempt to understand the robustness discussion and how it would be useful for practical safety and security concerns in software systems that use ML components. Explains the problem and then argues that robustness is a very narrow technical property with limited practical value, argues that safety must really be considered at the system level.
 
 ## 9. Security & Privacy
 
