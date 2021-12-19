@@ -812,6 +812,10 @@ Bosch, Jan, Helena Holmström Olsson, and Ivica Crnkovic. "[Engineering AI syste
 
 > Position paper listing a number of open research challenges for AI engineering in several application domains. These observations are based on consulting and interviews with companies (small start-ups to large corporations) in various domains, though no clear traceability is provided. Main focus is on ML components rather than the whole system.
 
+Muiruri, Dennis, Lucy Ellen Lwakatare, Jukka K Nurminen, and Tommi Mikkonen. "[Practices and Infrastructures for ML Systems–An Interview Study](https://www.techrxiv.org/articles/preprint/Practices_and_Infrastructures_for_ML_Systems_An_Interview_Study/16939192)." Preprint, 2021.
+
+> Another interview study with data scientists, here with 23 data scientists in Finland, asking about processes and tools around ML pipelines (model centric, not system focused). List of actually used tools is interesting, seems fairly advanced, providing a strong contrast with the technical debt paper.
+
 
 ## 16. Other Lists
 
