@@ -454,9 +454,9 @@ Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, B
 
 > Position paper suggesting model cards as a short (1 page) documentation of the purpose and limits of the model, evaluation results, and considerations regarding fairness. Illustrated with two good examples. Strongly motivated by fairness discussions, but also a decent starting point for thinking more broadly about how to document a model.
 
-Arnold, Matthew, Rachel KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilović, Ravi Nair et al. "[FactSheets: Increasing trust in AI services through supplier's declarations of conformity](https://arxiv.org/pdf/1808.07261.pdf)." *IBM Journal of Research and Development* 63, no. 4/5 (2019): 6-1.
+Arnold, Matthew, Rachel KE Bellamy, Michael Hind, Stephanie Houde, Sameep Mehta, Aleksandra Mojsilović, Ravi Nair, Karthikeyan Natesan Ramamurthy, Darrell Reimer, Alexandra Olteanu, David Piorkowski, Jason Tsay, and Kush R. Varshney. "[FactSheets: Increasing trust in AI services through supplier's declarations of conformity](https://arxiv.org/pdf/1808.07261.pdf)." *IBM Journal of Research and Development* 63, no. 4/5 (2019): 6-1.
 
-> Position paper suggesting fact sheets as documentation of a model and the assurances provided. Similar to model cards, but much broader in scope, including for example safety, explainability, and lineage concerns. Limited explanation and examples on most points though.
+> Position paper suggesting fact sheets as documentation of a model and the assurances provided. Similar to model cards, but much broader in scope, including for example safety, explainability, and lineage concerns. Limited explanation on most points though; linked arxiv.org version has some examples in the appendix.
 
 ## 7. Process
 
