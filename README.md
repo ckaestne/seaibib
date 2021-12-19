@@ -624,6 +624,10 @@ Matthew Seal, Kyle Kelley, and Michelle Ufford. "[Part 2: Scheduling Notebooks a
 
 > Personally, I find it rather surprising to use Notebooks for automation in production. Might be an interesting architectural and infrastructure decision worth discussing.
 
+Chenyang Yang, Shurui Zhou, Jin L.C. Guo, and Christian Kästner. “[Subtle Bugs Everywhere: Generating Documentation for Data Wrangling Code](https://www.cs.cmu.edu/~ckaestne/pdf/ase21.pdf).” In Proceedings of the 36th IEEE/ACM International Conference on Automated Software Engineering (ASE), 2021. 
+
+> Adapting program synthesis and test suite minimization techniques to automatically generate summaries of the transformations performed on data frames within a notebook cell. This is shown the be useful to understand what happens and identify incorrect data transformations – which seem to be very common in public notebooks.
+
 
 ## 14. Misc
 
