@@ -529,6 +529,10 @@ Kim, Miryung, Thomas Zimmermann, Robert DeLine, and Andrew Begel. "[Data scienti
 
 > Discusses the role of data scientists and their challenges through interviews and surveys. See also the subsequent Amershi paper for a more ML-specific view.
 
+Nadia Nahar, Shurui Zhou, Grace Lewis, and Christian Kästner. “[Collaboration Challenges in Building ML-Enabled Systems: Communication, Documentation, Engineering, and Process](https://arxiv.org/abs/2110.10234).” In Proceedings of the 44th International Conference on Software Engineering (ICSE), May 2022.
+
+> Our own interview study on collaboration challenges between data scientists and software engineers when building production ML systems. Lots of problems arise at the interface between the ML component and the rest of the system. Engineering is often undervalued, ML is difficult to fit into the larger process, documentation at the interfaces is often a big problem, and even communication across discipline boundaries can be difficult. The paper highlights that team structures differ substantially, but that certain problems associated with certain decisions such as whether to develop the model first and then build a system around it or whether to start with the system.
+
 Ryan Orban. "[Bridging the Gap Between Data Science & Engineer: Building High-Performance Teams](https://www.slideshare.net/ryanorban/bridging-the-gap-between-data-science-engineer-building-highperformance-teams)." Presentation 2016
 
 > Short presentation about the different roles of data scientists and software engineers and how to build interdisciplinary teams. Matches very closely my view of software engineering for AI-enabled systems, in that we still need data scientists and software engineers (and operators, and ...) as separate disciplines, but that we need a Devops-like integration around a common understanding and a joint mission.
