@@ -300,6 +300,16 @@ Zhang, Xuezhou, Xiaojin Zhu, and Stephen Wright. "[Training Set Debugging Using 
 
 ## 4. Data Quality and Data Management
 
+Sambasivan, Nithya, Shivani Kapania, Hannah Highfill, Diana Akrong,
+Praveen Paritosh, and Lora M. Aroyo. "[“Everyone wants to do the model
+work, not the data work”: Data Cascades in High-Stakes
+AI](https://dl.acm.org/doi/abs/10.1145/3411764.3445518)". In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing
+Systems, pp. 1-15. 2021.
+
+> Strong argument about how data quality matters and lack of focus in data quality will impact the system later (similar to the argument in software engineering that bugs remaining in the system from requirements to deployment are much harder to fix than those found early). This paper has a strong system focus, showing how a narrow focus on modeling undervalues data collection, data quality work, and the entire outcome of the system. Discusses many different notions of data quality, beyond just schema. Discusses involving humans, incentives, power structures, and documentation in data collection. Excellent introduction to the literature around data quality (with many pointers). Interview study with 53 participants from India, USA and East and West
+> African countries. Likely generalizes easily beyond “high-stakes” framing.
+
 Schelter, Sebastian, Dustin Lange, Philipp Schmidt, Meltem Celikel, Felix Biessmann, and Andreas Grafberger. 2018. “[Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf).” Proceedings of the VLDB Endowment International Conference on Very Large Data Bases 11 (12): 1781–94.
 
 > Good paper discussing data validation, including schema validation and
@@ -337,25 +347,6 @@ Barrak, A., Eghan, E.E. and Adams, B. 2021. "[On the Co-evolution of ML Pipeline
 > DVC files is noted while coupling between test files and DVC files
 > is negligible.
 
-Sambasivan, Nithya, Shivani Kapania, Hannah Highfill, Diana Akrong,
-Praveen Paritosh, and Lora M. Aroyo. "[“Everyone wants to do the model
-work, not the data work”: Data Cascades in High-Stakes
-AI](https://dl.acm.org/doi/abs/10.1145/3411764.3445518)". In
-proceedings of the 2021 CHI Conference on Human Factors in Computing
-Systems, pp. 1-15. 2021.
-
-> Emphasis is usually put on the model creation process in academia
-> and education. Models are evaluated using toy datasets and are
-> optimised to perform well on them. However, in practise the focus
-> often shifts to the data since most problems require the data to be
-> collected, curated and annotated from scratch. The authors conducted
-> a survey with 53 AI practitioners from India, USA and East and West
-> African countries. The authors introduce the notion of "data
-> cascades" which are defined as compounding, negative events caused
-> due to data issues that result in technical debt over time. The
-> results indicate that data cascades are highly relevant amongst AI
-> practitioners, especially in "high stakes" AI, promoting a shift
-> from model to data goodness.
 ## 5. Requirements Engineering
 
 *I have the impression that many practical problems in building AI-enabled systems are 
