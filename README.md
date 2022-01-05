@@ -664,7 +664,6 @@ Yang, Chenyang, Shurui Zhou, Jin L.C. Guo, and Christian Kästner. “[Subtle Bu
 
 > Adapting program synthesis and test suite minimization techniques to automatically generate summaries of the transformations performed on data frames within a notebook cell. This is shown the be useful to understand what happens and identify incorrect data transformations – which seem to be very common in public notebooks.
 
-
 ## 14. Misc
 
 *Various recommended and useful resources that do not fit well into the other categories.*
@@ -759,6 +758,10 @@ Humbatova, Nargiz, Gunel Jahangirova, Gabriele Bavota, Vincenzo Riccio, Andrea S
 Jiang, Ray, Silvia Chiappa, Tor Lattimore, András György, and Pushmeet Kohli. "[Degenerate feedback loops in recommender systems](https://dl.acm.org/doi/10.1145/3306618.3314288)." In *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*, pp. 383-390. 2019.
 
 > Very formal paper using simulation to study the effects of feedback loops of recommender systems on filter bubbles and echo chambers. Helps understanding the problem and thinking of solutions as part of the system’s design.
+
+Dilhara, Malinda, Ameya Ketkar, and Danny Dig. "[Understanding Software-2.0: a study of machine learning library usage and evolution](https://dl.acm.org/doi/abs/10.1145/3453478)." *ACM Transactions on Software Engineering and Methodology (TOSEM)* 30, no. 4 (2021): 1-42.
+
+> Analysis of how machine learning libraries are used in popular Python code on GitHub, complementary to past studies of library use in notebooks (see Computational Notebooks section above). Focuses on how libraries are updated, finding many of the same challenges as with other library evolution and breaking changes in non-ML libraries. Interesting brief survey with answers from 28 project maintainers that introduced machine learning late in the project, indicating applications that use ML for a new feature or to replace some prior code.
 
 ## 15. Others with notes
 
