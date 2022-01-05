@@ -249,13 +249,6 @@ Pei, Kexin, Yinzhi Cao, Junfeng Yang, and Suman Jana. "[DeepXplore: Automated wh
 
 > Differential testing between multiple models (e.g., learned from the same data with different parameters) and input generation that aims to identify inputs that have different outputs across the models. Unclear to me how useful this would be in practice.
 
-
-Zhang, Yuhao, Yifan Chen, Shing-Chi Cheung, Yingfei Xiong, and Lu Zhang. "[An empirical study on TensorFlow program bugs](https://doi.org/10.1145/3213846.3213866)." In Proceedings of the 27th ACM SIGSOFT International Symposium on Software Testing and Analysis, pp. 129-140. 2018.
-
-Zhang, Tianyi, Cuiyun Gao, Lei Ma, Michael R. Lyu, and Miryung Kim. "[An empirical study of common challenges in developing deep learning applications](http://web.cs.ucla.edu/~miryung/Publications/isese2019-deeplearningchallenge.pdf)." In The 30th IEEE International Symposium on Software Reliability Engineering (ISSRE). 2019.
-
-> These two papers are examples of papers that analyzes public bug reports from issue trackers or question-answer sites (stackoverflow) for machine-learning frameworks. They characterize the kinds of problems developers and users tend to have, some some solutions. Many issues seem to be common framework issues, such as documentation issues and breaking APIs. Some challenges, such as probabilistic correctness and missing debuggers, seem more ML specific.
-
 Seshia, Sanjit A., Dorsa Sadigh, and S. Shankar Sastry. "[Towards verified artificial intelligence](https://arxiv.org/abs/1606.08514)." arXiv preprint arXiv:1606.08514 (2016).
 
 > Good framing why formal verification (or really any form of testing) is so difficult in machine learning systems in the first two sections: We neither have a specification, nor a good grasp of the environment, and in addition the system is often evolving itself. After explaining why it is so difficult, the paper points to several potentially interesting research areas, but none of them seem to overcome the fundamental problems, especially that of missing specifications.
@@ -549,7 +542,7 @@ Cummaudo, Alex, Scott Barnett, Rajesh Vasa, John Grundy, and Mohamed Abdelrazek.
 
 > Paper discussing the problem of (silent) API evolution of webservices that provide ML  predictions, such as image classification, which trigger problems in client applications: Models of those services are updated, both internally and with regard to the domain of possible outputs without any public versioning or communication. The paper focuses on a mechanism to detect this when one has no control over the service, but I think the larger picture may be even more important for thinking about interface design: How to version (public or internal) prediction services and how to communicate such changes.
 
-## 11. Interdisciplinary teams
+## 11. Interdisciplinary Teams
 
 *Building software systems with machine learning components requires expertise in several domains, almost always by bringing together people with different backgrounds in interdisciplinary teams. Several papers explore how to foster such collaboration in a ML context, often with a focus on understanding particularly the interactions between data scientists and software engineers.*
 
@@ -664,7 +657,29 @@ Yang, Chenyang, Shurui Zhou, Jin L.C. Guo, and Christian Kästner. “[Subtle Bu
 
 > Adapting program synthesis and test suite minimization techniques to automatically generate summaries of the transformations performed on data frames within a notebook cell. This is shown the be useful to understand what happens and identify incorrect data transformations – which seem to be very common in public notebooks.
 
-## 14. Misc
+## 14. Machine Learning Libraries and APIs
+
+*Software engineers like to study library adoption and challenges in using libraries and APIs. There are several papers that look specifically at APIs related to machine learning. Potentially useful when trying to understand the technical environment provided for data scientists.*
+
+Zhang, Yuhao, Yifan Chen, Shing-Chi Cheung, Yingfei Xiong, and Lu Zhang. "[An empirical study on TensorFlow program bugs](https://doi.org/10.1145/3213846.3213866)." In Proceedings of the 27th ACM SIGSOFT International Symposium on Software Testing and Analysis, pp. 129-140. 2018.
+
+Zhang, Tianyi, Cuiyun Gao, Lei Ma, Michael R. Lyu, and Miryung Kim. "[An empirical study of common challenges in developing deep learning applications](http://web.cs.ucla.edu/~miryung/Publications/isese2019-deeplearningchallenge.pdf)." In The 30th IEEE International Symposium on Software Reliability Engineering (ISSRE). 2019.
+
+> These two papers are examples of papers that analyzes public bug reports from issue trackers or question-answer sites (stackoverflow) for machine-learning frameworks. They characterize the kinds of problems developers and users tend to have, some some solutions. Many issues seem to be common framework issues, such as documentation issues and breaking APIs. Some challenges, such as probabilistic correctness and missing debuggers, seem more ML specific.
+
+Dilhara, Malinda, Ameya Ketkar, and Danny Dig. "[Understanding Software-2.0: a study of machine learning library usage and evolution](https://dl.acm.org/doi/abs/10.1145/3453478)." *ACM Transactions on Software Engineering and Methodology (TOSEM)* 30, no. 4 (2021): 1-42.
+
+> Analysis of how machine learning libraries are used in popular Python code on GitHub, complementary to past studies of library use in notebooks (see Computational Notebooks section above). Focuses on how libraries are updated, finding many of the same challenges as with other library evolution and breaking changes in non-ML libraries. Interesting brief survey with answers from 28 project maintainers that introduced machine learning late in the project, indicating applications that use ML for a new feature or to replace some prior code.
+
+Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. "[What do developers ask about ML libraries? A large-scale study using stack overflow](https://arxiv.org/pdf/1906.11940)." *arXiv preprint arXiv:1906.11940* (2019).
+
+> Large scale of stackoverflow questions related to 10 machine learning frameworks. Largely quantitative reporting, for example, which stages are most covered in those questions.
+
+Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu. "[Understanding Challenges in Deploying Deep Learning Based Software: An Empirical Study](https://arxiv.org/pdf/2005.00760)." Proc. FSE (2020).
+
+> Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions and fairly shallow insights, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
+
+## 15. Misc
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
@@ -759,11 +774,7 @@ Jiang, Ray, Silvia Chiappa, Tor Lattimore, András György, and Pushmeet Kohli. 
 
 > Very formal paper using simulation to study the effects of feedback loops of recommender systems on filter bubbles and echo chambers. Helps understanding the problem and thinking of solutions as part of the system’s design.
 
-Dilhara, Malinda, Ameya Ketkar, and Danny Dig. "[Understanding Software-2.0: a study of machine learning library usage and evolution](https://dl.acm.org/doi/abs/10.1145/3453478)." *ACM Transactions on Software Engineering and Methodology (TOSEM)* 30, no. 4 (2021): 1-42.
-
-> Analysis of how machine learning libraries are used in popular Python code on GitHub, complementary to past studies of library use in notebooks (see Computational Notebooks section above). Focuses on how libraries are updated, finding many of the same challenges as with other library evolution and breaking changes in non-ML libraries. Interesting brief survey with answers from 28 project maintainers that introduced machine learning late in the project, indicating applications that use ML for a new feature or to replace some prior code.
-
-## 15. Others with notes
+## 16. Others with Notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
 
@@ -791,17 +802,13 @@ Zhou, Hucheng, Jian-Guang Lou, Hongyu Zhang, Haibo Lin, Haoxiang Lin, and Tingti
 
 > Study of operational issues of large map reduce cluster. Mostly hardware failures not captured by redundancy mechanisms. No direct ML aspect, but useful for discussing large distributed ML jobs at scale and some discussion of debugging from logging data.
 
-Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu. "[Understanding Challenges in Deploying Deep Learning Based Software: An Empirical Study](https://arxiv.org/pdf/2005.00760)." Proc. FSE (2020).
-
-> Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions and fairly shallow insights, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
-
 Lwakatare, Lucy Ellen, Aiswarya Raj, Jan Bosch, Helena Holmström Olsson, and Ivica Crnkovic. "[A taxonomy of software engineering challenges for machine learning systems: An empirical investigation](https://research.chalmers.se/publication/512250/file/512250_Fulltext.pdf)." In *International Conference on Agile Software Development*, pp. 227-243. Springer, 2019.
 
 > Brief discussion of 7 case studies, mostly finding MLOps-style problems. The paper concludes with a potentially interesting maturity model (Sec 5), that, while not visibly grounded in data, may be a good starting point for discussions for framing different kinds of ML projects.
 
 Wan, Zhiyuan, Xin Xia, David Lo, and Gail C. Murphy. "[How does machine learning change software development practices?](https://core.ac.uk/download/pdf/275589732.pdf)" *IEEE Transactions on Software Engineering* (2019).
 
-> Discussion of challenges in developing ML systems based on interviews and a survey. Unfortunately, the paper does not distinguish consistently between the ML model, the framework used to learn the model, and the the system with an ML component, nor does it clearly distinguish between roles of software engineers or data scientists, leading to rather murky and questionable claims.
+> Discussion of challenges in developing ML systems based on interviews and a survey. Unfortunately, the paper does not distinguish consistently between the ML model, the framework used to learn the model, and the the system with an ML component, nor does it clearly distinguish between roles of software engineers or data scientists, leading to rather murky claims.
 
 Ishikawa, Fuyuki, and Nobukazu Yoshioka. "How do engineers perceive difficulties in engineering of machine-learning systems? Questionnaire survey." In 2019 IEEE/ACM Joint 7th International Workshop on Conducting Empirical Studies in Industry (CESI) and 6th International Workshop on Software Engineering Research and Industrial Practice (SER&IP), pp. 2-9. IEEE, 2019.
 
@@ -823,10 +830,6 @@ Bosch, Nathan, and Jan Bosch. "[Software Logging for Machine Learning](https://a
 
 > Good overview of problems with analyzing log files produced by software systems (including ML-enabled systems) and some collection of pointers to related work on log file parsing etc. The specific solution essentially requires some schema management and writing log files in a compact-machine readable format and more centralized planning.
 
-Islam, Md Johirul, Hoan Anh Nguyen, Rangeet Pan, and Hridesh Rajan. "[What do developers ask about ML libraries? A large-scale study using stack overflow](https://arxiv.org/pdf/1906.11940)." *arXiv preprint arXiv:1906.11940* (2019).
-
-> Large scale of stackoverflow questions related to 10 machine learning frameworks. Largely quantitative reporting, for example, which stages are most covered in those questions.
-
 de Souza Nascimento, Elizamary, Iftekhar Ahmed, Edson Oliveira, Márcio Piedade Palheta, Igor Steinmacher, and Tayana Conte. "[Understanding Development Process of Machine Learning Systems: Challenges and Solutions](https://www.ics.uci.edu/~iftekha/pdf/W.6.pdf)." In *2019 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)*, pp. 1-6. IEEE, 2019.
 
 > Small-scale interview study in 3 small Brazilian companies eliciting the ML process and three problems: identifying business goals, data definition, and undefined process. Suggest a checklist for each.
@@ -844,7 +847,7 @@ Muiruri, Dennis, Lucy Ellen Lwakatare, Jukka K Nurminen, and Tommi Mikkonen. "[P
 > Another interview study with data scientists, here with 23 data scientists in Finland, asking about processes and tools around ML pipelines (model centric, not system focused). List of actually used tools is interesting, seems fairly advanced, providing a strong contrast with the technical debt paper.
 
 
-## 16. Other Lists
+## 17. Other Lists
 
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
 
