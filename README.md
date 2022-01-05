@@ -202,6 +202,10 @@ Kang, Daniel, Deepti Raghavan, Peter Bailis, and Matei Zaharia. "[Model Assertio
 
 > Discusses use cases of “soft” assertions or invariants that show inconsistencies, especially across time series data and across multiple classifiers, without having to have access to labels. Table 5 in the appendix has a very good overview of different invariants and the paper discusses several plausible examples. Note that these invariants are probabilistic in nature rather than hard tests. This can be used for testing and runtime monitoring (e.g., runtime adaptation and safety mechanisms) without the need for labels! Unfortunately, the paper is very vague about concrete interfaces and technical details and focuses primarily on ML details for additional active learning and weak supervision use cases.
 
+Salay, Rick, and Krzysztof Czarnecki. "Improving ML safety with partial specifications." In *International Conference on Computer Safety, Reliability, and Security*, pp. 288-300. Springer, Cham, 2019.
+
+> Good discussion of why providing specifications for ML models is infeasible, followed by a somewhat abstract but well argued discussion of how partial specifications may be used in many different ways regardless. The discussion, while fairly abstract, covers several different facts, including suggesting that some specifications may be feasible on learned intermediate representations, that probabilistic constraints may be provided for data, that partial specifications may be provided for how to safely process model outputs, or that partial  specifications may be encoded during training.
+
 
 ### 2.5. Testing ML Frameworks
 
