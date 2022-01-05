@@ -706,6 +706,10 @@ Arpteg, Anders, Björn Brinne, Luka Crnkovic-Friis, and Jan Bosch. "[Software en
 
 > Discussion of SE challenges in deep learning projects. Useful list of challenges, apparently grounded in interviews with engineers in 7 projects. The discussion remains rather abstract with little explicit grounding in the interview data.
 
+Rahman, Md Saidur, Emilio Rivera, Foutse Khomh, Yann-Gaël Guéhéneuc, and Bernd Lehnert. "[Machine learning software engineering in practice: An industrial case study](https://arxiv.org/abs/1906.07154)." *arXiv preprint arXiv:1906.07154* (2019).
+
+> Discussion of challenges observed in a concrete industrial machine learning project with SAP. Observations are high-level lessons learned expressed as many rules and recommendations. Unfortunately, there is little discussion of research methods or how the rules trace to observations in the project.
+
 Hermann, Jeremy, Mike Del Balso, Rene Schmidt, and Jakob Holdgaard Thomsen. 2017. “[Meet Michelangelo: Uber’s Machine Learning Platform](https://eng.uber.com/michelangelo-machine-learning-platform/).” Uber Engineering Blog. September 5, 2017. .
 
 > Interesting blog post about the ML infrastructure at Uber and the challenges of building production systems.
