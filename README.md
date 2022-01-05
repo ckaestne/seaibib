@@ -748,6 +748,10 @@ Jiang, Ray, Silvia Chiappa, Tor Lattimore, András György, and Pushmeet Kohli. 
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
 
+Kuwajima, Hiroshi, Hirotoshi Yasuoka, and Toshihiro Nakae. "[Engineering problems in machine learning systems](https://link.springer.com/article/10.1007/s10994-020-05872-w?code=2c0c0228-4ff9-45e6-9285-d6dace01edc0)." *Machine Learning* 109, no. 5 (2020): 1103-1126.
+
+> Position paper discussing various engineering challenges when building systems with machine learning components. Makes a clear distinctions between problems related to the model and problems related to the entire system that includes the model. Discusses a range of different challenges, though it is not clear how they were selected. Concludes with a discussion of a general quality model.
+
 Smith, Jeff. Machine Learning Systems: Designs that Scale. Manning Publications Co., 2018.
 
 > Book on building scalable machine learning systems. Focuses on elastic/reactive system design and suggests specific design decisions, such as working with immutable data. Many concrete implementation examples given in Scala. The book is very readable but opinionated and somewhat narrow and low level. It describes specific implementation patterns for design solutions it suggests, but it definitively reflects on tradeoffs and software engineering concerns.
