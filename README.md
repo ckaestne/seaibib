@@ -379,6 +379,10 @@ Wiens, Jenna, Suchi Saria, Mark Sendak, Marzyeh Ghassemi, Vincent X. Liu, Finale
 
 > Position paper with a fairly high-level overview of what it takes to build and deploy machine learning products in health care settings. Lot’s of emphasis on what are essentially all requirements engineering challenges of understanding the domain, involving stakeholders, integrating the product into practice, etc etc.
 
+Banks, Alec, and Rob Ashmore. "[Requirements Assurance in Machine Learning](http://ceur-ws.org/Vol-2301/paper_8.pdf)." In *SafeAI@ AAAI*. 2019.
+
+> Short position paper essentially arguing that training data implicitly provides the requirements or specifications for an ML model and hence the quality of the training data should be the key focus in quality assurance for models. Maps concerns in validating requirements with concerns in validating data quality.
+
 ### 5.1. Fairness
 
 *Much of the interesting fairness discussions are really about requirements engineering in my book. Once a fairness measure and protected attributes are defined, measurement is typically not very challenging. The challenge is in identifying what notion of fairness is appropriate, a typical requirements engineering problem (and process challenge) negotiating the demands of various stakeholders. Here are a couple of papers that I liked.*
