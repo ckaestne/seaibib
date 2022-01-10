@@ -40,15 +40,18 @@ it is a great introduction to the topic.
 Sculley, David, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Francois Crespo, and Dan Dennison. "[Hidden technical debt in machine learning systems](http://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)." In Advances in neural information processing systems, pp. 2503-2511. 2015. 
 
 > Position paper. Probably the most cited paper in this field (and the original 
-title *"Machine learning: The high interest credit card of technical debt"* is
-one of my favorite paper titles), describes the challenges in building ML
-systems and how poor engineering choices can  be very expensive. While the
-"technical debt" metaphor is a bit forced and does not align with how I'd
-teach technical debt and most of the description is rather abstract and not
-well grounded in the SE literature, the paper provides a great argument that a
-machine learning system is more than just the ML model and building and
-operating it is a serious undertaking. 
-> 
+> title *"Machine learning: The high interest credit card of technical debt"* is
+> one of my favorite paper titles), describes the challenges in building ML
+> pipelines and how poor engineering choices can  be very expensive. 
+> This paper was instrumental in considering code within ML pipelines and is 
+> often discussed in an MLOps context; it is still very much model-centric and does
+> not discuss parts of the system that use the deployed model. While the
+> "technical debt" metaphor is a bit forced and does not align with how I'd
+> teach technical debt and most of the description is rather abstract and not
+> well grounded in the SE literature, the paper provides a great argument that a
+> machine learning system is more than just the ML model and building and
+> operating it is a serious undertaking. 
+>
 > Pro tip: A google scholar alert for citations to this paper is a good way to notice new SE4ML publications.
 
 Amershi, Saleema, Andrew Begel, Christian Bird, Robert DeLine, Harald Gall, Ece Kamar, Nachiappan Nagappan, Besmira Nushi, and Thomas Zimmermann. "[Software engineering for machine learning: A case study](https://andrewbegel.com/papers/Software_Engineering_for_ML.pdf)." In 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 291-300. IEEE, 2019. 
@@ -60,6 +63,10 @@ scale survey. Motivating well how pervasive ML is in modern systems and describi
 Ozkaya, Ipek. "[What Is Really Different in Engineering AI-Enabled Systems?](https://ieeexplore.ieee.org/abstract/document/9121629)" *IEEE Software* 37, no. 4 (2020): 3-6.
 
 > Concise opinion paper (editorial), discussing that building software system with AI components is harder but not necessarily that different from building traditional software systems. This very much mirrors my own opinion shared in my class and talks. Touches on many great points regarding specifications, requirements, and safety. Essentially a call to action that we need more software engineering.
+
+Passi, Samir, and Phoebe Sengers. "[Making data science systems work](https://journals.sagepub.com/doi/full/10.1177/2053951720939605)." *Big Data & Society* 7, no. 2 (2020).
+
+> In-depth case study in one project of how requirements are negotiated and influence design decisions and the other way around. Strong illustration of how goals of system and model may diverge, of how different team members understand their goals and make decisions, and of how they negotiate requirements and design decisions as the system evolves. "Making it work" is a nice way of framing "building a system that is actually useful for a business". Very detailed and approachable description of the case, a legal chatbot.
 
 ## 2. Quality Assurance
 
