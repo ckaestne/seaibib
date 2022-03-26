@@ -266,7 +266,7 @@ Tramer, Florian, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Jean-Pierre Hu
 
 ## 3. Debugging and Interpretability
 
-*How do we understand what a model does and why it is wrong? Debugging seems closely related with the quest for interpretability, even if just through approximations. This can focus on the model as well as on the data or the learning algorithm.*
+*How do we understand what a model does and why it is wrong? Debugging seems closely related with the quest for interpretability, even if just through approximations. This can focus on the model as well as on the data or the learning algorithm. (Some interpretability/explanability papers are listed in the Human-AI Interaction section below, because they focus on how end user rather than developers understand explanations.)*
 
 Molnar, Christoph. "[Interpretable machine learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)", 2019. 
 
@@ -620,6 +620,10 @@ Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust
 Springer, Aaron, Victoria Hollis, and Steve Whittaker. "[Dice in the black box: User experiences with an inscrutable algorithm](https://arxiv.org/abs/1812.03219)." AAAI Spring Symp. (2017).
 
 > Interesting small experiment: designing a ML-based system to rate text that is actually just random. Users will go to great length to interpret meaning into the system’s actions and seek confirmation bias for their own mental model, even if the system does not have any intelligence.
+
+Ehsan, Upol, Samir Passi, Q. Vera Liao, Larry Chan, I. Lee, Michael Muller, and Mark O. Riedl. "[The who in explainable AI: how AI background shapes perceptions of AI explanations](https://arxiv.org/abs/2107.13509)." *arXiv preprint arXiv:2107.13509* (2021).
+
+> Another paper critically exploring how end-user explanations of models can manipulate users, but here with a focus on how people with different backgrounds (with and without ML background) interpret explanations. The experiment shows how both ML experts and non-experts overtrust explanations based on numbers, even when inscrutable. Many lessons for designing explanations and possibilities for manipulation. Good related work sections. 
 
 ## 13. Computational Notebooks
 
