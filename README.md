@@ -861,6 +861,10 @@ Burkov, Andriy. *[Machine learning engineering](https://bookshop.org/books/machi
 
 > Machine learning book with a decent engineering focused, albeit still almost entirely model centric. Covers entire ML pipeline from data collection, to feature engineering, to modeling, to model deployment and monitoring, often in a compact way. Especially the coverage of data quality exceeds typical books in this area.
 
+McMahon, Andrew P. [Machine Learning Engineering with Python: Manage the production life cycle of machine learning models using MLOps with practical examples](https://bookshop.org/books/machine-learning-engineering-with-python-manage-the-production-life-cycle-of-machine-learning-models-using-mlops-with-practical-examples/9781801079259). Packt Publishing. 2021
+
+> One of the better of the many recent MLOps books. This does not only explain specific tools (e.g., pytest, AWS, Postman, Sparks), but also provides more general technical explanation and engineering rationals for many decisions.
+
 
 ## 17. Other Lists
 
