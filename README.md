@@ -181,6 +181,10 @@ Weber, Noah, Leena Shekhar, and Niranjan Balasubramanian. "[The Fine Line betwee
 
 > Very short paper showing with an illustrative experiment the importance of learning the right structure for a task, rather than surface learning. Very explicit about how the right linguistic structure (and nothing else) is needed to generalize beyond the training distribution (“linguistic generalization”).
 
+Von Rueden, Laura, Sebastian Mayer, Jochen Garcke, Christian Bauckhage, and Jannis Schuecker. "[Informed machine learning–towards a taxonomy of explicit integration of knowledge into machine learning](https://arxiv.org/abs/1903.12394v1)." *Learning* 18 (2019): 19-20.
+
+> Very high level survey of different approaches to use domain knowledge *in addition* to data during training in machine learning. Provides a good overview and classification of different approaches. Domain knowledge can have many forms such as rules and constraints, some might correspond to invariants and capabilities. This has potential implications for robustness, fairness, capabilities, and safety. (Not quite sure where to categorize this – it is not about quality assurance, but kind of the inverse of capability testing, by encoding the domain knowledge directly during training rather than testing it after the fact)
+
 ### 2.4. Model Invariants
 
 Segura, Sergio, Gordon Fraser, Ana B. Sanchez, and Antonio Ruiz-Cortés. "[A survey on metamorphic testing](https://core.ac.uk/download/pdf/74235918.pdf)." IEEE Transactions on software engineering 42, no. 9 (2016): 805-824.
