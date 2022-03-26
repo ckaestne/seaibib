@@ -857,6 +857,10 @@ Muiruri, Dennis, Lucy Ellen Lwakatare, Jukka K Nurminen, and Tommi Mikkonen. "[P
 
 > Another interview study with data scientists, here with 23 data scientists in Finland, asking about processes and tools around ML pipelines (model centric, not system focused). List of actually used tools is interesting, seems fairly advanced, providing a strong contrast with the technical debt paper.
 
+Burkov, Andriy. *[Machine learning engineering](https://bookshop.org/books/machine-learning-engineering/9781999579579)*. True Positive Incorporated, 2020.
+
+> Machine learning book with a decent engineering focused, albeit still almost entirely model centric. Covers entire ML pipeline from data collection, to feature engineering, to modeling, to model deployment and monitoring, often in a compact way. Especially the coverage of data quality exceeds typical books in this area.
+
 
 ## 17. Other Lists
 
