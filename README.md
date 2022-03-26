@@ -4,24 +4,22 @@ Author: [Christian Kästner](https://www.cs.cmu.edu/~ckaestne/), Carnegie Mellon
 
 ## Context
 
-While the academic literature on solving software engineering problems with
-machine learning techniques (ML4SE or AI4SE) abounds and has a long history,
-there is far less academic research on how to improve the engineering
-of systems with AI/ML components (SE4ML or SE4AI). 
+While software engineering academics used to focus on solving software engineering problems with
+machine learning techniques (ML4SE or AI4SE),
+more recently there has been increasing interest in how to improve the engineering
+of systems with ML components (SE4ML or SE4AI). Work on this topic is scattered across many communities, including software engineering, machine learning, human-computer interaction, security, humanities, and many others.
 
-With an interest primarily for teaching a software engineering class
-for AI/ML systems ([course web page](https://ckaestne.github.io/seai/),
-[paper about the course](https://arxiv.org/abs/2001.06691)), I tried
-to read up on the field. I had several interesting discussions since
-and have shared my collection of papers on the topic repeatedly and received
-some pointers to other papers as well. In an effort to help the community
+With an interest originally for teaching a class
+about engineering ML-enabled systems that brings software engineers and data scientists together ([course web page](https://ckaestne.github.io/seai/),
+[paper about the course](https://arxiv.org/abs/2001.06691), [upcoming textbook](https://ckaestne.medium.com/machine-learning-in-production-book-overview-63be62393581)), I tried
+to read up on the field. In an effort to help the community
 I'm sharing here a list of papers that I found interesting and useful
 with some sparse notes. 
 
 All notes are my personal opinions.
 
-If you have suggestions for other papers (with or without annotations)
-*open an issue* please :)
+If you have suggestions for other papers (with or without notes)
+*open an issue* please.
 
 ## Table of Contents
 
