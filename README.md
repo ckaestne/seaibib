@@ -68,6 +68,10 @@ Passi, Samir, and Phoebe Sengers. "[Making data science systems work](https://jo
 
 > In-depth case study in one project of how requirements are negotiated and influence design decisions and the other way around. Strong illustration of how goals of system and model may diverge, of how different team members understand their goals and make decisions, and of how they negotiate requirements and design decisions as the system evolves. "Making it work" is a nice way of framing "building a system that is actually useful for a business". Very detailed and approachable description of the case, a legal chatbot.
 
+Giray, Görkem. "[A software engineering perspective on engineering machine learning systems: State of the art and challenges](https://arxiv.org/abs/2012.07919)." *Journal of Systems and Software* 180 (2021): 111031.
+
+> Comprehensive survey of SE4ML research in the academic software engineering literature. I appreciate going beyond a model-centric focus and discussing the entire system. The survey does a good job of synthesizing and organizing insights from many papers. It is entirely limited to papers in software engineering venues, which restricts the scope to a manageable set, but unfortunately excludes the interesting work from many other communities.
+
 ## 2. Quality Assurance
 
 *There is a lot of work that covers testing ML systems in some form, most
