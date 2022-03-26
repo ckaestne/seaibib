@@ -23,6 +23,33 @@ All notes are my personal opinions.
 If you have suggestions for other papers (with or without annotations)
 *open an issue* please :)
 
+## Table of Contents
+
+* [Key resources](#1-key-resources)
+* [Quality assurance](#2-quality-assurance)
+  * [Surveys](#21-quality-assurance-surveys)
+  * [Slicing test data](#22-slicing-test-data)
+  * [Unit testing / testing capabilities](#23-unit-testing--testing-capabilities)
+  * [Model invariants](#24-model-invariants)
+  * [Testing ML frameworks](#25-testing-ml-frameworks)
+  * [QA in production](#26-quality-assurance-in-production)
+  * [Other](#27-other-quality-assurance-work)
+* [Debugging and interpretability](#3-debugging-and-interpretability)
+* [Data quality and data management](#4-data-quality-and-data-management)
+* [Requirements engineering](#5-requirements-engineering)
+  * [Fairness](#51-fairness)
+* [Software architecture and design](#6-software-architecture-and-design)
+  * [Model API documentation](#61-model-api-documentation)
+* [Process](#7-process)
+* [Safety & robustness](#8-safety--robustness)
+* [Security & privacy](#9-security--privacy)
+* [Reproducibility & provenance](#10-reproducibility-provenance)
+* [Interdisciplinary teams](#11-interdisciplinary-teams)
+* [Human-AI interaction](#12-human-ai-interaction)
+* [Computational notebooks](#13-computational-notebooks)
+* [ML libraries and APIs](#14-machine-learning-libraries-and-apis)
+* [Misc](#15-misc)
+
 
 ## 1. Key Resources
 
@@ -131,7 +158,7 @@ Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Ove
 
 > Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
 
-See also papers in the [requirements section](https://github.com/ckaestne/seaibib#requirements-engineering) below and the Slice Finder paper in the [debugging section](https://github.com/ckaestne/seaibib#debugging) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
+See also papers in the [requirements section](#5-requirements-engineering) below and the Slice Finder paper in the [debugging section](#3-debugging-and-interpretability) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
 
 ### 2.3. Unit Testing / Testing Capabilities
 
@@ -299,7 +326,7 @@ Bhatt, Umang, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia
 
 Chung, Yeounoh, Neoklis Polyzotis, Kihyun Tae, and Steven Euijong Whang. "[Automated data slicing for model validation: A big data-AI integration approach](https://arxiv.org/abs/1807.06068)." IEEE Transactions on Knowledge and Data Engineering (2019).
 
-> Approach to automatically identify subsets of the data for which the model accuracy is lower than average/other subsets. This automatically slices the validation data based on different features (like decision tree learning). Not that different from approaches in the [Test Data Curation](https://github.com/ckaestne/seaibib#test-data-curation) section, but not guided by humans, hence this seems more useful for debugging than for (regression) testing. Also briefly mentions applications to different quality functions, including fairness and accuracy difference after model update. Paper is heavily focused on underlying technical approach.
+> Approach to automatically identify subsets of the data for which the model accuracy is lower than average/other subsets. This automatically slices the validation data based on different features (like decision tree learning). Not that different from approaches in the [Slicing Test Data](#22-slicing-test-data) section, but not guided by humans, hence this seems more useful for debugging than for (regression) testing. Also briefly mentions applications to different quality functions, including fairness and accuracy difference after model update. Paper is heavily focused on underlying technical approach.
 
 
 Amershi, Saleema, Max Chickering, Steven M. Drucker, Bongshin Lee, Patrice Simard, and Jina Suh. "[Modeltracker: Redesigning performance analysis tools for machine learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.697.1689&rep=rep1&type=pdf)." In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, pp. 337-346. 2015.
