@@ -383,6 +383,10 @@ Banks, Alec, and Rob Ashmore. "[Requirements Assurance in Machine Learning](http
 
 > Short position paper essentially arguing that training data implicitly provides the requirements or specifications for an ML model and hence the quality of the training data should be the key focus in quality assurance for models. Maps concerns in validating requirements with concerns in validating data quality.
 
+Pine, Kathleen H., and Max Liboiron. "[The politics of measurement and action](http://www.kpine.net/wp-content/uploads/2012/10/politics-of-measurement_CHI-format_CAMERA-READY-V2-4.pdf)." In *Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems*, pp. 3147-3156. 2015.
+
+> 2 short case studies of how activists purposefully create measures to indicate harms and achieve change. While not directly related to machine learning, it provides a good overview of the politics of measurement and how shaping the decision what gets to be measured is highly influential in system design.
+
 ### 5.1. Fairness
 
 *Much of the interesting fairness discussions are really about requirements engineering in my book. Once a fairness measure and protected attributes are defined, measurement is typically not very challenging. The challenge is in identifying what notion of fairness is appropriate, a typical requirements engineering problem (and process challenge) negotiating the demands of various stakeholders. Here are a couple of papers that I liked.*
