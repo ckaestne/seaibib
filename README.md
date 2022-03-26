@@ -463,6 +463,10 @@ Serban, Alex, and Joost Visser. "[An Empirical Study of Software Architecture fo
 
 > Interview study with 10 software architects working on ML-based projects, combined with literature analysis and small-scale survey. Lists several challenges and possible solutions, though scope seems to drift beyond software architecture, describing many well known challenges around model development and deployment. 
 
+Lewis, Grace A., Ipek Ozkaya, and Xiwei Xu. "Software Architecture Challenges for ML Systems." In *2021 IEEE International Conference on Software Maintenance and Evolution (ICSME)*, pp. 634-638. IEEE, 2021.
+
+> Position paper framing the positive contributions software architecture can bring to building ML systems. Argues for architecture as a coordination point between disciplines and for observability as a key quality driver.
+
 ### 6.1. Model API Documentation
 
 Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "[Model cards for model reporting](https://arxiv.org/abs/1810.03993)." In *Proceedings of the conference on fairness, accountability, and transparency*, pp. 220-229. 2019.
