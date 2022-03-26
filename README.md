@@ -589,6 +589,10 @@ Muller, Michael, Ingrid Lange, Dakuo Wang, David Piorkowski, Jason Tsay, Q. Vera
 
 > Paper exploring how data scientists engage with data through 21 interviews at IBM. Emphasizes how data wrangling (cleaning, feature engineering) requires high effort and creativity. Pushes “conversation with data” as a description of this kind of work.
 
+Aho, Timo, Outi Sievi-Korte, Terhi Kilamo, Sezin Yaman, and Tommi Mikkonen. "[Demystifying data science projects: A look on the people and process of data science today](https://helda.helsinki.fi/bitstream/handle/10138/322911/XP2020_Data_Science_12_.pdf?sequence=1)." In *International Conference on Product-Focused Software Process Improvement*, pp. 153-167. Springer, 2020.
+
+> Study based on 6 interviews about process, roles, and teamwork in data science projects, largely model-centric. Identifying various teamwork challenges around managing exceptions, AI literacy, changing requirements, differences between data science and software development work, and so forth.
+
 ## 12. Human-AI Interaction
 
 *This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
