@@ -156,6 +156,10 @@ Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Ove
 
 > Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
 
+Oakden-Rayner, Luke, Jared Dunnmon, Gustavo Carneiro, and Christopher Ré. "[Hidden stratification causes clinically meaningful failures in machine learning for medical imaging](https://dl.acm.org/doi/abs/10.1145/3368555.3384468)." In *Proceedings of the Conference on Health, Inference, and Learning*, pp. 151-159. 2020.
+
+> Short and simple example of how rare systematic problems get lost in noise in standard evaluations but how domain knowledge, error analysis, and clustering can each help to identify relevant slices during model evaluation.
+
 See also papers in the [requirements section](#5-requirements-engineering) below and the Slice Finder paper in the [debugging section](#3-debugging-and-interpretability) or my [blog post](https://ckaestne.medium.com/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on the topic.
 
 ### 2.3. Unit Testing / Testing Capabilities
