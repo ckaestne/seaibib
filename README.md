@@ -456,6 +456,10 @@ Rakova, Bogdana, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. "[Where 
 
 > Another excellent interview study on fairness practice, showing current practices but also wants and aspirations. Strong focus on embedding practices into processes and establishing clear responsibilities; also discusses the role of activists in an organization. Based on 26 interviews in 19 organizations.
 
+Wieringa, Maranke. "[What to account for when accounting for algorithms: a systematic literature review on algorithmic accountability](https://dl.acm.org/doi/abs/10.1145/3351095.3372833)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 1-18. 2020.
+
+> Detailed discussion and definition of the concept of accountability, and the various dimensions and concerns it entails. Somewhat dry and not really specific to ML at all, but useful framing and illustration of what accountability means in different contexts.
+
 ## 6. Software Architecture and Design
 
 *Design of machine-learning pipelines, and more importantly design of systems that use machine learning components. How does one integrate such a component in the rest of the system? For example, how to design the system anticipating that the model will make wrong predictions eventually?*
