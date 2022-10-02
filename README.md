@@ -396,6 +396,10 @@ Barrak, A., Eghan, E.E. and Adams, B. 2021. "[On the Co-evolution of ML Pipeline
 > DVC files is noted while coupling between test files and DVC files
 > is negligible.
 
+Boyd, Karen L. "[Datasheets for Datasets help ML Engineers Notice and Understand Ethical Issues in Training Data](http://karenboyd.org/blog/wp-content/uploads/2021/09/Datasheets_Help_CSCW-5.pdf)." Proceedings of the ACM on Human-Computer Interaction 5, no. CSCW2 (2021): 1-27.
+
+> Controlled experiment whether participants with datasheets as data documentation realize ethical issues earlier and whether they discuss them differently (they do). Datasheets are characterized as “context documents” and essentially framed as a form of nudging. The paper uses a useful theoretical framing around ethical sensitivity.
+
 ## 5. Requirements Engineering
 
 *I have the impression that many practical problems in building AI-enabled systems are 
