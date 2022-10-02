@@ -408,6 +408,10 @@ Rahimi, Mona, Jin LC Guo, Sahar Kokaly, and Marsha Chechik. "[Toward Requirement
 
 > Idea paper that outlines a path of how requirements engineering can be useful in better understanding domain and context of a problem and how this helps in better curating a high-quality dataset for training and also how to drive validation of the model. Uses a running vision example of pedestriant detection.
 
+Nalchigar, Soroosh, Eric Yu, and Karim Keshavjee. "[Modeling machine learning requirements from three perspectives: a case report from the healthcare domain](http://www.cs.utoronto.ca/~soroosh/papers/Modeling%20machine%20learning%20requirements%20from%20three%20perspectives%20a%20case%20report%20from%20the%20healthcare%20domain.pdf)." *Requirements Engineering* 26, no. 2 (2021): 237-254.
+
+> Approach for requirements modeling in ML projects, identifying stakeholders and their goals, decision needs, and questions where ML might help. Single but very illustrative case study, showing lots of concrete results.
+
 Kulynych, Bogdan, Rebekah Overdorf, Carmela Troncoso, and Seda Gürses. "[POTs: protective optimization technologies](https://arxiv.org/abs/1806.02711)." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 177-188. 2020.
 
 > This is the only ML paper I have seen that explicitly discusses requirements engineering with Jackson's world vs machine framing. It nicely frames the fairness problem as a system problem and explicitly discusses the interface between the environment and the implementation's specification and how assuring fairness only at the model level is insufficient. The rest of the paper, then essentially suggests adversarial hacking through changes in the environment to drive the model to make fairer or globally better decisions -- that is, distributing the problem, affected people can increase the cost of certain outcomes thus making an ML system recommend other outcomes that are more benefitial to them. Interesting position paper, even if just for the framing in Sec 2.
