@@ -476,6 +476,10 @@ Wieringa, Maranke. "[What to account for when accounting for algorithms: a syste
 
 > Detailed discussion and definition of the concept of accountability, and the various dimensions and concerns it entails. Somewhat dry and not really specific to ML at all, but useful framing and illustration of what accountability means in different contexts.
 
+Shen, Hong, Wesley H. Deng, Aditi Chattopadhyay, Zhiwei Steven Wu, Xu Wang, and Haiyi Zhu. "[Value cards: An educational toolkit for teaching social impacts of machine learning through deliberation](https://dl.acm.org/doi/abs/10.1145/3442188.3445971)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 850-861. 2021.
+
+> Teaching approach to illustrate the conflicting requirements in fairness discussions, using personas and checklists on recidivism data.
+
 ## 6. Software Architecture and Design
 
 *Design of machine-learning pipelines, and more importantly design of systems that use machine learning components. How does one integrate such a component in the rest of the system? For example, how to design the system anticipating that the model will make wrong predictions eventually?*
