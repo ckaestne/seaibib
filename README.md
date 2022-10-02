@@ -638,6 +638,10 @@ Nahar, Nadia, Shurui Zhou, Grace Lewis, and Christian Kästner. “[Collaboratio
 
 > Our own interview study on collaboration challenges between data scientists and software engineers when building production ML systems. Lots of problems arise at the interface between the ML component and the rest of the system. Engineering is often undervalued, ML is difficult to fit into the larger process, documentation at the interfaces is often a big problem, and even communication across discipline boundaries can be difficult. The paper highlights that team structures differ substantially, but that certain problems associated with certain decisions such as whether to develop the model first and then build a system around it or whether to start with the system.
 
+Passi, Samir, and Steven J. Jackson. "[Trust in data science: Collaboration, translation, and accountability in corporate data science projects](https://dl.acm.org/doi/abs/10.1145/3274405)." *Proceedings of the ACM on Human-Computer Interaction* 2, no. CSCW (2018): 1-28.
+
+> Observations from two case studies about real negotiations between data scientists and business folks about what model is good enough and how trust in the model overall is incrementally established. Lots of evidence for the many human decisions when building a model that are all underdocumented and formed through intutition.
+
 Ryan Orban. "[Bridging the Gap Between Data Science & Engineer: Building High-Performance Teams](https://www.slideshare.net/ryanorban/bridging-the-gap-between-data-science-engineer-building-highperformance-teams)." Presentation 2016
 
 > Short presentation about the different roles of data scientists and software engineers and how to build interdisciplinary teams. Matches very closely my view of software engineering for AI-enabled systems, in that we still need data scientists and software engineers (and operators, and ...) as separate disciplines, but that we need a Devops-like integration around a common understanding and a joint mission.
