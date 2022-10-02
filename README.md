@@ -460,6 +460,10 @@ Rakova, Bogdana, Jingying Yang, Henriette Cramer, and Rumman Chowdhury. "[Where 
 
 > Another excellent interview study on fairness practice, showing current practices but also wants and aspirations. Strong focus on embedding practices into processes and establishing clear responsibilities; also discusses the role of activists in an organization. Based on 26 interviews in 19 organizations.
 
+Greene, Daniel, Anna Lauren Hoffmann, and Luke Stark. "[Better, nicer, clearer, fairer: A critical assessment of the movement for ethical artificial intelligence and machine learning](https://core.ac.uk/download/pdf/211327327.pdf)." In *Proceedings of the 52nd Hawaii International Conference on System Sciences* (2019).
+
+> Analysis of 2018 ML ethics guidelines and their themes. Arguing that they are technology driven and focused on better designs only rather than considering societal issues more broadly, accepting human responsibility, but also having various blind spots.
+
 Wieringa, Maranke. "[What to account for when accounting for algorithms: a systematic literature review on algorithmic accountability](https://dl.acm.org/doi/abs/10.1145/3351095.3372833)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 1-18. 2020.
 
 > Detailed discussion and definition of the concept of accountability, and the various dimensions and concerns it entails. Somewhat dry and not really specific to ML at all, but useful framing and illustration of what accountability means in different contexts.
