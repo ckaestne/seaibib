@@ -345,7 +345,7 @@ Sambasivan, Nithya, Shivani Kapania, Hannah Highfill, Diana Akrong,
 Praveen Paritosh, and Lora M. Aroyo. "[“Everyone wants to do the model
 work, not the data work”: Data Cascades in High-Stakes
 AI](https://dl.acm.org/doi/abs/10.1145/3411764.3445518)". In
-Proceedings of the 2021 CHI Conference on Human Factors in Computing
+Proceedings of the Conference on Human Factors in Computing
 Systems, pp. 1-15. 2021.
 
 > Strong argument about how data quality matters and lack of focus in data quality will impact the system later (similar to the argument in software engineering that bugs remaining in the system from requirements to deployment are much harder to fix than those found early). This paper has a strong system focus, showing how a narrow focus on modeling undervalues data collection, data quality work, and the entire outcome of the system. Discusses many different notions of data quality, beyond just schema. Discusses involving humans, incentives, power structures, and documentation in data collection. Excellent introduction to the literature around data quality (with many pointers). Interview study with 53 participants from India, USA and East and West
@@ -354,6 +354,10 @@ Systems, pp. 1-15. 2021.
 Møller, Naja Holten, Claus Bossen, Kathleen H. Pine, Trine Rask Nielsen, and Gina Neff. "[Who does the work of data?](https://ora.ox.ac.uk/objects/uuid:d666c069-1c8e-458a-8e8e-88fdb5884510)" *Interactions* 27, no. 3 (2020): 52-55.
 
 > Short essay arguing about the value (and underappreciation) of the work that goes into data collection work and the socio-technical infrastructure involved. Data work adds a human component, requires oversight and domain knowledge but is often not valued.
+
+Sambasivan, Nithya, and Rajesh Veeraraghavan. "[The Deskilling of Domain Expertise in AI Development](https://www.rajeshveera.org/s/The_Deskilling_of_Domain_Expertise_in_AI_Development.pdf)." In *Proceedings of the Conference on Human Factors in Computing Systems*, pp. 1-14. 2022.
+
+> Follow up to the data cascades paper, studying through interviews how people performing data collection and data entry are often perceived as lazy, corrupt, and low status but not as partners. Also surveying interventions often involving surveillance and incentives. Highlighting an often broken collaboration, resulting in data quality issues.
 
 Schelter, Sebastian, Dustin Lange, Philipp Schmidt, Meltem Celikel, Felix Biessmann, and Andreas Grafberger. 2018. “[Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf).” Proceedings of the VLDB Endowment International Conference on Very Large Data Bases 11 (12): 1781–94.
 
