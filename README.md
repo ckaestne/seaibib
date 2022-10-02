@@ -400,6 +400,10 @@ Boyd, Karen L. "[Datasheets for Datasets help ML Engineers Notice and Understand
 
 > Controlled experiment whether participants with datasheets as data documentation realize ethical issues earlier and whether they discuss them differently (they do). Datasheets are characterized as “context documents” and essentially framed as a form of nudging. The paper uses a useful theoretical framing around ethical sensitivity.
 
+Foidl, Harald, Michael Felderer, and Rudolf Ramler. "[Data Smells: Categories, Causes and Consequences, and Detection of Suspicious Data in AI-based Systems](https://arxiv.org/abs/2203.10384)." *arXiv preprint arXiv:2203.10384* (2022).
+
+> A catalog of different “data smells” and corresponding detection mechanisms, based on an analysis of grey literature and academic papers. Using both heuristic rules and ML-based detectors.
+
 ## 5. Requirements Engineering
 
 *I have the impression that many practical problems in building AI-enabled systems are 
