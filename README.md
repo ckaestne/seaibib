@@ -464,6 +464,10 @@ Greene, Daniel, Anna Lauren Hoffmann, and Luke Stark. "[Better, nicer, clearer, 
 
 > Analysis of 2018 ML ethics guidelines and their themes. Arguing that they are technology driven and focused on better designs only rather than considering societal issues more broadly, accepting human responsibility, but also having various blind spots.
 
+Metcalf, Jacob, and Emanuel Moss. "[Owning ethics: Corporate logics, silicon valley, and the institutionalization of ethics](https://datasociety.net/wp-content/uploads/2019/09/Owning-Ethics-PDF-version-2.pdf)." *Social Research: An International Quarterly* 86, no. 2 (2019): 449-476.
+
+> Essay, grounded in interviews with people in corporate ML ethics roles, exploring the tensions between various goals, while embedded in corporate business logics. For example highlighting a typical focus on technology and meritocracy and how it influences what kind of solutions are considered and how it can lead to ethics washing.
+
 Wieringa, Maranke. "[What to account for when accounting for algorithms: a systematic literature review on algorithmic accountability](https://dl.acm.org/doi/abs/10.1145/3351095.3372833)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 1-18. 2020.
 
 > Detailed discussion and definition of the concept of accountability, and the various dimensions and concerns it entails. Somewhat dry and not really specific to ML at all, but useful framing and illustration of what accountability means in different contexts.
