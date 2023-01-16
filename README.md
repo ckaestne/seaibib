@@ -690,6 +690,10 @@ Aho, Timo, Outi Sievi-Korte, Terhi Kilamo, Sezin Yaman, and Tommi Mikkonen. "[De
 
 > Study based on 6 interviews about process, roles, and teamwork in data science projects, largely model-centric. Identifying various teamwork challenges around managing exceptions, AI literacy, changing requirements, differences between data science and software development work, and so forth.
 
+Subramonyam, Hariharan, Jane Im, Colleen Seifert, and Eytan Adar. "[Solving Separation-of-Concerns Problems in Collaborative Design of Human-AI Systems through Leaky Abstractions](https://arxiv.org/abs/2207.01749)." In *CHI Conference on Human Factors in Computing Systems*, pp. 1-21. 2022.
+
+> Small-scale interview study about collaboration problems between some data scientists, some project managers, and 6 *user experience designers*, showing that collaboration is needed to work on the problem definition for the model and system in a somewhat agile fashion and that AI literacy is important. Often rather vague and the actual “leaky abstraction” argument seems to misunderstand classic modularity and software engineering work in my book though.
+
 ## 12. Human-AI Interaction
 
 *This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
