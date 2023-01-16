@@ -500,6 +500,10 @@ Srivastava, Megha, Hoda Heidari, and Andreas Krause. "[Mathematical notions vs. 
 
 > Adaptive survey design to elicit fairness preferences between competing fairness notions with a few questions. Interesting strategy to elicit scenario-specific fairness requirements from non-technical stakeholders.
 
+Raji, Inioluwa Deborah, I. Elizabeth Kumar, Aaron Horowitz, and Andrew Selbst. "[The fallacy of AI functionality](https://dl.acm.org/doi/abs/10.1145/3531146.3533158)." In *2022 ACM Conference on Fairness, Accountability, and Transparency*, pp. 959-972. 2022.
+
+> Essay paper with an interesting premise: Many ML-enabled systems simply do not work for their intended purpose and we should worry about this much more before we worry about fairness details. This largely seems to refer to models being to inaccurate for practical use, though the paper never defines its key concept of “AI functionality”. Mostly an interesting collection of problem stories, sorted in various problems like impossible tasks, post-deloyment issues, and communication failures..
+
 ## 6. Software Architecture and Design
 
 *Design of machine-learning pipelines, and more importantly design of systems that use machine learning components. How does one integrate such a component in the rest of the system? For example, how to design the system anticipating that the model will make wrong predictions eventually?*
