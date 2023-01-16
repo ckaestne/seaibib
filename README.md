@@ -492,6 +492,10 @@ Shen, Hong, Wesley H. Deng, Aditi Chattopadhyay, Zhiwei Steven Wu, Xu Wang, and 
 
 > Teaching approach to illustrate the conflicting requirements in fairness discussions, using personas and checklists on recidivism data.
 
+Srivastava, Megha, Hoda Heidari, and Andreas Krause. "[Mathematical notions vs. human perception of fairness: A descriptive approach to fairness for machine learning](https://dl.acm.org/doi/abs/10.1145/3292500.3330664)." In *Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 2459-2468. 2019.
+
+> Adaptive survey design to elicit fairness preferences between competing fairness notions with a few questions. Interesting strategy to elicit scenario-specific fairness requirements from non-technical stakeholders.
+
 ## 6. Software Architecture and Design
 
 *Design of machine-learning pipelines, and more importantly design of systems that use machine learning components. How does one integrate such a component in the rest of the system? For example, how to design the system anticipating that the model will make wrong predictions eventually?*
