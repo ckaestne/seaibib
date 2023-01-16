@@ -283,6 +283,10 @@ Kohavi, Ron, Diane Tang, and Ya Xu. *Trustworthy Online Controlled Experiments: 
 
 > Book providing a deep dive into A/B testing, including detailed discussions of statistics.
 
+Myllyaho, Lalli, Mikko Raatikainen, Tomi Männistö, Jukka K. Nurminen, and Tommi Mikkonen. "[On misbehaviour and fault tolerance in machine learning systems](https://arxiv.org/abs/2109.07989)." *Journal of Systems and Software* 183 (2022): 111096.
+
+> Small-scale interview study with a useful list of typical system-level mitigation strategies to handle wrong predictions of models, especially Table 2.
+
 ### 2.7. Other Quality Assurance Work
 
 Renggli, Cedric, Bojan Karlaš, Bolin Ding, Feng Liu, Kevin Schawinski, Wentao Wu, and Ce Zhang. "[Continuous integration of machine learning models with ease.ml/ci: Towards a rigorous yet practical treatment](https://arxiv.org/abs/1903.00278)." *arXiv preprint arXiv:1903.00278* (2019).
