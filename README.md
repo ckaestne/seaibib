@@ -718,6 +718,10 @@ Ehsan, Upol, Samir Passi, Q. Vera Liao, Larry Chan, I. Lee, Michael Muller, and 
 
 > Another paper critically exploring how end-user explanations of models can manipulate users, but here with a focus on how people with different backgrounds (with and without ML background) interpret explanations. The experiment shows how both ML experts and non-experts overtrust explanations based on numbers, even when inscrutable. Many lessons for designing explanations and possibilities for manipulation. Good related work sections. 
 
+Alkhatib, Ali, and Michael Bernstein. "[Street-level algorithms: A theory at the gaps between policy and decisions](https://dl.acm.org/doi/abs/10.1145/3290605.3300760)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-13. 2019.
+
+> Essay paper with three examples suggesting to use the idea of street-level bureaucracy (bureaucrats who make local decisions with some flexibility when administering the law) to explain some friction in rolling out automated decision making, especially when it comes to outliers and novel situations that bureaucrats and react can detect while ML automation does not. Even though the paper talks little about solutions or scale challenges, this may provide some nuanced insight into human-in-the-loop design of any software automation, not just machine learning.
+
 ## 13. Computational Notebooks
 
 *There is quite a bit of work on computational notebooks recently, mostly 
