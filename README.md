@@ -536,6 +536,10 @@ Lewis, Grace A., Ipek Ozkaya, and Xiwei Xu. "Software Architecture Challenges fo
 
 > Position paper framing the positive contributions software architecture can bring to building ML systems. Argues for architecture as a coordination point between disciplines and for observability as a key quality driver.
 
+Shankar, Shreya, Rolando Garcia, Joseph M. Hellerstein, and Aditya G. Parameswaran. "[Operationalizing machine learning: An interview study](https://arxiv.org/abs/2209.09125)." *arXiv preprint arXiv:2209.09125* (2022).
+
+> Interview study with 18 participants on MLOps, eliciting pain points and practices. Decent overview and introduction to MLOps practices. Entirely model-centric focused on deploying a model and pipeline, not the rest of the system using the model. Emphasizing the need for engineering and organizational interventions and a few engineering tradeoffs.
+
 ### 6.1. Model API Documentation
 
 Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "[Model cards for model reporting](https://arxiv.org/abs/1810.03993)." In *Proceedings of the conference on fairness, accountability, and transparency*, pp. 220-229. 2019.
