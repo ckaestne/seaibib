@@ -626,6 +626,10 @@ McGraw, Gary, Harold Figueroa, Victor Shepardson, and Richie Bonett. "[An archit
 
 > Fairly systematic and comprehensive list of possible security problems and corresponding controls and high-level strategies (not explicitly grounded or evaluated). Contains a useful architectural breakdown of the ML parts of a system, especially with regards to data. Could very well be used as a checklist during threat modeling. 
 
+Wilhjelm, Carl, and Awad A. Younis. "[A threat analysis methodology for security requirements elicitation in machine learning based systems](https://qrs20.techconf.org/QRSC2020_FULL/pdfs/QRS-C2020-4QOuHkY3M10ZUl1MoEzYvg/891500a419/891500a419.pdf)." In *2020 IEEE 20th International Conference on Software Quality, Reliability and Security Companion (QRS-C)*, pp. 426-433. IEEE, 2020.
+
+> Discussion of how ML-specific attacks can be mapped to STRIDE threat modeling with an example in the “evaluation” section. Not grounded but plausible.
+
 See also this [annotated bibliography](https://berryvilleiml.com/references/).
 
 
