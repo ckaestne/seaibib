@@ -4,10 +4,7 @@ Author: [Christian Kästner](https://www.cs.cmu.edu/~ckaestne/), Carnegie Mellon
 
 ## Context
 
-While software engineering academics used to focus on solving software engineering problems with
-machine learning techniques (ML4SE or AI4SE),
-more recently there has been increasing interest in how to improve the engineering
-of systems with ML components (SE4ML or SE4AI). Work on this topic is scattered across many communities, including software engineering, machine learning, human-computer interaction, security, humanities, and many others.
+In the past, software engineering academics primarily concentrated on using machine learning techniques (ML4SE or AI4SE) to solve software engineering problems. However, there is currently a growing interest in enhancing the engineering of systems that have machine learning components (SE4ML or SE4AI). This area of study is being explored by various communities, such as those in software engineering, machine learning, human-computer interaction, security, humanities, and other related fields. While the previous emphasis was on applying ML to software engineering challenges, there is now a shift towards incorporating ML into the engineering process for system development. As a result, research on this topic has become more widespread across multiple disciplines
 
 With an interest originally for teaching a class
 about engineering ML-enabled systems that brings software engineers and data scientists together ([course web page](https://ckaestne.github.io/seai/),
