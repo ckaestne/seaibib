@@ -586,6 +586,10 @@ Kaestner, Christian. “[On the process for building software with ML components
 
 > My own (early) thoughts on how process differs for data science and software engineering, but also how both of them might be integrated into a larger picture.
 
+Mailach, Alina and Norbert Siegmund. “[Socio-Technical Anti-Patterns in Building ML-Enabled Software: Insights from Leaders on the Forefront](https://sws.informatik.uni-leipzig.de/wp-content/uploads/2023/01/socio-technical-anti-patterns-icse2023.pdf).” *2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)* (2023): 690-702.
+
+> Analysis of talks in the MLOps community finding various anti-patterns that often relate to process and organizational issues, such as poor hiring, hype-driven development, and redundant development.
+
 
 ## 8. Safety & Robustness
 
