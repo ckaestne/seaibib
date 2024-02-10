@@ -754,6 +754,10 @@ Alkhatib, Ali, and Michael Bernstein. "[Street-level algorithms: A theory at the
 
 > Essay paper with three examples suggesting to use the idea of street-level bureaucracy (bureaucrats who make local decisions with some flexibility when administering the law) to explain some friction in rolling out automated decision making, especially when it comes to outliers and novel situations that bureaucrats and react can detect while ML automation does not. Even though the paper talks little about solutions or scale challenges, this may provide some nuanced insight into human-in-the-loop design of any software automation, not just machine learning.
 
+Colaner, Nathan. “Is explainable artificial intelligence intrinsically valuable?” *AI & SOCIETY* 37 (2021): 231-238.
+
+> Essay paper arguing that explainability is intrinsically valuable, not just to enable debugging, improve human-AI collaboration, or support human supervision and appeals. The paper argues that explainability is valuable and needed for human dignity, to understand what is happening to oneself, for participation and inclusion in society, and procedural justice. This encourages to have a broader view of explainability in machine learning.
+
 ## 13. Computational Notebooks
 
 *There is quite a bit of work on computational notebooks recently, mostly 
