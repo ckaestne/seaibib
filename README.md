@@ -152,6 +152,10 @@ Barash, Guy, Eitan Farchi, Ilan Jayaraman, Orna Raz, Rachel Tzoref-Brill, and Ma
 
 > Discusses how to slice validation data into subsets to observe how the model is doing on different subpopulations. Simple yet useful idea. Nice analogy to blackbox testing (they frame it in terms of combinatorial testing, though equivalence classes may be a better fit). Approach is used to slice data rather than generate new test data, which aligns also with Hulten's recommendations and [my lecture](https://ckaestne.github.io/seai/S2020/slides/04_modelquality/modelquality.html)/[blog post](https://medium.com/@ckaestne/a-software-testing-view-on-machine-learning-model-quality-d508cb9e20a6) on testing.
 
+Cabrera, Ángel Alexander, Erica Fu, Donald Bertucci, Kenneth Holstein, Ameet Talwalkar, Jason I. Hong, and Adam Perer. "[Zeno: An interactive framework for behavioral evaluation of machine learning](https://dl.acm.org/doi/abs/10.1145/3544548.3581268)." In *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2023.
+
+> Practical slicing tool with a nice user interface, providing flexibility in with custom slicing functions. Grounded in an interview study.
+
 Ré, Christopher, Feng Niu, Pallavi Gudipati, and Charles Srisuwananukorn. "[Overton: A Data System for Monitoring and Improving Machine-Learned Products](https://arxiv.org/abs/1909.05372)." *arXiv preprint arXiv:1909.05372* (2019).
 
 > Overview of a system design (at Apple) that focuses on slicing and improving training data incrementally. The model building part is automated and the system focuses on the training and validation data, making it easy to add more data and labels (using semi-supervised learning ideas). Nice demonstration of the importance and effectiveness of slicing data for the evaluation (see above).
