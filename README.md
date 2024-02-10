@@ -502,7 +502,11 @@ Srivastava, Megha, Hoda Heidari, and Andreas Krause. "[Mathematical notions vs. 
 
 Raji, Inioluwa Deborah, I. Elizabeth Kumar, Aaron Horowitz, and Andrew Selbst. "[The fallacy of AI functionality](https://dl.acm.org/doi/abs/10.1145/3531146.3533158)." In *2022 ACM Conference on Fairness, Accountability, and Transparency*, pp. 959-972. 2022.
 
-> Essay paper with an interesting premise: Many ML-enabled systems simply do not work for their intended purpose and we should worry about this much more before we worry about fairness details. This largely seems to refer to models being to inaccurate for practical use, though the paper never defines its key concept of “AI functionality”. Mostly an interesting collection of problem stories, sorted in various problems like impossible tasks, post-deloyment issues, and communication failures..
+> Essay paper with an interesting premise: Many ML-enabled systems simply do not work for their intended purpose and we should worry about this much more before we worry about fairness details. This largely seems to refer to models being to inaccurate for practical use, though the paper never defines its key concept of “AI functionality”. Mostly an interesting collection of problem stories, sorted in various problems like impossible tasks, post-deloyment issues, and communication failures.
+
+Grgic-Hlaca, Nina, Elissa M. Redmiles, Krishna P. Gummadi, and Adrian Weller. "[Human perceptions of fairness in algorithmic decision making: A case study of criminal risk prediction](https://dl.acm.org/doi/abs/10.1145/3178876.3186138)." In Proceedings of the 2018 World Wide Web Conference, pp. 903-912. 2018.
+
+> Analysis of a large scale survey on what participants consider as fair in criminal risk prediction and how that relates to larger preferences about privacy and other underlying principles. The study illustrates clearly how fairness considerations are entangled in politics and how navigating and negotiating different preferences is an essential task is system design. It additionally shows how disambiguating underlying principles can help to explain different preferences.
 
 ## 6. Software Architecture and Design
 
