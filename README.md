@@ -428,6 +428,10 @@ Rahimi, Mona, Jin LC Guo, Sahar Kokaly, and Marsha Chechik. "[Toward Requirement
 
 > Idea paper that outlines a path of how requirements engineering can be useful in better understanding domain and context of a problem and how this helps in better curating a high-quality dataset for training and also how to drive validation of the model. Uses a running vision example of pedestriant detection.
 
+Passi, Samir, and Solon Barocas. "[Problem formulation and fairness](https://dl.acm.org/doi/abs/10.1145/3287560.3287567)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 39-48. 2019.
+
+> In-depth study of a failed project illustrating the challenges in problem formulation in machine-learning projects. Shows how finding the right proxy measure to measure success is essential for a project. While not the primary concern, it also discusses how the right problem formulation is powerful in shaping ethical considerations. 
+
 Nalchigar, Soroosh, Eric Yu, and Karim Keshavjee. "[Modeling machine learning requirements from three perspectives: a case report from the healthcare domain](http://www.cs.utoronto.ca/~soroosh/papers/Modeling%20machine%20learning%20requirements%20from%20three%20perspectives%20a%20case%20report%20from%20the%20healthcare%20domain.pdf)." *Requirements Engineering* 26, no. 2 (2021): 237-254.
 
 > Approach for requirements modeling in ML projects, identifying stakeholders and their goals, decision needs, and questions where ML might help. Single but very illustrative case study, showing lots of concrete results.
