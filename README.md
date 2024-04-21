@@ -786,6 +786,10 @@ Colaner, Nathan. “Is explainable artificial intelligence intrinsically valuabl
 
 > Essay paper arguing that explainability is intrinsically valuable, not just to enable debugging, improve human-AI collaboration, or support human supervision and appeals. The paper argues that explainability is valuable and needed for human dignity, to understand what is happening to oneself, for participation and inclusion in society, and procedural justice. This encourages to have a broader view of explainability in machine learning.
 
+Selbst, Andrew D., and Solon Barocas. "[The intuitive appeal of explainable machines](https://heinonline.org/HOL/Page?handle=hein.journals/flr87&div=44&g_sent=&collection=journals)." *Fordham L. Rev.* 87 (2018): 1085.
+
+> A great overview of how explainability has traditionally been discussed in laws and the reasons for it and challenges around it, including the need to rely on intuitive explanations and the challenges that come with it. Overall it is fairly pessimistic about explanations and what might be possible, suggesting more process or value-based documentation instead of model explanations.
+
 ## 13. Computational Notebooks
 
 *There is quite a bit of work on computational notebooks recently, mostly 
