@@ -664,7 +664,7 @@ Wilhjelm, Carl, and Awad A. Younis. "[A threat analysis methodology for security
 
 Feffer, Michael, Anusha Sinha, Zachary C. Lipton, and Hoda Heidari. "[Red-Teaming for Generative AI: Silver Bullet or Security Theater?](https://arxiv.org/abs/2401.15897)" arXiv preprint arXiv:2401.15897 (2024).
 
-> A critical discussion of the current discourse on "red teaming" analyzing six red-teaming reports and literature on the topic showing that it is poorly defined and used entirely inconsistently. Most work in this area is not systematic and does not have a clear articulation of safety properties or a threat model or any other specifications. While the paper does not explicitly makes the point, it becomes obvious that red teaming is a distraction and a good example of regulatory capture.
+> A critical discussion of the current discourse on "red teaming" analyzing six red-teaming reports and literature on the topic showing that it is poorly defined and used entirely inconsistently. Most work in this area is not systematic and does not have a clear articulation of safety properties or a threat model or any other specifications. Has many useful pointers to other work in this area. While the paper does not explicitly makes the point, it becomes obvious that red teaming is a distraction and a good example of regulatory capture.
 
 See also this [annotated bibliography](https://berryvilleiml.com/references/).
 
@@ -773,6 +773,10 @@ Springer, Aaron, Victoria Hollis, and Steve Whittaker. "[Dice in the black box: 
 Ehsan, Upol, Samir Passi, Q. Vera Liao, Larry Chan, I. Lee, Michael Muller, and Mark O. Riedl. "[The who in explainable AI: how AI background shapes perceptions of AI explanations](https://arxiv.org/abs/2107.13509)." *arXiv preprint arXiv:2107.13509* (2021).
 
 > Another paper critically exploring how end-user explanations of models can manipulate users, but here with a focus on how people with different backgrounds (with and without ML background) interpret explanations. The experiment shows how both ML experts and non-experts overtrust explanations based on numbers, even when inscrutable. Many lessons for designing explanations and possibilities for manipulation. Good related work sections. 
+
+Eiband, Malin, Daniel Buschek, Alexander Kremer, and Heinrich Hussmann. "[The impact of placebic explanations on trust in intelligent systems](https://www.medien.ifi.lmu.de/pubdb/publications/pub/eiband2019chiea/eiband2019chiea.pdf)." In *Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-6. 2019.
+
+> Another paper with a tiny study showing that even information-free explanations are perceived as useful, similar to real explanations to create trust in an automated system, pointing again to a potential for manipulation.
 
 Alkhatib, Ali, and Michael Bernstein. "[Street-level algorithms: A theory at the gaps between policy and decisions](https://dl.acm.org/doi/abs/10.1145/3290605.3300760)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-13. 2019.
 
