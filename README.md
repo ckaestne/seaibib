@@ -32,7 +32,7 @@ If you have suggestions for other papers (with or without notes)
   * [Testing ML frameworks](#25-testing-ml-frameworks)
   * [QA in production](#26-quality-assurance-in-production)
   * [Other](#27-other-quality-assurance-work)
-* [Debugging and interpretability](#3-debugging-and-interpretability)
+* [Debugging and explainability tools](#3-debugging-and-explainability-tools)
 * [Data quality and data management](#4-data-quality-and-data-management)
 * [Requirements engineering](#5-requirements-engineering)
   * [Fairness](#51-fairness)
@@ -43,10 +43,11 @@ If you have suggestions for other papers (with or without notes)
 * [Security & privacy](#9-security--privacy)
 * [Reproducibility & provenance](#10-reproducibility-provenance)
 * [Interdisciplinary teams](#11-interdisciplinary-teams)
-* [Human-AI interaction](#12-human-ai-interaction)
-* [Computational notebooks](#13-computational-notebooks)
-* [ML libraries and APIs](#14-machine-learning-libraries-and-apis)
-* [Misc](#15-misc)
+* [Transparency, Accountability, and Policy](#12-transparency-accountability-and-policy)
+* [Human-AI interaction](#13-human-ai-interaction)
+* [Computational notebooks](#14-computational-notebooks)
+* [ML libraries and APIs](#15-machine-learning-libraries-and-apis)
+* [Misc](#16-misc)
 
 
 ## 1. Key Resources
@@ -309,9 +310,9 @@ Tramer, Florian, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Jean-Pierre Hu
 
 > Approach to explore correlations between protected attributes and prediction outcomes in *subpopulations* of the dataset. The key idea is that there may not be such a correlation (generalizes to various fairness measures on the confusion matrix) for the entire population, but it may well exists for certain subpopulations, e.g., only among low-income residence do we observe gender-based discrimination. The key contribution is an efficient search among subpopulations inspired by decision tree learning algorithms. Explicitly adopts testing and debugging terminology and goes beyond the simple invariants (anti-classification) in many other fairness testing papers, i.e., it can account for unfairness through correlated attributes.
 
-## 3. Debugging and Interpretability
+## 3. Debugging and Explainability Tools
 
-*How do we understand what a model does and why it is wrong? Debugging seems closely related with the quest for interpretability, even if just through approximations. This can focus on the model as well as on the data or the learning algorithm. (Some interpretability/explanability papers are listed in the Human-AI Interaction section below, because they focus on how end user rather than developers understand explanations.)*
+*How do we understand what a model does and why it is wrong? Debugging seems closely related with the quest for interpretability, even if just through approximations. This can focus on the model as well as on the data or the learning algorithm. (Some interpretability/explanability papers are listed in the [Transparency](#12-transparency-accountability-and-policy) section below, because they focus on how end user rather than developers understand explanations.)*
 
 Molnar, Christoph. "[Interpretable machine learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)", 2019. 
 
@@ -500,9 +501,6 @@ Metcalf, Jacob, and Emanuel Moss. "[Owning ethics: Corporate logics, silicon val
 
 > Essay, grounded in interviews with people in corporate ML ethics roles, exploring the tensions between various goals, while embedded in corporate business logics. For example highlighting a typical focus on technology and meritocracy and how it influences what kind of solutions are considered and how it can lead to ethics washing.
 
-Wieringa, Maranke. "[What to account for when accounting for algorithms: a systematic literature review on algorithmic accountability](https://dl.acm.org/doi/abs/10.1145/3351095.3372833)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 1-18. 2020.
-
-> Detailed discussion and definition of the concept of accountability, and the various dimensions and concerns it entails. Somewhat dry and not really specific to ML at all, but useful framing and illustration of what accountability means in different contexts.
 
 Shen, Hong, Wesley H. Deng, Aditi Chattopadhyay, Zhiwei Steven Wu, Xu Wang, and Haiyi Zhu. "[Value cards: An educational toolkit for teaching social impacts of machine learning through deliberation](https://dl.acm.org/doi/abs/10.1145/3442188.3445971)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 850-861. 2021.
 
@@ -734,37 +732,29 @@ Subramonyam, Hariharan, Jane Im, Colleen Seifert, and Eytan Adar. "[Solving Sepa
 
 > Small-scale interview study about collaboration problems between some data scientists, some project managers, and 6 *user experience designers*, showing that collaboration is needed to work on the problem definition for the model and system in a somewhat agile fashion and that AI literacy is important. Often rather vague and the actual “leaky abstraction” argument seems to misunderstand classic modularity and software engineering work in my book though.
 
-## 12. Human-AI Interaction
+## 12. Transparency, Accountability, and Policy
 
-*This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
+*Discussions of explanations as they relate to end users and policies, in contrast to explanations and explainability tools that developers might use for debugging discussed in [Debugging](#3-debugging-and-explainability-tools) above.*
 
-Yang, Qian. "[The role of design in creating machine-learning-enhanced user experience](https://www.aaai.org/ocs/index.php/SSS/SSS17/paper/viewPaper/15363)." In *2017 AAAI Spring Symposium Series*. 2017.
+Selbst, Andrew D., and Solon Barocas. "[The intuitive appeal of explainable machines](https://heinonline.org/HOL/Page?handle=hein.journals/flr87&div=44&g_sent=&collection=journals)." *Fordham L. Rev.* 87 (2018): 1085.
 
-> Excellent position paper arguing that currently most AI-enabled systems are driven by data availability rather than a vision for a product, leading to poor user experiences. Argues for the importance of designing the user interaction before or with developing the model, which needs AI literacy from UI designers and interdisciplinary collaboration. Has several good pointers to literature for going deeper.
+> A great overview of how explainability has traditionally been discussed in laws and the reasons for it (including values) and challenges around it, including the need to rely on intuitive explanations and the challenges that come with it. Overall it is fairly pessimistic about explanations and what might be possible, suggesting more process or value-based documentation instead of model explanations.
 
-Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "[Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems](http://library.usc.edu.ph/ACM/CHI2019/1proc/paper411.pdf)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
+Colaner, Nathan. “Is explainable artificial intelligence intrinsically valuable?” *AI & SOCIETY* 37 (2021): 231-238.
 
-> Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
+> Essay paper arguing that explainability is intrinsically valuable, not just to enable debugging, improve human-AI collaboration, or support human supervision and appeals. The paper argues that explainability is valuable and needed for human dignity, to understand what is happening to oneself, for participation and inclusion in society, and procedural justice. This encourages to have a broader view of explainability in machine learning.
 
-Stumpf, Simone, Adrian Bussone, and Dympna O’sullivan. "[Explanations considered harmful? user interactions with machine learning systems](http://www.doc.gold.ac.uk/~mas02mg/HCML2016/HCML2016_paper_2.pdf)." In *Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)*. 2016.
+Alkhatib, Ali, and Michael Bernstein. "[Street-level algorithms: A theory at the gaps between policy and decisions](https://dl.acm.org/doi/abs/10.1145/3290605.3300760)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-13. 2019.
 
-> Interesting short paper with a small experiment, illustrating that explanations of a model’s predictions can foster trust for the prediction up to the point that the users (here physicians for a medical diagnosis) trust the system over their own judgment and accept more wrong predictions. The sentiment is that “the model seems to know more than me” even if the prediction and explanation are wrong.
-
-Amershi, Saleema, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh et al. "[Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf)." In *Proceedings of the 2019 CHI conference on human factors in computing systems*, pp. 1-13. 2019.
-
-> Curated collection of a number of high-level design guidelines extracted from (grey) literature survey and heavily workshoped and evaluated. Table 1 contains the main guidelines.
-
-Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. "[Principles of explanatory debugging to personalize interactive machine learning](ftp://az.engr.oregonstate.edu/pub/burnett/iui15-elucidebug.pdf)." In *Proceedings of the 20th international conference on intelligent user interfaces*, pp. 126-137. 2015.
-
-> Nice example of a user interface with explanations (here Bayes model similar to spam filter) that helps users to build a mental model and adjust weights if needed to fix wrong predictions. Very explicit about design goals and decisions; lots of pointers to related work on mental models and debugging for end users.
+> Essay paper with three examples suggesting to use the idea of street-level bureaucracy (bureaucrats who make local decisions with some flexibility when administering the law) to explain some friction in rolling out automated decision making, especially when it comes to outliers and novel situations that bureaucrats and react can detect while ML automation does not. Even though the paper talks little about solutions or scale challenges, this may provide some nuanced insight into human-in-the-loop design of any software automation, not just machine learning.
 
 Cai, Carrie J., Samantha Winter, David Steiner, Lauren Wilcox, and Michael Terry. "[’Hello AI’: Uncovering the Onboarding Needs of Medical Practitioners for Human-AI Collaborative Decision-Making](https://dl.acm.org/doi/abs/10.1145/3359206)." *Proceedings of the ACM on Human-Computer Interaction* 3, no. CSCW (2019): 1-24.
 
 > Interesting overall discussion about what information users (in this case medical practitioners) need to trust and adopt an ML model’s predictions, based on an study with pathologists. For example, need to convey a mental model of how the AI works, need to explain what data was used to train the model and what features it uses (visible and not visible in UI) to gain trust. Lots of design and data decisions here.
 
-Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in AI](https://arxiv.org/pdf/2010.07487)." Proc. FAccT (2021).
+Stumpf, Simone, Adrian Bussone, and Dympna O’sullivan. "[Explanations considered harmful? user interactions with machine learning systems](http://www.doc.gold.ac.uk/~mas02mg/HCML2016/HCML2016_paper_2.pdf)." In *Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)*. 2016.
 
-> Interesting conceptual discussion trying to define trust and trustworthiness, including an important recognition that risk is necessary for trust. They distinguish intrinsic trust which requires that a user’s prior believe align with how the model reasons (here explanations and capability tests are useful) and extrinsic trust from a positive track record in production or a rigorous evaluation as the two key directions to increase trust. They specifically talk about how adhering to partial contracts may be sufficient to establish trust, but remain somewhat vague on the concept beyond some vague references to subpopulations and capabilities.
+> Interesting short paper with a small experiment, illustrating that explanations of a model’s predictions can foster trust for the prediction up to the point that the users (here physicians for a medical diagnosis) trust the system over their own judgment and accept more wrong predictions. The sentiment is that “the model seems to know more than me” even if the prediction and explanation are wrong.
 
 Springer, Aaron, Victoria Hollis, and Steve Whittaker. "[Dice in the black box: User experiences with an inscrutable algorithm](https://arxiv.org/abs/1812.03219)." AAAI Spring Symp. (2017).
 
@@ -778,19 +768,35 @@ Eiband, Malin, Daniel Buschek, Alexander Kremer, and Heinrich Hussmann. "[The im
 
 > Another paper with a tiny study showing that even information-free explanations are perceived as useful, similar to real explanations to create trust in an automated system, pointing again to a potential for manipulation.
 
-Alkhatib, Ali, and Michael Bernstein. "[Street-level algorithms: A theory at the gaps between policy and decisions](https://dl.acm.org/doi/abs/10.1145/3290605.3300760)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-13. 2019.
+Wieringa, Maranke. "[What to account for when accounting for algorithms: a systematic literature review on algorithmic accountability](https://dl.acm.org/doi/abs/10.1145/3351095.3372833)." In *Proceedings of the Conference on Fairness, Accountability, and Transparency*, pp. 1-18. 2020.
 
-> Essay paper with three examples suggesting to use the idea of street-level bureaucracy (bureaucrats who make local decisions with some flexibility when administering the law) to explain some friction in rolling out automated decision making, especially when it comes to outliers and novel situations that bureaucrats and react can detect while ML automation does not. Even though the paper talks little about solutions or scale challenges, this may provide some nuanced insight into human-in-the-loop design of any software automation, not just machine learning.
+> Detailed discussion and definition of the concept of accountability, and the various dimensions and concerns it entails. Somewhat dry and not really specific to ML at all, but useful framing and illustration of what accountability means in different contexts.
 
-Colaner, Nathan. “Is explainable artificial intelligence intrinsically valuable?” *AI & SOCIETY* 37 (2021): 231-238.
+## 13. Human-AI Interaction
 
-> Essay paper arguing that explainability is intrinsically valuable, not just to enable debugging, improve human-AI collaboration, or support human supervision and appeals. The paper argues that explainability is valuable and needed for human dignity, to understand what is happening to oneself, for participation and inclusion in society, and procedural justice. This encourages to have a broader view of explainability in machine learning.
+*This area is interesting and has seen significant attention recently, but goes beyond my typical software engineering considerations. See the [Human-AI Interaction](http://www.humanaiclass.org/) class at CMU for more pointers.*
 
-Selbst, Andrew D., and Solon Barocas. "[The intuitive appeal of explainable machines](https://heinonline.org/HOL/Page?handle=hein.journals/flr87&div=44&g_sent=&collection=journals)." *Fordham L. Rev.* 87 (2018): 1085.
+Yang, Qian. "[The role of design in creating machine-learning-enhanced user experience](https://www.aaai.org/ocs/index.php/SSS/SSS17/paper/viewPaper/15363)." In *2017 AAAI Spring Symposium Series*. 2017.
 
-> A great overview of how explainability has traditionally been discussed in laws and the reasons for it and challenges around it, including the need to rely on intuitive explanations and the challenges that come with it. Overall it is fairly pessimistic about explanations and what might be possible, suggesting more process or value-based documentation instead of model explanations.
+> Excellent position paper arguing that currently most AI-enabled systems are driven by data availability rather than a vision for a product, leading to poor user experiences. Argues for the importance of designing the user interaction before or with developing the model, which needs AI literacy from UI designers and interdisciplinary collaboration. Has several good pointers to literature for going deeper.
 
-## 13. Computational Notebooks
+Kocielnik, Rafal, Saleema Amershi, and Paul N. Bennett. "[Will you accept an imperfect AI? Exploring designs for adjusting end-user expectations of AI systems](http://library.usc.edu.ph/ACM/CHI2019/1proc/paper411.pdf)." In *Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems*, pp. 1-14. 2019.
+
+> Cool mturk-style study to explore different means of setting expectations for users that the ML predictions of the system might be occasionally wrong. This is useful to think at the system level about mitigations for incorrect predictions, here focusing on how to present them to users. Discusses three concrete UI designs for a realistic setting (scheduling assistant).
+
+Amershi, Saleema, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh et al. "[Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf)." In *Proceedings of the 2019 CHI conference on human factors in computing systems*, pp. 1-13. 2019.
+
+> Curated collection of a number of high-level design guidelines extracted from (grey) literature survey and heavily workshoped and evaluated. Table 1 contains the main guidelines.
+
+Kulesza, Todd, Margaret Burnett, Weng-Keen Wong, and Simone Stumpf. "[Principles of explanatory debugging to personalize interactive machine learning](ftp://az.engr.oregonstate.edu/pub/burnett/iui15-elucidebug.pdf)." In *Proceedings of the 20th international conference on intelligent user interfaces*, pp. 126-137. 2015.
+
+> Nice example of a user interface with explanations (here Bayes model similar to spam filter) that helps users to build a mental model and adjust weights if needed to fix wrong predictions. Very explicit about design goals and decisions; lots of pointers to related work on mental models and debugging for end users.
+
+Jacovi, Alon, Ana Marasović, Tim Miller, and Yoav Goldberg. "[Formalizing trust in artificial intelligence: Prerequisites, causes and goals of human trust in AI](https://arxiv.org/pdf/2010.07487)." Proc. FAccT (2021).
+
+> Interesting conceptual discussion trying to define trust and trustworthiness, including an important recognition that risk is necessary for trust. They distinguish intrinsic trust which requires that a user’s prior believe align with how the model reasons (here explanations and capability tests are useful) and extrinsic trust from a positive track record in production or a rigorous evaluation as the two key directions to increase trust. They specifically talk about how adhering to partial contracts may be sufficient to establish trust, but remain somewhat vague on the concept beyond some vague references to subpopulations and capabilities.
+
+## 14. Computational Notebooks
 
 *There is quite a bit of work on computational notebooks recently, mostly 
 focused on the exploratory work that data scientists perform. Some of this
@@ -837,7 +843,7 @@ Yang, Chenyang, Shurui Zhou, Jin L.C. Guo, and Christian Kästner. “[Subtle Bu
 
 > Adapting program synthesis and test suite minimization techniques to automatically generate summaries of the transformations performed on data frames within a notebook cell. This is shown the be useful to understand what happens and identify incorrect data transformations – which seem to be very common in public notebooks.
 
-## 14. Machine Learning Libraries and APIs
+## 15. Machine Learning Libraries and APIs
 
 *Software engineers like to study library adoption and challenges in using libraries and APIs. There are several papers that look specifically at APIs related to machine learning. Potentially useful when trying to understand the technical environment provided for data scientists.*
 
@@ -859,7 +865,7 @@ Chen, Zhenpeng, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie, and Xuanzhe Liu.
 
 > Another StackOverflow study, this time focused on questions that developers ask regarding deploying deep learning models. Mostly API/documentation style questions close to the model rather than broader system deployment or MLOps questions and fairly shallow insights, but still potentially useful to see what developers struggle with current infrastructure at the API level. 
 
-## 15. Misc
+## 16. Misc
 
 *Various recommended and useful resources that do not fit well into the other categories.*
 
@@ -954,7 +960,7 @@ Jiang, Ray, Silvia Chiappa, Tor Lattimore, András György, and Pushmeet Kohli. 
 
 > Very formal paper using simulation to study the effects of feedback loops of recommender systems on filter bubbles and echo chambers. Helps understanding the problem and thinking of solutions as part of the system’s design.
 
-## 16. Others with Notes
+## 17. Others with Notes
 
 *Not necessarily papers and books I recommend, but they may be of interest for specific concerns.*
 
@@ -1035,7 +1041,7 @@ McMahon, Andrew P. [Machine Learning Engineering with Python: Manage the product
 > One of the better of the many recent MLOps books. This does not only explain specific tools (e.g., pytest, AWS, Postman, Sparks), but also provides more general technical explanation and engineering rationals for many decisions.
 
 
-## 17. Other Lists
+## 18. Other Lists
 
 Miryung Kim has been teaching seminars at UCLA on debugging and data science/ML that is a great source for recommended readings as well, see http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2017/main.xhtml and http://web.cs.ucla.edu/~miryung/teaching/CS239-Winter2019/main.xhtml
 
