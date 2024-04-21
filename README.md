@@ -732,6 +732,10 @@ Subramonyam, Hariharan, Jane Im, Colleen Seifert, and Eytan Adar. "[Solving Sepa
 
 > Small-scale interview study about collaboration problems between some data scientists, some project managers, and 6 *user experience designers*, showing that collaboration is needed to work on the problem definition for the model and system in a somewhat agile fashion and that AI literacy is important. Often rather vague and the actual “leaky abstraction” argument seems to misunderstand classic modularity and software engineering work in my book though.
 
+Dolata, Mateusz, and Kevin Crowston. "[Making sense of AI systems development](https://www.zora.uzh.ch/id/eprint/239719/1/sensemaking_tse_v38_zora.pdf)." *IEEE Transactions on Software Engineering* (2023).
+
+> Reporting lessons learned from projects with IBM Watson, where IBM employees work as consultant together with big companies to explore or develop ML projects based on the Watson platform. Shows lots of frustration and miscommunication and lots of surprises about data quality, often grounded in miscalibrated expectations. The projects were usually much more exploratory that customers were used too and IBM had difficulty providing enough experts for the technology; customer expectations were inappropriate due to hype and marketing; lots of adoption and system-level challenges. The study is based on interviews with managers at companies and IBM consultants and uses a sensemaking framing. It is rather challenging to read, but the results section is interesting.
+
 ## 12. Transparency, Accountability, and Policy
 
 *Discussions of explanations as they relate to end users and policies, in contrast to explanations and explainability tools that developers might use for debugging discussed in [Debugging](#3-debugging-and-explainability-tools) above.*
