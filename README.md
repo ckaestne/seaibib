@@ -322,6 +322,14 @@ Lipton, Zachary C. "[The Mythos of Model Interpretability: In machine learning, 
 
 > Good and compact overview of different goals and notions of explainablity, interpretability, trust, and transparency and a quick overview of different techniques in this area.
 
+Bhatt, Umang, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia, Joydeep Ghosh, Ruchir Puri, José MF Moura, and Peter Eckersley. "[Explainable machine learning in deployment](https://dl.acm.org/doi/abs/10.1145/3351095.3375624)." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 648-657. 2020.
+
+> An interview study asking practioners about how they use explainability techniques. Finding that they are mostly used internally, mostly for debugging, and mostly using SHAP values. Also somewhat useful includes abstract examples/scenarios of how explainability techniques are used in 6 companies.
+
+Kaur, Harmanpreet, Harsha Nori, Samuel Jenkins, Rich Caruana, Hanna Wallach, and Jennifer Wortman Vaughan. "[Interpreting interpretability: understanding data scientists' use of interpretability tools for machine learning](https://harmanpk.github.io/Papers/CHI2020_Interpretability.pdf)." In *Proceedings of the 2020 CHI conference on human factors in computing systems*, pp. 1-14. 2020.
+
+> Similarly to the paper above, studying how practitioners (might) use two explainability libraries (SHAP and GAM), however focused exclusively on data scientists using explainability tools for insights during model building. Interesting study design with three steps, but really narrow and tool-focused questions. Finding that many data scientists in the study do not well understand what these libraries do and hence commonly overtrust and undertrust them.
+
 Ma, Shiqing, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. "[MODE: automated neural network model debugging via state differential analysis and input selection](https://dl.acm.org/doi/pdf/10.1145/3236024.3236082)." In Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 175-186. 2018.
 
 > Uses a SE mindset (delta debugging, slicing) to approach the problem of debugging deep neural networks, especially to identify features that are critical for misbehavior with the goal of providing better learning data (framed as "root cause identification" of "training bugs"). Fairly pragmatic.
@@ -329,10 +337,6 @@ Ma, Shiqing, Yingqi Liu, Wen-Chuan Lee, Xiangyu Zhang, and Ananth Grama. "[MODE:
 Ma, Shiqing, Yousra Aafer, Zhaogui Xu, Wen-Chuan Lee, Juan Zhai, Yingqi Liu, and Xiangyu Zhang. "[LAMP: data provenance for graph based machine learning algorithms through derivative computation](https://dl.acm.org/doi/pdf/10.1145/3106237.3106291)." In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, pp. 786-797. 2017.
 
 > Interesting idea to identify which inputs to a machine-learning algorithm have large effects on the produced model (i.e., some form of sensitivity analysis). Focused on specific classes of graph-based algorithms like Pagerank.
-
-Bhatt, Umang, Alice Xiang, Shubham Sharma, Adrian Weller, Ankur Taly, Yunhan Jia, Joydeep Ghosh, Ruchir Puri, José MF Moura, and Peter Eckersley. "Explainable machine learning in deployment." In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency, pp. 648-657. 2020.
-
-> An interview study asking practioners about how they use explainability techniques. Finding that they are mostly used internally, mostly for debugging, and mostly using SHAP values. Also somewhat useful includes abstract examples/scenarios of how explainability techniques are used in 6 companies.
 
 Chung, Yeounoh, Neoklis Polyzotis, Kihyun Tae, and Steven Euijong Whang. "[Automated data slicing for model validation: A big data-AI integration approach](https://arxiv.org/abs/1807.06068)." IEEE Transactions on Knowledge and Data Engineering (2019).
 
