@@ -662,6 +662,10 @@ Wilhjelm, Carl, and Awad A. Younis. "[A threat analysis methodology for security
 
 > Discussion of how ML-specific attacks can be mapped to STRIDE threat modeling with an example in the “evaluation” section. Not grounded but plausible.
 
+Feffer, Michael, Anusha Sinha, Zachary C. Lipton, and Hoda Heidari. "[Red-Teaming for Generative AI: Silver Bullet or Security Theater?](https://arxiv.org/abs/2401.15897)" arXiv preprint arXiv:2401.15897 (2024).
+
+> A critical discussion of the current discourse on "red teaming" analyzing six red-teaming reports and literature on the topic showing that it is poorly defined and used entirely inconsistently. Most work in this area is not systematic and does not have a clear articulation of safety properties or a threat model or any other specifications. While the paper does not explicitly makes the point, it becomes obvious that red teaming is a distraction and a good example of regulatory capture.
+
 See also this [annotated bibliography](https://berryvilleiml.com/references/).
 
 
