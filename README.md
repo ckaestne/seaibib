@@ -63,6 +63,9 @@ Coverage is often more broad than deep and there is an overwhelming
 amount of bulleted lists (not uncommon for SE textbooks), but
 it is a great introduction to the topic.
 
+Kästner, Christian. [Machine Learning in Production: From Models to Products](https://mlip-cmu.github.io/book/). (to be published by MIT Press), 2024
+> Shameless plug for my own book, synthesizing much work in this area. Has a system-wide software engineering view on building products with ML components. Covers the entire software engineering lifecycle from requirements to operations, including most topics covered here. Publicly available under a creative commons license.
+
 Sculley, David, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young, Jean-Francois Crespo, and Dan Dennison. "[Hidden technical debt in machine learning systems](http://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)." In Advances in neural information processing systems, pp. 2503-2511. 2015. 
 
 > Position paper. Probably the most cited paper in this field (and the original 
